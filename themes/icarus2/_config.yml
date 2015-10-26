@@ -1,0 +1,29 @@
+# Header
+menu:
+  #Home: /
+  Archives: /archives/
+  Tags: /tags/
+  Timeline: /timeline/
+  About: /about/
+  Favorite: /favorite/
+  Wiki: //wiki.jamespan.me/
+
+
+# Content
+excerpt_link: Read More
+fancybox: true
+profile: true
+# Sidebar
+sidebar: right
+widgets:
+- recent_posts
+- links
+
+thumbnail: true
+
+# Miscellaneous
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+
