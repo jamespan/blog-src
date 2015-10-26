@@ -1,0 +1,162 @@
+# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: James Pan's Blog
+subtitle: 代码猴子，计算机科学爱好者
+description:
+author: 潘家邦
+email: panjiabang@gmail.com
+avatar: http://ww2.sinaimg.cn/large/e724cbefgw1exdxvuxoasj2036036t8q.jpg
+author_title: '代码猴子，计算机科学爱好者'
+location: 'Hangzhou, China'
+follow: https://github.com/JamesPan/
+language: en
+
+stylus:
+  compress: true
+
+skip_render: _drafts/*
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://blog.jamespan.me/
+root: /
+permalink: :year/:month/:day/:title/
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+auto_spacing: false # Add spaces between asian characters and western characters
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+#render_drafts: true
+post_asset_folder: false
+relative_link: false
+highlight:
+  enable: false
+  line_number: false
+  tab_replace: true
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Archives
+## 2: Enable pagination
+## 1: Disable pagination
+## 0: Fully Disable
+archive: 1
+category: 1
+tag: 2
+
+# Links
+links:
+  并发编程网: http://ifeve.com/
+  刘典的博客: http://blog.sina.com.cn/ld2254432
+  StartupNews: http://news.dbanotes.net/news
+
+# Contacts
+contacts:
+  github: http://github.com/JamesPan
+  weibo: http://weibo.com/panjiabang
+  twitter: https://twitter.com/_JamesPan_
+  linkedin: https://cn.linkedin.com/pub/jiabang-pan/50/bb4/86
+  rss: /atom.xml
+
+google_analytics: UA-64482504-1
+favicon: http://blog.jamespan.me/favicon.ico
+
+wechat: http://ww4.sinaimg.cn/large/e724cbefgw1erjd7qc6xcj20b40b4myy.jpg
+
+cnzz: 1000543904
+recruit: true
+default_thumbnail: http://ww1.sinaimg.cn/small/e724cbefgw1et25m6xn6ej20rs0rkjy4.jpg
+
+# Server
+## Hexo uses Connect as a server
+## You can customize the logger format as defined in
+## http://www.senchalabs.org/connect/logger.html
+server:
+  port: 4000
+  log: false
+  ip: localhost
+
+#livereload:
+#  port: 35729
+
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: MMM D YYYY
+time_format: H:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Disqus
+disqus_shortname: jamespan
+
+# Extensions
+## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
+## Themes: https://github.com/hexojs/hexo/wiki/Themes
+theme: icarus
+#theme: tranquilpeak
+
+exclude_generator:
+
+since: 2014
+
+plugins:
+
+
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: false
+    linkify: false
+    typographer: false
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-footnote
+    - markdown-it-sup
+    - markdown-it-sub
+  anchors:
+    level: 1
+    collisionSuffix: 'v'
+    permalink: false
+    permalinkClass: header-anchor
+    permalinkSymbol: ''
+
+html_minifier:
+  exclude: 
+
+# widgets:
+# - tag
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy: 
+  type: git
+  repo:
+    #gitcafe: git@gitcafe.com:JamesPan/blog.jamespan.me.git,gitcafe-pages
+    github: git@github.com:JamesPan/blog.jamespan.me.git,gh-pages
+    #cnpaas: 562c66ec9068dce09d0000eb@blog-panjiabang.app.cnpaas.io:~/git/blog.git,master
+
