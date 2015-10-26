@@ -5,7 +5,7 @@ comment: true
 ---
 
 {% mood 2015-10-27 01:12:57 fa-sitemap %}
-成功使用 Travis CI 实现博客自动化部署~哈哈
+成功使用 Travis CI 实现博客自动化部署，从此不用被拘束在一台电脑上了~
 {% endmood %}
 
 {% mood 2015-10-25 13:34:44 fa-sitemap %}
