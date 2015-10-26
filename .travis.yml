@@ -11,7 +11,6 @@ before_install:
   - cp .travis/ssh_config ~/.ssh/config
   - git config --global user.name "panjiabang"
   - git config --global user.email panjiabang@gmail.com
-  - git clone -b master git@github.com:JamesPan/blog.jamespan.me.git .deploy_git && cd .deploy_git && git checkout gh-pages
 
 install:
   - npm install hexo-cli -g
