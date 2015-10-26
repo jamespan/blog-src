@@ -7,6 +7,9 @@ branches:
   only:
     - master
 
+git:
+  submodules: false
+
 addons:
   ssh_known_hosts:
   - github.com
@@ -20,6 +23,8 @@ before_install:
   - cp .travis/ssh_config ~/.ssh/config
   - git config --global user.name "panjiabang"
   - git config --global user.email panjiabang@gmail.com
+  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  - git submodule update --init --recursive
 
 install:
   - npm install hexo-cli -g
@@ -28,4 +33,4 @@ install:
 script:
   - hexo clean
   - hexo g
-  #- hexo d
+  - hexo d
