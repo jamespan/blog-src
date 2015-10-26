@@ -15,7 +15,7 @@ before_install:
 
 install:
   - npm install hexo-cli -g
-  - npm install --no-optional
+  - npm install
 
 script:
   - hexo clean
