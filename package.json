@@ -14,14 +14,12 @@
     "hexo-generator-index": "^0.1.2",
     "hexo-generator-sitemap": "~1.0.1",
     "hexo-generator-tag": "^0.1.1",
+    //"hexo-browsersync": "~0.1.1",
     "hexo-github": "~1.0.1",
     "hexo-renderer-ejs": "^0.1.0",
     "hexo-renderer-markdown-it": "~3.3.1",
     "hexo-renderer-stylus": "^0.2.0",
     "hexo-ruby-character": "^1.0.6",
     "hexo-server": "^0.1.2"
-  },
-  "optionalDependencies": {
-    "hexo-browsersync": "~0.1.1"
   }
 }
