@@ -77,7 +77,7 @@ server {
     listen 80;
     server_name blog.jamespan.me;
     location / {
-        proxy_next_upstream http_502 http_504 http_404 error timeout invalid_header;
+        proxy_next_upstream http_502 http_503 http_504 http_404 error timeout invalid_header;
         proxy_pass http://backend_blog_jamespan_me;
         proxy_redirect off;
         proxy_set_header X-Real-IP $remote_addr;
@@ -95,7 +95,7 @@ Nginx 的配置是摸着石头过河，在 Google 的帮助下搞出来的，个
 
 为了让 Nginx 在 301 之后给出的 Location 中不带有端口，我在每个 Upstream 的配置里面加了 `port_in_redirect off`。
 
-实现高可用最关键的配置其实是 `proxy_next_upstream`，这行配置实现了故障转移。当某个 Upstream 出现 502、504、404、超时等等一系列不可用的状态时，Nginx 会去尝试请求另外一个 Upstream。这样一来，只要不是 Github Pages 和 CNPaas 同时不可用，博客整体都会处于可用的状态。
+实现高可用最关键的配置其实是 `proxy_next_upstream`，这行配置实现了故障转移。当某个 Upstream 出现 502、503、504、404、超时等等一系列不可用的状态时，Nginx 会去尝试请求另外一个 Upstream。这样一来，只要不是 Github Pages 和 CNPaas 同时不可用，博客整体都会处于可用的状态。
 
 博客的高可用部署改造完成了吗？还没有！这样的部署结构还不是高可用，还存在单点。后端的单点已经通过 Nginx 做反向代理和故障转移解决了，现在是运行 Nginx 的这台作为 VIP（Virtual IP）的服务器成为了单点。
 
@@ -103,8 +103,9 @@ Nginx 的配置是摸着石头过河，在 Google 的帮助下搞出来的，个
 
 VIP 成了单点，那就只好再部署一台 VIP 了。昨天下午我买了一台位于新加坡的 ECS，时长一个月，还没来得及收拾，因此我的博客还暂时处于伪高可用的状态，能够解决后端不可用的问题，解决不了 VIP 不可用的问题。
 
-收拾好 ECS 新加坡节点后，在上面部署 Nginx，并配置一样的反向代理。然后在 DNS 中为 blog.jamespan.me 配置两条 A 记录并负载均衡，就得到如下的部署结构。
+收拾好 ECS 新加坡节点后，在上面部署 Nginx，并配置一样的反向代理。然后在 DNS 中为 blog.jamespan.me 配置两条 A 记录，就得到如下的部署结构。为了实现高可用，千万不要在 DNS 上做负载均衡。
 
+不开启 DNS 负载均衡的时候，每次请求解析返回两个 VIP，只要其中一个可用就万事大吉。如果开启了负载均衡，每次解析就只返回一个 IP 了，VIP 的冗余部署形同虚设。
 
 ![博客部署结构 v2.1.0](http://ww2.sinaimg.cn/large/e724cbefgw1exdum2eb98j207306mdfz.jpg)
 
