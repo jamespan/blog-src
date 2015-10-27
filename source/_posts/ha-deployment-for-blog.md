@@ -113,6 +113,8 @@ VIP 成了单点，那就只好再部署一台 VIP 了。昨天下午我买了�
 
 ![我们的朋友遍天下](http://ww4.sinaimg.cn/large/e724cbefgw1exdufv8uxzj20up08sn0c.jpg)
 
-目前还没部署新加坡节点，所以最后的双 VIP 部署是 YY 的。
+<del>目前还没部署新加坡节点，所以最后的双 VIP 部署是 YY 的。</del>
+
+10 月 28 日凌晨部署了新加坡节点，静态博客の高可用部署宣告完成！
 
 [1]: http://www.cnpaas.io
