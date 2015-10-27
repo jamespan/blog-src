@@ -1,6 +1,5 @@
 title: {{ title }}
 tags:
-  - JavaScript
   - Tool
 categories:
   - Study
