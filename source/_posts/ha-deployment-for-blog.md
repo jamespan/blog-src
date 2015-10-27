@@ -108,7 +108,7 @@ VIP 成了单点，那就只好再部署一台 VIP 了。昨天下午我买了�
 
 ![博客部署结构 v2.1.0](http://ww2.sinaimg.cn/large/e724cbefgw1exdum2eb98j207306mdfz.jpg)
 
-啊哈，我的博客部署在不同的国家和地区，传说中的异地多活��！
+啊哈，我的博客部署在不同的国家和地区，传说中的异地多活😂！
 
 ![我们的朋友遍天下](http://ww4.sinaimg.cn/large/e724cbefgw1exdufv8uxzj20up08sn0c.jpg)
 
