@@ -17,6 +17,6 @@ comment: true
 ## 联系方式
 + E-mail: [panjiabang@gmail.com](mailto:panjiabang@gmail.com)
 + Github: [@JamesPan](https://github.com/JamesPan)
++ Telegram: [@jamespan](http://telegram.me/jamespan)
 + Weibo : [@潘家邦](http://weibo.com/panjiabang)
 + 知乎: [@潘家邦](http://www.zhihu.com/people/panjiabang)
-
