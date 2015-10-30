@@ -74,7 +74,8 @@ contacts:
   github: http://github.com/JamesPan
   weibo: http://weibo.com/panjiabang
   twitter: https://twitter.com/_JamesPan_
-  linkedin: https://cn.linkedin.com/pub/jiabang-pan/50/bb4/86
+  # linkedin: https://cn.linkedin.com/pub/jiabang-pan/50/bb4/86
+  telegram: https://telegram.me/jamespan
   rss: /atom.xml
 
 google_analytics: UA-64482504-1
