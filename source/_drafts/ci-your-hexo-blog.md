@@ -1,10 +1,10 @@
 title: 持续部署我的博客，舍弃的与得到的
 tags:
-  - Tool
+  - CI
   - Blogging
 categories:
   - Study
-cc: false
+cc: true
 hljs: true
 thumbnail: //i.imgur.com/dADNdHI.png
 comments: false
@@ -31,6 +31,8 @@ comments: false
 在本地正确建立了仓库以及子模块后，我把源码推送到 Github，开始研究 Travis CI，参考 Hexo
 作者的博文「[用 Travis CI 自動部署網站到 GitHub][3]」，然后更进一步处理了子模块、多部署等。
 
+## Travis
+
 对于第一次使用 Travis CI 的我们来说，先去 Travis CI 的网站用 Gtihub 账户登录，然后从 Travis CI 读取到的仓库列表中选一个要做持续集成的项目。然后从命令行中把 pwd 切换至项目的根目录，开始咔咔咔敲命令，最好顺便把梯子开启。
 
 先安装 Travis CI 的命令行客户端，然后用 Github 账户登录。
@@ -40,7 +42,7 @@ gem install travis
 travis login --auto
 ```
 
-然后生成一对不带密码的 RSA 公私钥，专门给 Travis 部署代码到 Github 用。为什么不用平时我们常用的公钥？因为一会要把私钥上传的，所以这对公私钥基本上是暴露在互联网上了，平时用的那对密钥可不能这么随意对待。
+然后生成一对不带密码的 RSA 公私钥，专门给 Travis CI 部署代码到 Github 用。为什么不用平时我们常用的公钥？因为一会要把私钥上传的，所以这对公私钥基本上是暴露在互联网上了，平时用的那对密钥可不能这么随意对待。
 
 ```
 ssh-keygen -f ~/.ssh/travis
@@ -56,8 +58,85 @@ mv travis.enc ./.travis
 
 直接按照错误提示操作就好了。
 
-travis 把加密后的私钥放在当前目录，文件命名策略是「私钥文件名.enc」。我们在当前目录创建一个隐藏目录，用来放 travis 相关的杂物，比如这个加密私钥。
+travis 把加密后的私钥放在当前目录，文件命名策略是「私钥文件名.enc」。我们在当前目录创建一个隐藏目录，用来放 travis 相关的杂物，比如这个加密私钥，或者其他辅助集成的脚本、配置。
+
+我们需要修改 travis 自动写入的解密操作，主要把输入文件修改为 `.travis/travis.enc`，把私钥输出到默认位置 `~/.ssh/id_rsa`。
+
+然后我们就开始写 `.travis.yml`，编排自动部署的操作。为了简单起见，我把维护着 Hexo 版本以及各种插件的版本的 `pacakge.json` 也纳入了版本控制，这样就可以在在完成 Hexo 的安装后，一行命令恢复博客环境。
+
+```yaml
+language: node_js
+
+node_js:
+  - "0.12"
+
+branches:
+  only:
+    - master
+
+git:
+  submodules: false
+
+addons:
+  ssh_known_hosts:
+  - github.com
+  - blog-panjiabang.app.cnpaas.io
+
+before_install:
+  - openssl aes-256-cbc -K $encrypted_3ba5678e770b_key -iv $encrypted_3ba5678e770b_iv -in .travis/travis.enc -out ~/.ssh/id_rsa -d
+  - chmod 600 ~/.ssh/id_rsa
+  - eval $(ssh-agent)
+  - ssh-add ~/.ssh/id_rsa
+  - git config --global user.name "panjiabang"
+  - git config --global user.email panjiabang@gmail.com
+  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  - git submodule update --init --recursive
+
+install:
+  - npm install hexo-cli -g
+  - npm install
+
+script:
+  - hexo clean
+  - hexo g
+  - hexo d
+
+```
+
+大部分的命令都很直观，命令的用途每个 Hexo 用户都一清二楚。其中比较有意思的是在 Travis CI 中以 hack 的手段去处理 Git 子模块。
+
+平时维护 Git 仓库的时候，为了方便 push 代码，我们都是用 ssh 来做身份验证的。但是在 Travis CI 上，并没有我们常用的私钥，没法完成身份验证，然后没法下载子模块的代码。
+
+为什么没法下载子模块的代码，却能下载没有子模块的仓库的代码？因为 Travis CI 在克隆代码的时候，用的 HTTPS 协议。Stack Overflow 上有网友机智地给出了一个 [workaround][4]，既满足了平时维护代码的方便，又实现了在 Travis CI 上下载子模块的代码。这里我直接抄过来用了。就是这个方法目测不能解决嵌套子模块的问题。
+
+子模块这种东西，也是一种代码重用的策略，只不过比较原始。
+
+## 得到的
+
+使用 Travis CI 来自动博客，相比之前我手动部署，有什么好处呢？
+
+为了使用 Travis CI，我把博客源码托管到了 Github。这就意味着我可以从其他电脑，甚至移动设备上操作博客源码，不必再为了修改几个错别字从床上爬起来了，也不用再担心硬盘崩坏造成博客丢失了。
+
+在 iOS 设备上操作 Github 文件可以使用一个叫 [CodeHub][5] 的 App。
+
+如果我的博客用 Wordpress 或者 Ghost 的话，我也不必为了改错别字从床上爬起来的??????从功能上来说，在静态博客这个用例中，Github ≈ 数据库 + 后台，Hexo + 编译机 ≈ WordPress 渲染，Github Pages ≈ WorkPress 访问。
+
+## 舍弃的
+
+有得必有失。相比之前我从本地执行部署，使用 Travis CI 之后，我失去了什么？
+
+首先是我需要为 CNPaas 单独做 SSH 配置了。因为 CNPaas 每个项目只支持导入一个公钥，我只能手动为它指定之前给 Travis CI 使用的私钥。
+
+然后所谓的移动设备操作 Github，也就仅限于修改错别字了。我如今已经不期望能够从手机上产生一篇文章，除非 iOS 设备有让人满意的全键盘外设。有时候真是怀念当初用 Nokia E63 击键如飞的日子，这部经典的手机我至今依然保留着，不知道黑莓 Priv 到底怎样。
+
+还有就是修改主题变得更加麻烦了，得在本地调试好之后，把变更推到主题仓库，然后再把博客变更推到博客仓库。假如我直接从本地部署的话，说不定下次就因为我没有提交变更而被修改之前的主题生成的页面覆盖了。
+
+总体上，个人感觉失去的和得到的差不多，因为已经折腾成这样，也就懒得折腾回去了。
+
 
 [1]: https://travis-ci.org
 [2]: http://shields.io
 [3]: http://zespia.tw/blog/2015/01/21/continuous-deployment-to-github-with-travis/
+[4]: http://stackoverflow.com/a/24600210/2981813
+[5]: http://codehub-app.com
+
