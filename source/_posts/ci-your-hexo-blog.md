@@ -1,4 +1,4 @@
-title: 持续部署我的博客，舍弃的与得到的
+title: 静态博客遭遇持续部署
 tags:
   - CI
   - Blogging
@@ -125,7 +125,7 @@ script:
 
 如果我的博客用 Wordpress 或者 Ghost 的话，我也不必为了改错别字从床上爬起来的😂从功能上来说，在静态博客这个用例中，Github ≈ 数据库 + 后台，Hexo + 编译机 ≈ WordPress 渲染，Github Pages ≈ WorkPress 访问。
 
-## 舍弃的
+## 失去的
 
 有得必有失。相比之前我从本地执行部署，使用 Travis CI 之后，我失去了什么？
 
