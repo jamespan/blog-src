@@ -7,8 +7,10 @@ categories:
 cc: true
 hljs: true
 thumbnail: //i.imgur.com/dADNdHI.png
-comments: false
+comments: true
+date: 2015-11-01 01:18:48
 ---
+
 
 持续部署是敏捷开发中的概念，是持续集成的延伸。大体的外在特征是代码合并到主干之后，集成系统自动地把主干代码部署到生产环境。
 
@@ -119,7 +121,7 @@ script:
 
 在 iOS 设备上操作 Github 文件可以使用一个叫 [CodeHub][5] 的 App。
 
-如果我的博客用 Wordpress 或者 Ghost 的话，我也不必为了改错别字从床上爬起来的??????从功能上来说，在静态博客这个用例中，Github ≈ 数据库 + 后台，Hexo + 编译机 ≈ WordPress 渲染，Github Pages ≈ WorkPress 访问。
+如果我的博客用 Wordpress 或者 Ghost 的话，我也不必为了改错别字从床上爬起来的😂从功能上来说，在静态博客这个用例中，Github ≈ 数据库 + 后台，Hexo + 编译机 ≈ WordPress 渲染，Github Pages ≈ WorkPress 访问。
 
 ## 舍弃的
 
