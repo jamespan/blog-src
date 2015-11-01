@@ -125,7 +125,7 @@ script:
 
 如果我的博客用 Wordpress 或者 Ghost 的话，我也不必为了改错别字从床上爬起来的😂从功能上来说，在静态博客这个用例中，Github ≈ 数据库 + 后台，Hexo + 编译机 ≈ WordPress 渲染，Github Pages ≈ WorkPress 访问。
 
-一个意外收获：由于每次自动部署，Travis CI 都会根据我写的脚本去构建 Hexo 环境，所以我的博客系统用到的各种插件都会被下载下来，比如我写的 [hexo-ruby-character][6] 和 [akfish][7] 写的 [hexo-github][8]。每次部署博客都会增加插件的下载量，似乎这个还是对插件作者有一点点鼓励的，哈哈~
+一个意外收获：由于每次自动部署，Travis CI 都会根据我写的脚本去构建 Hexo 环境，所以我的博客系统用到的各种插件都会被下载下来，比如我写的 [hexo-ruby-character][6] 和 [akfish][7] 写的 [hexo-github][8]。每次部署博客都会增加插件的下载量，似乎这个还是对插件作者有一点点鼓励的，尤其是我这种 Node.js 在三脚猫水平的鶸，哈哈~
 
 ## 失去的
 
