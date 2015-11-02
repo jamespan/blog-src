@@ -17,8 +17,6 @@ language: en
 stylus:
   compress: true
 
-skip_render: _drafts/*
-
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://blog.jamespan.me/
@@ -41,7 +39,6 @@ auto_spacing: false # Add spaces between asian characters and western characters
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
-#render_drafts: true
 post_asset_folder: false
 relative_link: false
 highlight:
@@ -75,9 +72,6 @@ server:
   log: false
   ip: localhost
 
-#livereload:
-#  port: 35729
-
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -99,7 +93,7 @@ google_analytics: UA-64482504-1
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
 theme: icarus
-#theme: tranquilpeak
+
 
 exclude_generator:
 
