@@ -26,8 +26,6 @@ comments: true
 
 {% github JamesPan duoshuo-migrator 3f9938c %}
 
-<!-- <div class="github-widget print-invisible" data-repo="JamesPan/duoshuo-migrator"></div> -->
-
 代码明显属于糙快猛的风格，没有太多的讲究，能把活干好就行。好像自从我大学时期读了垠神的这篇 《[谈程序的“通用性”][1]》 之后，写出的脚本和一次性轮子都是这种风格。
 
 # 用法 #
@@ -56,5 +54,14 @@ python duoshuo-migrator.py -i ~/Desktop/export.json  -o a.xml
 
 希望我顺手造的轮子能在你逃离多说拥抱 Disqus 的时候，帮你减少麻烦节省时间，也希望我的贡献让这个世界稍微变得美好了那么一点点~
 
+# Change Log #
+
+## 2015-11-02 ##
+
+根据网友[屠夫9441][3] 的反馈，增强了代码的健壮性。怀疑是多说修改了导出的文件格式，原本 post 的 post_id 字段是 string 类型，现在变成 number 了。
+
+{% github JamesPan duoshuo-migrator 0be479c1 %}
+
 [1]: http://www.yinwang.org/blog-cn/2013/04/13/generality/
 [2]: http://github.com/JamesPan/duoshuo-migrator
+[3]: https://www.haomwei.com
