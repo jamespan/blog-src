@@ -4,6 +4,7 @@ tags:
 categories:
   - Life
 cc: true
+thumbnail: //i.imgur.com/x4EuJxRb.jpg
 comments: true
 date: 2015-11-02 21:39:00
 ---
