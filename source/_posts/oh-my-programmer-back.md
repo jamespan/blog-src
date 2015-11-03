@@ -44,7 +44,7 @@ date: 2015-11-03 22:52:22
 
 愿程序员同行们远离码农背、鼠标手和颈椎病！
 
-噢对了，最近似乎「[山河故人][3]」挺有名的，Fenng 也给了好评，昨晚从微博看到 Fenng 说今天是最后一天了，于是我赶紧买了今天最后一场的票。
+噢对了，最近似乎「[山河故人][3]」挺有名的，Fenng 也给了好评，昨晚从微博看到 Fenng 说今天是[最后一天][4]了，于是我赶紧买了今天最后一场的票。
 
 ![](http://i.imgur.com/PtMPLDWh.jpg)
 
@@ -53,3 +53,4 @@ date: 2015-11-03 22:52:22
 [1]: http://www.hanselman.com/blog/TheComputerBackPainAndTheProgrammer.aspx
 [2]: https://ipn.li/kernelpanic/
 [3]: https://movie.douban.com/subject/25890005/
+[4]: http://weibo.com/1577826897/D22Cg99mn
