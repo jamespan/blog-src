@@ -3,7 +3,7 @@ tags:
   - Exercise
 categories:
   - Life
-thumbnail: //i.imgur.com/Wn3k6Q1l.png
+thumbnail: //i.imgur.com/veJ66PU.jpg
 cc: true
 comments: true
 date: 2015-11-03 22:52:22
