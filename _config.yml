@@ -28,6 +28,12 @@ category_dir: categories
 code_dir: downloads/code
 permalink_defaults:
 
+# Links
+links:
+  刘典的博客: http://blog.sina.com.cn/ld2254432
+  StartupNews: http://news.dbanotes.net/news
+  Cubernet's Blog: http://cubernet.cn
+
 # Directory
 source_dir: source
 public_dir: public
