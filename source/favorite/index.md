@@ -6,6 +6,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1exswud7onwj20hs0outcf.jpg [安德的游戏](http://movie.douban.com/subject/5323957/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1exloglk815j20mk0xc0vt.jpg [大独裁者](http://movie.douban.com/subject/1295646/) %}
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1ex98ycf4kaj21kw27ne83.jpg [刺客聂隐娘](http://movie.douban.com/subject/2303845/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1ewsibsiv3wj21k92bc4qp.jpg [白日梦想家](http://movie.douban.com/subject/2133323/) %}
