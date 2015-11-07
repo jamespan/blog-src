@@ -78,12 +78,12 @@ ERROR: unable to establish master SSH connection: bad password or master process
 
 问题来了，就要解决问题。最直接暴力的方案是，把我的账号设置为 sudo 免密码模式，很黄很暴力，我并不喜欢。第二种方法，就是修改 atnodes，支持 -w 参数输入的密码仅作为 sudo 密码，不作为登录密码。
 
-于是我 fork 了代码，拉到本地做了些修改。虽然是完全没用过的 Perl，但还是分分钟就改好了~通过增加参数 -so 来表达「sudo only」的含义。
+于是我 fork 了代码，拉到本地做了些修改。虽然是完全没用过的 Perl，但还是分分钟就改好了~通过增加参数 -W 来表达「passowrd for sudo only」的含义。
 
 随便执行一个 sudo 命令看看效果。
 
 ```
-➜  sshbatch git:(master) ✗ atnodes 'sudo ls' '{ecs}' -w -so
+➜  sshbatch git:(master) ✗ atnodes 'sudo ls' '{ecs}' -W
 Password:
 ===================== server ip =====================
 sudo: no tty present and no askpass program specified
@@ -93,7 +93,7 @@ Remote command returns status code 1.
 居然，出错了……根据报错信息，给之前的命令追加一个 -tty 参数，于是我终于能在服务器上使用 sudo 了！不幸的是，开启 tty 之后，批处理就没法并发执行了，只能按顺序一个一个来。不过想想也是，开启 tty 之后一般是要做一些交互操作的，而标准输入流就只有一个，所以只好一个一个来了。
 
 ```bash
-➜  sshbatch git:(master) ✗ atnodes 'sudo ls /etc/nginx/sites-enabled/' '{ecs}' -w -so -tty -q
+➜  sshbatch git:(master) ✗ atnodes 'sudo ls /etc/nginx/sites-enabled/' '{ecs}' -W -tty -q
 Password:
 ===================== server ip =====================
 [sudo] password for admin:
@@ -104,13 +104,15 @@ blog.jamespan.me  blog.xuminzheng.com  default	hatta  wekan
 blog.jamespan.me  default
 ```
 
-我把我的修改补充测试之后提交了 PR，希望能被春哥接收😇
+我把我的修改补充测试之后提交了 [PR][7]，希望能被春哥接收😇
 
 然后我又尝试了一下 pssh，似乎它没法很好地应对类似于我的机器这种禁止密码登陆之后还要执行 sudo 命令的场景。所以说啊，企业上云还不是把内部应用换个地方部署那么简单，对企业的技术水平还是很有挑战的。上云不保证系统质量会因此变好，稳定性因此而提高，甚至因为基础设施变化太大，本来部署在小型机上的现在只能部署在虚拟机上而导致应用几乎残废也不是没有。
 
 最后的最后，今天我发现了一个叫 [Ansible][6] 的运维工具，感觉有点强大，而且对系统毫无入侵，正在看文档学习中。
 
+Update：
 
+春哥 Review 代码后，我按照春哥的意见把 `-so` 修改成了 `-W`。
 
 [1]: https://mosh.mit.edu
 [2]: https://pypi.python.org/pypi/pssh/2.3.1
@@ -118,4 +120,4 @@ blog.jamespan.me  default
 [4]: http://velocity.oreilly.com.cn/2015/index.php?func=session&id=37
 [5]: http://weibo.com/p/1005053393407444
 [6]: http://www.ansible.com
-
+[7]: https://github.com/agentzh/sshbatch/pull/5
