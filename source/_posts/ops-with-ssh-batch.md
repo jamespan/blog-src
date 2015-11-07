@@ -112,7 +112,7 @@ blog.jamespan.me  default
 
 Update：
 
-春哥 Review 代码后，我按照春哥的意见把 `-so` 修改成了 `-W`。
+春哥 Review 代码后，我按照他的意见把 `-so` 修改成了 `-W`。
 
 [1]: https://mosh.mit.edu
 [2]: https://pypi.python.org/pypi/pssh/2.3.1
