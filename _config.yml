@@ -66,7 +66,12 @@ category: 1
 tag: 2
 
 
-
+apple_icon_57: //i.imgur.com/mV0lQ6M.jpg
+apple_icon_72: //i.imgur.com/3D3m65B.jpg
+apple_icon_76: //i.imgur.com/gg9PfXZ.jpg
+apple_icon_114: //i.imgur.com/vak90qc.jpg
+apple_icon_120: //i.imgur.com/RL6jkBf.jpg
+apple_icon_152: //i.imgur.com/KWYY0nb.jpg
 
 
 # Server
@@ -76,7 +81,7 @@ tag: 2
 server:
   port: 4000
   log: false
-  ip: localhost
+  ip: 0.0.0.0
 
 
 # Date / Time format
