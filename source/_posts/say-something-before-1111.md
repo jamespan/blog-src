@@ -2,8 +2,8 @@ title: 姥姥不疼舅舅不爱，处境尴尬的老用户
 categories:
   - Life
 math: true
-cc: false
-comments: false
+cc: true
+comments: true
 date: 2015-11-09 22:54:18
 ---
 
