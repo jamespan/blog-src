@@ -21,7 +21,7 @@ RUN npm install
 RUN hexo clean
 RUN hexo generate
 
-RUN echo "`ls -la`" &>2
+RUN echo "`ls -la`" >&2
 
 run cp -a public/* /usr/share/nginx/html
 
