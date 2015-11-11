@@ -21,7 +21,7 @@ RUN npm install
 RUN hexo clean
 RUN hexo generate
 
-COPY ./public /usr/share/nginx/html
+run cp -r ./public /usr/share/nginx/html
 
 EXPOSE 80
 
