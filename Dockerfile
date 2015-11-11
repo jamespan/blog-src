@@ -21,9 +21,7 @@ RUN npm install
 RUN hexo clean
 RUN hexo generate
 
-RUN echo "`find / -name font-awesome.min.css`" >&2
-
-RUN cp -a public/* /usr/share/nginx/html
+RUN cp -a /tmp/public/* /usr/share/nginx/html
 
 EXPOSE 80
 
