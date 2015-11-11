@@ -6,9 +6,7 @@ MAINTAINER Pan Jiabang <panjiabang@gmail.com>
 # Install Nginx
 RUN apk --update add nginx
 RUN apk --update add nodejs
-
-#RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
-#RUN nvm install 5.0
+RUN apk --update add python
 
 # Add 2048 stuff into Nginx server
 
