@@ -1,0 +1,27 @@
+index:
+  home: 'home'
+  search: 'Search'
+  archive: 'archive'
+  category: 'category'
+  uncategorized: 'uncategorized'
+  tag: 'tag'
+nav:
+  next: 'Next'
+  prev: 'Prev'
+widget:
+  recents: 'recents'
+  archives: 'archives'
+  categories: 'categories'
+  links: 'links'
+  tags: 'tags'
+  tag_cloud: 'tag cloud'
+article:
+  comments: 'Comments'
+  share: 'Share'
+  hits: 'Hits'
+profile:
+  follow: 'FOLLOW'
+  post: 'post'
+  tag: 'tag'
+  posts: 'posts'
+  tags: 'tags'

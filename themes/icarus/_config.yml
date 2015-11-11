@@ -1,0 +1,44 @@
+# Header
+menu:
+  #Home: /
+  Archives: /archives/
+  Tags: /tags/
+  Timeline: /timeline/
+  About: /about/
+  Favorite: /favorite/
+  Wiki: //wiki.jamespan.me/
+
+
+# Content
+excerpt_link: Read more
+fancybox: true
+profile: true
+# Sidebar
+sidebar: right
+widgets:
+- recent_posts
+- links
+
+thumbnail: true
+
+# Miscellaneous
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+
+
+# Contacts
+contacts:
+  github: http://github.com/JamesPan
+  weibo: http://weibo.com/panjiabang
+  twitter: https://twitter.com/_JamesPan_
+  # linkedin: https://cn.linkedin.com/pub/jiabang-pan/50/bb4/86
+  telegram: https://telegram.me/jamespan
+  rss: /atom.xml
+
+#wechat: //i.imgur.com/JDKdlapm.jpg
+
+cnzz: 1000543904
+recruit: true
+default_thumbnail: //i.imgur.com/w2aNvOls.jpg

@@ -1,0 +1,15 @@
+
+<%- partial('comment') %>
+
+<script async="async" src="//dn-lbstatics.qbox.me/lbservice/busuanzi/2.0/busuanzi.mini.js"></script>
+
+<script type="text/javascript">
+$("span.heimu").attr("title", "你知道的太多了")
+</script>
+
+<% if (theme.fancybox){ %>
+  <%- css('fancybox/jquery.fancybox') %>
+  <%- js('fancybox/jquery.fancybox.pack') %>
+<% } %>
+
+<%- js('js/script') %>
