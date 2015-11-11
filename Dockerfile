@@ -12,12 +12,12 @@ RUN apk --update add nodejs
 
 # Add 2048 stuff into Nginx server
 
-RUN npm --registry=https://registry.npm.taobao.org install hexo -g
+RUN npm install hexo -g
 
 COPY ./ /tmp
 WORKDIR /tmp/blog.jamespan.me/
 
-RUN npm --registry=https://registry.npm.taobao.org install
+RUN npm install
 RUN hexo clean
 RUN hexo generate
 
