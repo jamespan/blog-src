@@ -22,8 +22,8 @@ before_install:
   - ssh-add ~/.ssh/id_rsa
   - git config --global user.name "panjiabang"
   - git config --global user.email panjiabang@gmail.com
-  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
-  - git submodule update --init --recursive
+  #- sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  #- git submodule update --init --recursive
 
 install:
   - npm install hexo-cli -g
