@@ -7,6 +7,7 @@ MAINTAINER Pan Jiabang <panjiabang@gmail.com>
 RUN apk --update add nginx
 RUN apk --update add nodejs
 RUN apk --update add python
+RUN apk --update add make
 
 # Add 2048 stuff into Nginx server
 
