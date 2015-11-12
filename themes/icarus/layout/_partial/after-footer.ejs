@@ -8,8 +8,8 @@ $("span.heimu").attr("title", "你知道的太多了")
 </script>
 
 <% if (theme.fancybox){ %>
-  <%- css('fancybox/jquery.fancybox') %>
-  <%- js('fancybox/jquery.fancybox.pack') %>
+  <link rel="stylesheet" href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css">
+  <script src="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
 <% } %>
 
 <%- js('js/script') %>
