@@ -24,7 +24,6 @@ RUN cp -a /tmp/public/* /usr/share/nginx/html
 # Clean up
 
 RUN rm -rf ./*
-RUN hexo clean
 RUN apk del nodejs python make g++
 RUN rm -rf /var/cache/apk/*
 
