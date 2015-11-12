@@ -1,5 +1,5 @@
 # Using a compact OS
-FROM alpine:latest
+FROM alpine:3.2
 
 MAINTAINER Pan Jiabang <panjiabang@gmail.com> 
 
