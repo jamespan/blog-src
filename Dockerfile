@@ -4,24 +4,25 @@ FROM alpine:latest
 MAINTAINER Pan Jiabang <panjiabang@gmail.com> 
 
 # Install Nginx
-RUN apk --update add nginx
-RUN apk --update add nodejs
-RUN apk --update add python
-RUN apk --update add make
-RUN apk --update add g++
+RUN apk update
+RUN apk add nginx
+RUN apk add nodejs python make g++
 
 # Add 2048 stuff into Nginx server
 
 RUN npm install hexo -g
 
 COPY ./ /tmp
-WORKDIR /tmp/blog.jamespan.me/
+WORKDIR /tmp/
 
 RUN npm install
-RUN hexo clean
 RUN hexo generate
 
 RUN cp -a /tmp/public/* /usr/share/nginx/html
+RUN rm -rf ./*
+RUN hexo clean
+RUN apk del nodejs python make g++
+RUN rm -rf /var/cache/apk/*
 
 EXPOSE 80
 
