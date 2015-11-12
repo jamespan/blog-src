@@ -9,7 +9,7 @@ comment: true
 {% endmood %}
 
 {% mood 2015-10-25 13:34:44 fa-sitemap %}
-墙内部署从 Gitcafe 变成 CNPaas 了，Upstream 摆脱了单点困扰，哈哈~
+墙内部署从 Gitcafe 变成 CNPaaS 了，Upstream 摆脱了单点困扰，哈哈~
 {% endmood %}
 
 {% mood 2015-10-25 10:33:50 fa-sitemap %}
