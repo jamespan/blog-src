@@ -4,8 +4,8 @@ tags:
 categories:
   - Work
 thumbnail: //i.imgur.com/irMSlExb.jpg
-cc: false
-comments: false
+cc: true
+comments: true
 date: 2015-11-12 19:58:10
 ---
 
