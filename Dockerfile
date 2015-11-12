@@ -3,22 +3,26 @@ FROM alpine:latest
 
 MAINTAINER Pan Jiabang <panjiabang@gmail.com> 
 
-# Install Nginx
+# Install Nginx and Node.js env
 RUN apk update
 RUN apk add nginx
 RUN apk add nodejs python make g++
 
-# Add 2048 stuff into Nginx server
-
-RUN npm install hexo -g
+# Copy blog source
 
 COPY ./ /tmp
 WORKDIR /tmp/
 
+# Install hexo and dependences
+
+RUN npm install hexo -g
 RUN npm install
 RUN hexo generate
 
 RUN cp -a /tmp/public/* /usr/share/nginx/html
+
+# Clean up
+
 RUN rm -rf ./*
 RUN hexo clean
 RUN apk del nodejs python make g++
