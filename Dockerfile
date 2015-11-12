@@ -4,9 +4,8 @@ FROM alpine:3.2
 MAINTAINER Pan Jiabang <panjiabang@gmail.com> 
 
 # Install Nginx and Node.js env
-RUN apk update
-RUN apk add nginx
-RUN apk add nodejs python make g++
+RUN apk-install nginx
+RUN apk-install nodejs python make g++
 
 # Copy blog source
 
