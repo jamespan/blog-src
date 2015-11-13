@@ -4,8 +4,8 @@ FROM alpine:3.2
 MAINTAINER Pan Jiabang <panjiabang@gmail.com> 
 
 # Install Nginx and Node.js env
-RUN apk-install nginx
-RUN apk-install nodejs python make g++
+RUN apk --update add nginx
+RUN apk --update add --virtual build-dependencies nodejs python make g++
 
 # Copy blog source
 
@@ -23,7 +23,7 @@ RUN cp -a /tmp/public/* /usr/share/nginx/html
 # Clean up
 
 RUN rm -rf ./*
-RUN apk del nodejs python make g++
+RUN apk del build-dependencies
 RUN rm -rf /var/cache/apk/*
 
 EXPOSE 80
