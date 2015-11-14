@@ -6,6 +6,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1ey11kb76xxj210v1jkno1.jpg [007：幽灵党](http://movie.douban.com/subject/11620560/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1exu11vywgoj20go0nkn8u.jpg [我被绑架到贵族女校当庶民样本](http://movie.douban.com/subject/25919935/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1exswud7onwj20hs0outcf.jpg [安德的游戏](http://movie.douban.com/subject/5323957/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1exloglk815j20mk0xc0vt.jpg [大独裁者](http://movie.douban.com/subject/1295646/) %}
