@@ -8,8 +8,8 @@ categories:
   - Study
 hljs:
   - dockerfile
-cc: false
-comments: false
+cc: true
+comments: true
 date: 2015-11-15 01:23:20
 ---
 
