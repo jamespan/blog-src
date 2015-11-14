@@ -1,5 +1,8 @@
 <% if (page.hljs){ %>
-<script src="//cdn.bootcss.com/highlight.js/8.4/highlight.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/8.9.1/highlight.min.js"></script>
+<% for (var i in page.hljs) { %>
+<script src="//cdn.bootcss.com/highlight.js/8.9.1/languages/<%- page.hljs[i] %>.min.js"></script>
+<% } %>
 <link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/8.4/styles/github.min.css">
 <script>hljs.initHighlightingOnLoad();</script>
 <% } %>
