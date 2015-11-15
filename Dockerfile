@@ -2,17 +2,16 @@ FROM jamespan/hexo-env:latest
 
 MAINTAINER Pan Jiabang <panjiabang@gmail.com> 
 
-# Copy blog source
-
 RUN apk --update add bash
-RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 
+# Copy blog source
 COPY ./ /tmp/
 WORKDIR /tmp/
 
 # Generate site
 
-RUN cp /tmp/source/asset/bin/* /usr/local/bin/
+RUN cp ./source/asset/bin/* /usr/local/bin/
+RUN cp ./.docker/nginx.conf /etc/nginx/nginx.conf
 
 RUN hexo generate \
     && rm -rf /usr/share/nginx/html \
@@ -20,5 +19,5 @@ RUN hexo generate \
 
 EXPOSE 80
 
-# Start Nginx and keep it from running background
-CMD dockerize -stdout /var/log/nginx/access.log -stderr /var/log/nginx/error.log nginx
+# Start Nginx with dockerize
+CMD ["dockerize", "-stdout", "/var/log/nginx/access.log", "-stderr", "/var/log/nginx/error.log", "nginx"]
