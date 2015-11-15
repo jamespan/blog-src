@@ -5,14 +5,14 @@ MAINTAINER Pan Jiabang <panjiabang@gmail.com>
 # Copy blog source
 
 RUN apk --update add bash
-RUN wget https://github.com/jwilder/dockerize/releases/download/v0.0.4/dockerize-linux-amd64-v0.0.4.tar.gz
-RUN tar -C /usr/local/bin -xzvf dockerize-linux-amd64-v0.0.4.tar.gz
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 
 COPY ./ /tmp/
 WORKDIR /tmp/
 
 # Generate site
+
+RUN cp /tmp/source/asset/bin/* /usr/local/bin/
 
 RUN hexo generate \
     && rm -rf /usr/share/nginx/html \
