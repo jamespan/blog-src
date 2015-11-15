@@ -27,7 +27,7 @@ WORKDIR /tmp/
 RUN npm install
 RUN hexo generate
 
-RUN rm -rf /usr/share/nginx/html && mv /tmp/public /usr/share/nginx/html
+RUN mv /tmp/public /usr/share/nginx/html
 
 EXPOSE 80
 
