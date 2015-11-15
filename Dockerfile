@@ -4,10 +4,6 @@ MAINTAINER Pan Jiabang <panjiabang@gmail.com>
 
 # Copy blog source
 
-COPY ./ /tmp/
-WORKDIR /tmp/
-
-# Generate site
 RUN \
   # use aliyun's mirror for faster download speed
   sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list && \
@@ -19,7 +15,16 @@ RUN \
   curl -L https://npmjs.org/install.sh | sh && \
   # clean up install cache
   apt-get clean && \
-  rm -rf /var/lib/apt/lists/* && npm install hexo-cli -g && npm install
+  rm -rf /var/lib/apt/lists/* 
+
+RUN npm install hexo-cli -g
+
+COPY ./ /tmp/
+WORKDIR /tmp/
+
+# Generate site
+
+RUN npm install
 RUN hexo generate
 
 RUN rm -rf /usr/share/nginx/html && mv /tmp/public /usr/share/nginx/html
