@@ -4,6 +4,7 @@ tags:
   - Vagrant
   - DaoCloud
   - Alpine Linux
+  - Ansible
 categories:
   - Study
 hljs:
