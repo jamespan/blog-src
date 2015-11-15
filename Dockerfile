@@ -2,7 +2,7 @@ FROM jamespan/hexo-env:latest
 
 MAINTAINER Pan Jiabang <panjiabang@gmail.com> 
 
-RUN apk --update add bash
+# RUN apk --update add bash
 
 # Copy blog source
 
