@@ -4,6 +4,8 @@ MAINTAINER Pan Jiabang <panjiabang@gmail.com>
 
 # Copy blog source
 
+RUN apk --update add bash
+
 COPY ./ /tmp/
 WORKDIR /tmp/
 
