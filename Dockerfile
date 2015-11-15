@@ -5,6 +5,9 @@ MAINTAINER Pan Jiabang <panjiabang@gmail.com>
 # Copy blog source
 
 RUN apk --update add bash
+RUN wget https://github.com/jwilder/dockerize/releases/download/v0.0.4/dockerize-linux-amd64-v0.0.4.tar.gz
+RUN tar -C /usr/local/bin -xzvf dockerize-linux-amd64-v0.0.4.tar.gz
+RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 
 COPY ./ /tmp/
 WORKDIR /tmp/
@@ -18,4 +21,4 @@ RUN hexo generate \
 EXPOSE 80
 
 # Start Nginx and keep it from running background
-CMD ["nginx", "-g", "daemon off;"]
+CMD dockerize -stdout /var/log/nginx/access.log -stderr /var/log/nginx/error.log nginx
