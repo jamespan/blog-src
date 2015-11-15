@@ -8,6 +8,7 @@ categories:
   - Study
 hljs:
   - dockerfile
+thumbnail: //i.imgur.com/Y1zGn4k.png
 cc: true
 comments: true
 date: 2015-11-15 01:23:20
