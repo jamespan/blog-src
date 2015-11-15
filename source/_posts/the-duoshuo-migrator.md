@@ -40,7 +40,7 @@ pip install lxml
 
 我一般这么用：
 
-```
+```bash
 python duoshuo-migrator.py -i ~/Desktop/export.json  -o a.xml
 ```
 

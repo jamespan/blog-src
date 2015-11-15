@@ -47,7 +47,7 @@ docker run -d --link "wekan-db:db" -e "MONGO_URL=mongodb://db" \
 
 [^2]: [docker-compose.yml reference][7]
 
-```yaml
+```json
 wekandb:
   image: mongo
   volumes:
@@ -84,7 +84,7 @@ wekan:
 
 [^1]: [NGINX as a WebSocket Proxy][6]
 
-```conf
+```nginx
 location / {
     # HTTP reverse proxy
     proxy_pass http://127.0.0.1:8080/;

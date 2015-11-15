@@ -46,7 +46,7 @@ travis login --auto
 
 然后生成一对不带密码的 RSA 公私钥，专门给 Travis CI 部署代码到 Github 用。为什么不用平时我们常用的公钥？因为一会要把私钥上传的，所以这对公私钥基本上是暴露在互联网上了，平时用的那对密钥可不能这么随意对待。
 
-```
+```bash
 ssh-keygen -f ~/.ssh/travis
 touch .travis.yml
 travis encrypt-file ~/.ssh/travis --add
@@ -68,7 +68,7 @@ travis 把加密后的私钥放在当前目录，文件命名策略是「私钥�
 
 然后我们就开始写 `.travis.yml`，编排自动部署的操作。为了简单起见，我把维护着 Hexo 版本以及各种插件的版本的 `pacakge.json` 也纳入了版本控制，这样就可以在在完成 Hexo 的安装后，一行命令恢复博客环境。
 
-```yaml
+```json
 language: node_js
 
 node_js:

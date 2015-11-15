@@ -4,6 +4,7 @@ tags:
 categories:
   - Study
 cc: true
+hljs: true
 comments: true
 date: 2015-04-09 00:13:35
 ---

@@ -47,7 +47,7 @@ Nginx 是目前业界最常用的反向代理服务器，我那台位于香港�
 
 对 Nginx 还不是很熟，一开始的是想直接把 Github Pages 和 CNPaas 给的默认 URL 作为 Upstream，结果就妥妥的被配置检查拦掉了。于是我只好退而求其次，先在本地起一个服务器，分别代理 Github Pages 和 CNPaas，再把这两个代理作为博客的 Upstream。
 
-```conf
+```nginx
 server {
     listen 4000;
     port_in_redirect off;

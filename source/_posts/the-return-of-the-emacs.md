@@ -4,6 +4,7 @@ tags:
 categories:
   - Study
 cc: true
+hljs: [lisp]
 comments: true
 date: 2015-04-05 18:08:47
 thumbnail: http://ww4.sinaimg.cn/small/e724cbefgw1et29jaibmlj213l0o2aj2.jpg
