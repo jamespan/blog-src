@@ -84,7 +84,7 @@ CMD ["nginx", "-g", "daemon off;"]
 
 一个意外的惊喜是部署到 DaoCloud 的博客镜像可以通过 HTTPS 去访问，我可以直接访问它去调试 HTTPS 化的博客，替换资源、webfont 之类的。Let's Encrypt 就要正式发布了，为 HTTPS 时代的到来做好准备吧~幸好 BootCDN 已经支持 HTTPS，不然我还得为找一个前端资源的 CDN 大费脑筋。博客中大量使用图片，之前都把图片上传到了「微博图床」，可惜它不支持 HTTPS，我只好把新图片都上传到 imgur 上面去，老图片就既往不咎了。
 
-## 反向代理容器化
+## 反向代理容器化 ##
 
 之前因为用 Docker 用了半截，只用 Docker 部署应用，外面却直接在系统里面跑一个 Nginx 做反代，而被某菊苣鄙视一番，教育我皈依了 Docker 就要用 Docker 解决问题。于是我决定把 Nginx 也容器化起来。于是呢，我就在原本维护 Nginx 配置文件的目录中加了一个 Dockerfile，基于 Alpine Linux 搞了一个容器，然后推送到 Docker Hub。
 
