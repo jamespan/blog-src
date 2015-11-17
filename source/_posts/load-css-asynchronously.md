@@ -6,6 +6,7 @@ categories:
 hljs: true
 cc: true
 comments: true
+thumbnail: //i.imgur.com/Lj52nPzb.jpg
 date: 2015-11-17 03:03:46
 ---
 
