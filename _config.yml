@@ -13,6 +13,7 @@ author_title: '代码猴子，计算机科学爱好者'
 location: 'Hangzhou, China'
 follow: https://github.com/JamesPan/
 language: en
+github_repo: https://github.com/JamesPan/blog-src
 
 stylus:
   compress: true
