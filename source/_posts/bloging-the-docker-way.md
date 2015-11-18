@@ -5,6 +5,7 @@ tags:
   - DaoCloud
   - Alpine Linux
   - Ansible
+  - Blogging
 categories:
   - Study
 hljs:
