@@ -71,6 +71,13 @@ $(this).replaceWith(block);
 
 看来在我把这个插件改到能支持递归资源展开之前，还是不要轻易提交到 Hexo 的插件列表的好😂
 
+
+{% blockquote phodal http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=401925145&idx=1&sn=d7fc0ddc992e265f10fbc355b0223fd4&scene=1&srcid=1115PLNI9oFsLSnlRXajzUxS&from=groupmessage&isappinstalled=0#wechat_redirect CMS的重构与演进 %}
+作为一个博主，通常来说我们修改博客的主题的频率会比较低， 可能是半年一次。如果你经常修改博客的主题，你博客上的文章一定是相当的少。
+{% endblockquote %}
+
+最近看到一篇博文，说是经常折腾博客的博主，文章一定相当少，看来我是个一边折腾博客一边还写了不少文章的奇葩博主呢~
+
 By the way，最近居然有人对我的博客发起「评论洪泛攻击」。别看我描述得这么高大上，其实是调用 Disqus 的 API 疯狂提交评论，也是醉了。自由开放的网络社区真的这么容易被破坏么？
 
 ![](//i.imgur.com/DLNXoMt.png)
