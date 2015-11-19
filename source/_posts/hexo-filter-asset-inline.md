@@ -6,6 +6,7 @@ tags:
 categories:
   - Study
 hljs: true
+thumbnail: //i.imgur.com/zVPUz83m.jpg
 cc: true
 comments: true
 date: 2015-11-19 15:32:32
