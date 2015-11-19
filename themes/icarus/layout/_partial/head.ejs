@@ -52,11 +52,9 @@
     <link rel="apple-touch-icon-precomposed" href="<%- theme.apple_icon_152 %>" sizes="152x152" />
   <% } %>
   
-  <%- css_inline('css/style') %>
-  <script type="text/javascript">
-    loadCSS("//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css");
-  </script>
-  <%- js_inline('//cdn.bootcss.com/jquery/2.1.0/jquery.min.js') %>
+  <link rel="stylesheet" type="text/css" href="/css/style.css?__inline=true">
+  <link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="//cdn.bootcss.com/jquery/2.1.0/jquery.min.js?__inline=true" type="text/javascript"></script>
 
   <%- partial('google-analytics') %>
   <% if( theme.customstylesheet ){ %>

@@ -1,5 +1,5 @@
 <% if (page.hljs){ %>
-<script src="//cdn.bootcss.com/highlight.js/8.9.1/highlight.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/8.9.1/highlight.min.js?__inline=true"></script>
 <% for (var i in page.hljs) { %>
 <script src="//cdn.bootcss.com/highlight.js/8.9.1/languages/<%- page.hljs[i] %>.min.js"></script>
 <% } %>
@@ -8,7 +8,7 @@
 // loadCSS("http://1.cuzillion.com/bin/resource.cgi?type=css&sleep=5&n=1&t=1317933502");
 // loadCSS("//fonts.googleapis.com/css?family=Source+Code+Pro:300,600");
 loadCSS("//fonts.lug.ustc.edu.cn/css?family=Source+Code+Pro:300,600");
-loadCSS("//cdn.bootcss.com/highlight.js/8.4/styles/github.min.css");
+//loadCSS("//cdn.bootcss.com/highlight.js/8.4/styles/github.min.css");
 </script>
+<link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/highlight.js/8.4/styles/github.min.css?__inline=true">
 <% } %>
-
