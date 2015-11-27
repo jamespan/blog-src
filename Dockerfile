@@ -22,7 +22,9 @@ COPY ./ /tmp
 RUN hexo generate && \
     cp -a /tmp/public/* /usr/share/nginx/html && \
     #rm -rf ./* && \
+    ln -sf /dev/stdout /var/log/nginx/access.log && ln -sf /dev/stderr /var/log/nginx/error.log && \
     echo "Done"
+
 
 EXPOSE 80
 
