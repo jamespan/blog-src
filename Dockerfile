@@ -1,21 +1,27 @@
-FROM jamespan/blog-build-env:latest
+FROM alpine:3.2
 
 MAINTAINER Pan Jiabang <panjiabang@gmail.com> 
 
-# Copy blog source
-COPY ./ /tmp/
+COPY ./package.json /tmp/
 WORKDIR /tmp/
 
-# Generate site
+# Install Nginx and Node.js env
+RUN apk update && \
+    apk add nginx && \
+    apk add nodejs python make g++ && \
+    npm install hexo -g && \
+    npm install && \
+    rm -rf /var/cache/apk/*
 
-RUN cp ./.docker/nginx.conf /etc/nginx/nginx.conf && \
-    ln -sf /dev/stdout /var/log/nginx/access.log && ln -sf /dev/stderr /var/log/nginx/error.log
+# Copy blog source
 
-RUN hexo generate \
-    && rm -rf /usr/share/nginx/html \
-    && mv /tmp/public /usr/share/nginx/html
+COPY ./ /tmp
+
+RUN hexo generate && \
+    cp -a /tmp/public/* /usr/share/nginx/html && \
+    rm -rf ./* && \
+    apk del nodejs python make g++
 
 EXPOSE 80
 
-# Start Nginx with dockerize
 CMD ["nginx", "-g", "daemon off;"]
