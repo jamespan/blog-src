@@ -148,7 +148,7 @@ RUN ln -sf /dev/stderr /var/log/nginx/error.log
 [2]: https://github.com/JamesPan/lua-upstream-nginx-module
 [3]: https://github.com/JamesPan/lua-upstream-nginx-module/commit/6b40d40a42aa6a8e4214a8c247b7d32ce9d37895
 [4]: https://github.com/JamesPan/orz-ops/blob/master/nginx/lua/dynamic-upstream-weight.lua
-[5]: https://github.com/JamesPan/orz-ops/blob/7db64707fcd3843eb5ce63dbdd1773da04d7a7ce/nginx/sites/blog.jamespan.me#L74:L83
+[5]: https://github.com/JamesPan/orz-ops/blob/3f8f1e15fa40b33dea596554eb26f41147fe5f53/nginx/sites/blog.jamespan.me#L31:L44
 [6]: https://www.nginx.com/resources/admin-guide/load-balancer/
 [7]: https://www.nginx.com/blog/tcp-load-balancing-with-nginx-1-9-0-and-nginx-plus-r6/
 [8]: http://nginx.org/en/docs/http/ngx_http_upstream_module.html#var_upstream_response_time
