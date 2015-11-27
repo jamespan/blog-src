@@ -11,7 +11,9 @@ RUN apk update && \
     apk add nodejs python make g++ && \
     npm install hexo -g && \
     npm install && \
-    rm -rf /var/cache/apk/*
+    apk del make g++ python && \
+    rm -rf /var/cache/apk/* && \
+    echo "Done"
 
 # Copy blog source
 
@@ -19,8 +21,8 @@ COPY ./ /tmp
 
 RUN hexo generate && \
     cp -a /tmp/public/* /usr/share/nginx/html && \
-    rm -rf ./* && \
-    apk del nodejs python make g++
+    #rm -rf ./* && \
+    echo "Done"
 
 EXPOSE 80
 
