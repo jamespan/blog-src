@@ -8,7 +8,8 @@ WORKDIR /tmp/
 
 # Generate site
 
-RUN cp ./.docker/nginx.conf /etc/nginx/nginx.conf
+RUN cp ./.docker/nginx.conf /etc/nginx/nginx.conf && \
+    ln -sf /dev/stdout /var/log/nginx/access.log && ln -sf /dev/stderr /var/log/nginx/error.log
 
 RUN hexo generate \
     && rm -rf /usr/share/nginx/html \
@@ -17,4 +18,4 @@ RUN hexo generate \
 EXPOSE 80
 
 # Start Nginx with dockerize
-CMD ["dockerize", "-stdout", "/var/log/nginx/access.log", "-stderr", "/var/log/nginx/error.log", "nginx"]
+CMD ["nginx", "-g", "daemon off;"]
