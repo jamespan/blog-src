@@ -1,6 +1,6 @@
-title: 在 Nginx 中处理来自上游的 301 跳转
+title: 在 NGINX 中处理来自上游的 301 跳转
 tags:
-  - Nginx
+  - NGINX
 categories:
   - Study
 hljs: true
@@ -10,7 +10,7 @@ thumbnail: //i.imgur.com/bGls4RPl.jpg
 date: 2015-11-11 20:58:06
 ---
 
-自从我借助 Nginx 和两台 ECS 把博客的部署结构变成高可用之后，许多意想不到的事情就陆陆续续出现了。
+自从我借助 NGINX 和两台 ECS 把博客的部署结构变成高可用之后，许多意想不到的事情就陆陆续续出现了。
 
 双十一前的最后一个下午，[不如][1]在微博上给我留言，问我的博客是不是挂了。
 
@@ -26,7 +26,7 @@ date: 2015-11-11 20:58:06
 
 <http://blog-panjiabang.app.cnpaas.io/2015/05/06/mvn-incremental-compilation/>
 
-一看就知道是哪里没弄好被 301 了。从 Chrome 开发者工具可以看出来，我的 Nginx 把 URL 完整地代理到了 CNPaaS，然后就被 CNPaaS 的 Nginx 给 301 到它自己的域名下面去了。
+一看就知道是哪里没弄好被 301 了。从 Chrome 开发者工具可以看出来，我的 NGINX 把 URL 完整地代理到了 CNPaaS，然后就被 CNPaaS 的 NGINX 给 301 到它自己的域名下面去了。
 
 ![](//i.imgur.com/gcAaIWa.png)
 
@@ -40,7 +40,7 @@ date: 2015-11-11 20:58:06
 
 于是我可以在 server 中添加一个重写规则，即 [rewrite][2] 指令，先下手为强地进行重定向：
 
-```nginx
+```NGINX
 server {
     listen 80;
     server_name blog.jamespan.me;
@@ -53,7 +53,7 @@ server {
 
 另外一种解决方案是使用 [proxy_redirect][3]，修改返回报文中的 Location 和 Refresh 字段。
 
-```nginx
+```NGINX
 server {
     listen 4002;
     port_in_redirect off;
@@ -69,15 +69,15 @@ server {
 
 最后在 [SSH::Batch][4] 的帮助下，我在很短的时间内搞定了这个问题。或许以后用 SSH::Batch 的机会不多了，因为我已经把服务器运维工具全面转向 [Ansible][5]！
 
-最近在开始认真学习 Nginx，先跟着 agentzh 菊苣的教程看看。之前一直是把 Nginx 配置起来用用，需要加缓存就 Google 一下，这个那个问题出现了就 Google 一下。这种面向 Google 的编程确实能帮助我解决问题，但是没法帮助我成为专家。
+最近在开始认真学习 NGINX，先跟着 agentzh 菊苣的教程看看。之前一直是把 NGINX 配置起来用用，需要加缓存就 Google 一下，这个那个问题出现了就 Google 一下。这种面向 Google 的编程确实能帮助我解决问题，但是没法帮助我成为专家。
 
 关于 URL 的结尾是否需要「/」，有一篇文章讲的不错，「[Why do URLs often end with a slash?][6]」。当一个 URL 以「/」结尾时，就明确告诉服务器，去访问一个目录，否则服务器会先去试图访问文件，找不到文件就通过重定向去访问目录。由于这个策略的存在，访问一个文件的时候，如果 URL 结尾带了「/」，就会因为找不到目录直接 404 了。
 
 所以说，贴链接的时候，尽可能明确地给出要访问的资源是目录还是文件，是一种好习惯~
 
 [1]: http://ibruce.info
-[2]: http://nginx.org/en/docs/http/ngx_http_rewrite_module.html#rewrite
-[3]: http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_redirect
+[2]: http://NGINX.org/en/docs/http/ngx_http_rewrite_module.html#rewrite
+[3]: http://NGINX.org/en/docs/http/ngx_http_proxy_module.html#proxy_redirect
 [4]: /2015/11/07/ops-with-ssh-batch/
 [5]: http://www.ansible.com/
 [6]: http://webdesign.about.com/od/beginningtutorials/f/why-urls-end-in-slash.htm

@@ -2,7 +2,7 @@ title: 使用 Docker Compose 部署 Wekan
 tags:
   - Docker
   - Dashboard
-  - Nginx
+  - NGINX
 categories:
   - Study
 hljs: true
@@ -80,11 +80,11 @@ wekan:
 
 ![](http://ww4.sinaimg.cn/large/e724cbefgw1ewh0bjnof8j20ff01ljrw.jpg)
 
-于是我就参考 Nginx 的博客[^1]把 HTTP 反代升级成为支持 WebSocket 的反代。
+于是我就参考 NGINX 的博客[^1]把 HTTP 反代升级成为支持 WebSocket 的反代。
 
 [^1]: [NGINX as a WebSocket Proxy][6]
 
-```nginx
+```NGINX
 location / {
     # HTTP reverse proxy
     proxy_pass http://127.0.0.1:8080/;
@@ -105,7 +105,7 @@ location / {
 [3]: https://taiga.io
 [4]: http://wekan.io
 [5]: https://hub.docker.com/r/mquandalle/wekan/~/dockerfile/
-[6]: https://www.nginx.com/blog/websocket-nginx/
+[6]: https://www.NGINX.com/blog/websocket-NGINX/
 [7]: https://docs.docker.com/compose/yml/
 [8]: https://docs.docker.com/compose/
 

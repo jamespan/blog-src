@@ -2,7 +2,7 @@ title: 静态博客高可用部署实践
 tags:
   - High Availability
   - Blogging
-  - Nginx
+  - NGINX
 categories:
   - Study
 hljs: true
@@ -41,13 +41,13 @@ date: 2015-10-26 01:08:49
 
 万事俱备，只欠东风。现在我手上有两个可用性未知的博客，如何把他们组装成一个高可用的博客？反向代理就是这个从低向高进化中至关重要的一个基础设施。
 
-Nginx 是目前业界最常用的反向代理服务器，我那台位于香港的 ECS 上一直部署着，代理着我部署的 wiki 和 wekan 两个应用。这一次，我将用它来为我两个博客服务做反向代理。
+NGINX 是目前业界最常用的反向代理服务器，我那台位于香港的 ECS 上一直部署着，代理着我部署的 wiki 和 wekan 两个应用。这一次，我将用它来为我两个博客服务做反向代理。
 
 ![博客部署结构 v2.0.0](http://ww3.sinaimg.cn/large/e724cbefgw1exdqgziee9j207306mq2z.jpg)
 
-对 Nginx 还不是很熟，一开始的是想直接把 Github Pages 和 CNPaas 给的默认 URL 作为 Upstream，结果就妥妥的被配置检查拦掉了。于是我只好退而求其次，先在本地起一个服务器，分别代理 Github Pages 和 CNPaas，再把这两个代理作为博客的 Upstream。
+对 NGINX 还不是很熟，一开始的是想直接把 Github Pages 和 CNPaas 给的默认 URL 作为 Upstream，结果就妥妥的被配置检查拦掉了。于是我只好退而求其次，先在本地起一个服务器，分别代理 Github Pages 和 CNPaas，再把这两个代理作为博客的 Upstream。
 
-```nginx
+```NGINX
 server {
     listen 4000;
     port_in_redirect off;
@@ -87,23 +87,23 @@ server {
 }
 ```
 
-Nginx 的配置是摸着石头过河，在 Google 的帮助下搞出来的，个别配置真真是传说中的「My Code Works I Don't Know Why」，特别是 `proxy_set_header` 系列。
+NGINX 的配置是摸着石头过河，在 Google 的帮助下搞出来的，个别配置真真是传说中的「My Code Works I Don't Know Why」，特别是 `proxy_set_header` 系列。
 
 ![](http://ww1.sinaimg.cn/large/e724cbefgw1exdswep9d9j20hd0d90tz.jpg)
 
 配置中的那些 `proxy_set_header` 据说是用来传递访客的真实 IP 以及代理链路上各个代理服务器的 IP，具体是怎么回事还没验证，但愿没配错，配错了我暂时也不知道。
 
-为了让 Nginx 在 301 之后给出的 Location 中不带有端口，我在每个 Upstream 的配置里面加了 `port_in_redirect off`。
+为了让 NGINX 在 301 之后给出的 Location 中不带有端口，我在每个 Upstream 的配置里面加了 `port_in_redirect off`。
 
-实现高可用最关键的配置其实是 `proxy_next_upstream`，这行配置实现了故障转移。当某个 Upstream 出现 502、503、504、404、超时等等一系列不可用的状态时，Nginx 会去尝试请求另外一个 Upstream。这样一来，只要不是 Github Pages 和 CNPaas 同时不可用，博客整体都会处于可用的状态。
+实现高可用最关键的配置其实是 `proxy_next_upstream`，这行配置实现了故障转移。当某个 Upstream 出现 502、503、504、404、超时等等一系列不可用的状态时，NGINX 会去尝试请求另外一个 Upstream。这样一来，只要不是 Github Pages 和 CNPaas 同时不可用，博客整体都会处于可用的状态。
 
-博客的高可用部署改造完成了吗？还没有！这样的部署结构还不是高可用，还存在单点。后端的单点已经通过 Nginx 做反向代理和故障转移解决了，现在是运行 Nginx 的这台作为 VIP（Virtual IP）的服务器成为了单点。
+博客的高可用部署改造完成了吗？还没有！这样的部署结构还不是高可用，还存在单点。后端的单点已经通过 NGINX 做反向代理和故障转移解决了，现在是运行 NGINX 的这台作为 VIP（Virtual IP）的服务器成为了单点。
 
 ## 真高可用の买买买 ##
 
 VIP 成了单点，那就只好再部署一台 VIP 了。昨天下午我买了一台位于新加坡的 ECS，时长一个月，还没来得及收拾，因此我的博客还暂时处于伪高可用的状态，能够解决后端不可用的问题，解决不了 VIP 不可用的问题。
 
-收拾好 ECS 新加坡节点后，在上面部署 Nginx，并配置一样的反向代理。然后在 DNS 中为 blog.jamespan.me 配置两条 A 记录，就得到如下的部署结构。为了实现高可用，千万不要在 DNS 上做负载均衡。
+收拾好 ECS 新加坡节点后，在上面部署 NGINX，并配置一样的反向代理。然后在 DNS 中为 blog.jamespan.me 配置两条 A 记录，就得到如下的部署结构。为了实现高可用，千万不要在 DNS 上做负载均衡。
 
 不开启 DNS 负载均衡的时候，每次请求解析返回两个 VIP，只要其中一个可用就万事大吉。如果开启了负载均衡，每次解析就只返回一个 IP 了，VIP 的冗余部署形同虚设。
 

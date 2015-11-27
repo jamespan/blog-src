@@ -1,6 +1,6 @@
 title: 压缩在手，Wiki 不愁
 tags:
-  - Nginx
+  - NGINX
 categories:
   - Study
 cc: true
@@ -17,7 +17,7 @@ date: 2015-07-29 01:56:25
 
 之前我总是觉得用手机访问一次 Wiki 就要消耗 2.3M 的流量，代价有点高昂但还可以接受。如今访问一次就得 2.7M，四舍五入将近 100M 啊，完全接受不能。
 
-我习惯用 Opera 来访问和调试我自己的这几个小网站，如今的 Opera 也用了 Chrome 内核，开发者工具十分顺手。我开着开发者工具，在 Opera 中访问部署到 Gitcafe 的 Wiki，惊奇地发现整个页面加载过程只消耗了 664KB 的流量。（当我开始写这篇文字，打算截图的时候，页面的流量消耗就变成 763KB 了，与此相伴的还有 Gitcafe 的 nginx 版本从 1.6.3 变成了 1.8.0，当时的现场已经找不回来了）
+我习惯用 Opera 来访问和调试我自己的这几个小网站，如今的 Opera 也用了 Chrome 内核，开发者工具十分顺手。我开着开发者工具，在 Opera 中访问部署到 Gitcafe 的 Wiki，惊奇地发现整个页面加载过程只消耗了 664KB 的流量。（当我开始写这篇文字，打算截图的时候，页面的流量消耗就变成 763KB 了，与此相伴的还有 Gitcafe 的 NGINX 版本从 1.6.3 变成了 1.8.0，当时的现场已经找不回来了）
 
 ![Opera 开发者工具](http://ww2.sinaimg.cn/large/e724cbefgw1euizo5rnp2j20ht07lwfp.jpg)
 
@@ -33,7 +33,7 @@ date: 2015-07-29 01:56:25
 
 往 Response Header 一看，gzip 字样赫然在目。
 
-为了弄清楚这个压缩是个啥情况，我找了 nginx 关于压缩模块的文档[^1]，学习一个。
+为了弄清楚这个压缩是个啥情况，我找了 NGINX 关于压缩模块的文档[^1]，学习一个。
 
 [^1]: [Module ngx_http_gzip_module][2]
 
@@ -43,4 +43,4 @@ date: 2015-07-29 01:56:25
 
 
 [1]: http://blog.jamespan.me/2015/06/30/personal-wiki-sucks/
-[2]: http://nginx.org/en/docs/http/ngx_http_gzip_module.html
+[2]: http://NGINX.org/en/docs/http/ngx_http_gzip_module.html
