@@ -8,7 +8,7 @@ categories:
 hljs: [dockerfile]
 thumbnail: //i.imgur.com/sLLhSQf.png
 cc: true
-comments: false
+comments: true
 date: 2015-11-27 17:54:30
 ---
 
