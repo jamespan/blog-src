@@ -13,9 +13,9 @@ date: 2015-11-27 17:54:30
 ---
 
 
-最近我在 NGINX 上实现了一个负载均衡策略，优先使用「响应时间最短」的后端服务。说是 Nginx 其实并不太准确，因为我实际上是使用了 Openresty 中打包进 NGINX 的许多模块才能实现的，所以说是基于 Openresty 实现更为准确。
+最近我在 NGINX 上实现了一个负载均衡策略，优先使用「响应时间最短」的后端服务。说是 NGINX 其实并不太准确，因为我实际上是使用了 Openresty 中打包进 NGINX 的许多模块才能实现的，所以说是基于 Openresty 实现更为准确。
 
-「快者优先」的 Lua 实现作为我的 Nginx 配置的一部分，可以从 [dynamic-upstream-weight.lua][4] 获得。在 Lua 之外，我们还需要两个全局的 Key-Value 缓存作为调整负载策略的数据基础，配置方式详见我的 NGINX 站点配置 [blog.jamespan.me][5]。
+「快者优先」的 Lua 实现作为我的 NGINX 配置的一部分，可以从 [dynamic-upstream-weight.lua][4] 获得。在 Lua 之外，我们还需要两个全局的 Key-Value 缓存作为调整负载策略的数据基础，配置方式详见我的 NGINX 站点配置 [blog.jamespan.me][5]。
 
 <!-- more -->
 
@@ -39,11 +39,11 @@ upstream backend {
 
 ![博客部署结构](//i.imgur.com/HwFCpHd.jpg)
 
-不用想都知道，Nginx 把流量反代到跟自己在同一台 ECS 的后端，能实现最短的响应时间，DOMContentLoaded 耗时在 500ms 以下。如果把流量反代到 Github 或者 DaoCloud，也能勉强实现秒开，DOMContentLoaded 在 800ms 到 1200ms 之间。如果反代到了另一台 ECS，那就悲剧了，DOMContentLoaded 差不多 3000ms。
+不用想都知道，NGINX 把流量反代到跟自己在同一台 ECS 的后端，能实现最短的响应时间，DOMContentLoaded 耗时在 500ms 以下。如果把流量反代到 Github 或者 DaoCloud，也能勉强实现秒开，DOMContentLoaded 在 800ms 到 1200ms 之间。如果反代到了另一台 ECS，那就悲剧了，DOMContentLoaded 差不多 3000ms。
 
-比较朴素的解决方案其实蛮简单的，给位于不同主机的 Nginx 写不同的配置，把其他主机的后端设置为 backup，把当前主机的后端权重加大即可。但是，我的 Nginx 是用 Docker 部署的，而且把配置打包进了镜像，如果想要不同的主机使用不同的配置，要么把配置单独挂载，要么搞两个镜像。
+比较朴素的解决方案其实蛮简单的，给位于不同主机的 NGINX 写不同的配置，把其他主机的后端设置为 backup，把当前主机的后端权重加大即可。但是，我的 NGINX 是用 Docker 部署的，而且把配置打包进了镜像，如果想要不同的主机使用不同的配置，要么把配置单独挂载，要么搞两个镜像。
 
-如果把配置单独挂载，使用 Docker 去部署 Nginx 就失去了意义，和直接部署基本没啥两样，还把重新加载配置弄得麻烦了。如果搞两个镜像，那是更不可接受的，基本一样的配置维护两份，想想都醉了。有没有高端解决方案，让我能用一份配置解决问题？
+如果把配置单独挂载，使用 Docker 去部署 NGINX 就失去了意义，和直接部署基本没啥两样，还把重新加载配置弄得麻烦了。如果搞两个镜像，那是更不可接受的，基本一样的配置维护两份，想想都醉了。有没有高端解决方案，让我能用一份配置解决问题？
 
 解决方案应该就在负载均衡策略上。之前我用的是默认的轮询策略 round-robin，更早的时候还用过 ip_hash。从官方文档「[NGINX Load Balancing - HTTP and TCP Load Balancer][6]」中，我发现了一个叫 least_time 的策略，基本上就是我想要的。然而它作为一个「高级负载均衡算法」，是商业版本的 NGINX Plus 专供，并不包含在开源版本的 NGINX 中[^1]。噢，万恶的资本主义。
 
