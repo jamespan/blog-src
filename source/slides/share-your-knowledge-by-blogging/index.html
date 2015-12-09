@@ -1,0 +1,199 @@
+layout: false
+---
+<!doctype html>
+<html lang="zh_cn">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>技术博客写作实践</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<script src="//cdn.bootcss.com/jquery/2.1.0/jquery.min.js" type="text/javascript"></script>
+
+		<link rel="stylesheet" href="http://cdn.bootcss.com/reveal.js/3.0.0/css/reveal.css">
+        <link rel="stylesheet" href="http://cdn.bootcss.com/reveal.js/3.0.0/css/theme/black.min.css" id="theme">
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="http://cdn.bootcss.com/reveal.js/3.0.0/lib/css/zenburn.min.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'http://cdn.bootcss.com/reveal.js/3.0.0/css/print/pdf.min.css' : 'http://cdn.bootcss.com/reveal.js/3.0.0/css/print/paper.min.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>与世界分享你的技术、思考和吐槽</h1>
+					<h3>技术博客写作实践</h3>
+					<p>
+						<small>Created by <a href="http://blog.jamespan.me">潘家邦</a> / <a href="https://github.com/JamesPan">@JamesPan</a></small>
+					</p>
+				</section>
+
+				<section data-markdown style="text-align: left;">
+					<script type="text/template">
+						## 关于写博客的十万个为什么
+
+						[为什么要写Blog？](http://www.ruanyifeng.com/blog/2006/12/why_i_keep_blogging.html)
+
+						[为什么有些技术人员不写博客？](http://blog.jobbole.com/18251/)
+
+						[为什么你应该（从现在开始就）写博客？](http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/)
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						## 从写作中我们能收获什么
+
+						1. 更全面深入的思考
+						1. 更广泛的文献阅读
+						1. 更清晰的文字表述
+						1. 跨越时空的交流
+						1. 持续的技术投入
+						1. 个人影响力持续提升
+						1. 来自读者的感谢、捐赠
+						1. [写作是一种高质量的社交方式](http://mp.weixin.qq.com/s?__biz=MzA3MDMwOTcwMg==&mid=204968771&idx=1&sn=cd7355ab4bfdd2761aac610261bf460a)
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						## 写作让我们失去了什么
+
+						1. 原本可以吃喝玩乐的大好时光
+					</script>
+				</section>
+
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## 技术博文写作实践
+
+							1. 写教程
+							2. 讲故事
+							3. 扫盲贴
+							4. 其他
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## 技术博文写作实践-写教程
+
+							可重现，可操作
+
+							<iframe name="blog" onload="this.height=$(document).height()/2" src="http://andrewliu.in/2015/12/03/Atom开箱指南/" width="100%"></iframe>
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## 技术博文写作实践-讲故事
+
+							重思考，重过程，湿货多
+
+							<iframe name="blog" onload="this.height=$(document).height()/2" src="http://blog.jamespan.me/2015/11/27/fastest-first-load-balancer-for-nginx-with-lua/#需求背景" width="100%"></iframe>
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## 技术博文写作实践-扫盲贴
+
+							全是干货
+
+							<iframe name="blog" onload="this.height=$(document).height()/2" src="http://tonybai.com/2015/11/17/tcp-programming-in-golang/" width="100%"></iframe>
+						</script>
+					</section>
+				</section>
+
+				<section data-markdown style="text-align: left;">
+					<script type="text/template">
+						## 如果你也想开始写博客
+
+						如果你想一步到位搭建独立博客，就试试 Hexo
+
+						如果你想先养成写博客的习惯，可以从简书开始
+
+						然后，坚持写下去
+					</script>
+				</section>
+
+				<section data-markdown style="text-align: left;">
+					<script type="text/template">
+						## 如果正在写博客
+
+						把感觉写得还行的文章分享出去
+
+						[开发者头条](http://toutiao.io)，[Startup News](http://news.dbanotes.net)，[伯乐头条](http://top.jobbole.com)都是不错的中文技术博文分享社区
+
+						[Hacker News](https://news.ycombinator.com) 是不错的英文技术博文分享社区
+
+						然后，坐等 PV 上涨
+					</script>
+				</section>
+
+				<section data-markdown style="text-align: left;">
+					<script type="text/template">
+						# THE END
+
+						- [去 ATA 分享一个](http://www.atatech.org)
+					</script>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="http://cdn.bootcss.com/reveal.js/3.0.0/lib/js/head.min.js"></script>
+		<script src="http://cdn.bootcss.com/reveal.js/3.0.0/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'http://cdn.bootcss.com/reveal.js/3.0.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'http://cdn.bootcss.com/reveal.js/3.0.0/plugin/markdown/marked.min.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'http://cdn.bootcss.com/reveal.js/3.0.0/plugin/markdown/markdown.min.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'http://cdn.bootcss.com/reveal.js/3.0.0/plugin/highlight/highlight.min.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'http://cdn.bootcss.com/reveal.js/3.0.0/plugin/zoom-js/zoom.min.js', async: true },
+					{ src: 'http://cdn.bootcss.com/reveal.js/3.0.0/plugin/notes/notes.min.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
