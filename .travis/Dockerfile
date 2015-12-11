@@ -1,4 +1,4 @@
-FROM alpine-nginx:latest
+FROM jamespan/alpine-nginx:latest
 
 MAINTAINER Pan Jiabang <panjiabang@gmail.com>
 
