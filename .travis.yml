@@ -1,10 +1,11 @@
-sudo: required
-services:
-- docker
-
 language: node_js
 node_js:
   - "0.12"
+
+sudo: required
+
+services:
+  - docker
 
 branches:
   only:
@@ -28,7 +29,7 @@ install:
 
 script:
   - hexo g
-  - hexo d
+  #- hexo d
   - cp .travis/Dockerfile ./Dockerfile
   - docker build -t index.alauda.cn/jamespan/weblog:latest .
   - docker tag index.alauda.cn/jamespan/weblog:latest index.alauda.cn/jamespan/weblog:$(date +%Y%m%d%H%M%S)
