@@ -33,6 +33,9 @@ script:
   - cp .travis/Dockerfile ./Dockerfile
   - docker build -t index.alauda.cn/jamespan/weblog:latest .
   - docker tag index.alauda.cn/jamespan/weblog:latest index.alauda.cn/jamespan/weblog:$(date +%Y%m%d%H%M%S)
+  - docker images
 after_success:
+  - export DOCKER_OPTS="--insecure-registry index.alauda.cn"
+  - sudo service docker restart
   - docker login -e="$ALAUDA_DOCKER_EMAIL" -u="$ALAUDA_DOCKER_USERNAME" -p="$ALAUDA_DOCKER_PASSWORD" index.alauda.cn
   - docker push index.alauda.cn/jamespan/weblog
