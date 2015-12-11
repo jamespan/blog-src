@@ -1,5 +1,9 @@
 language: node_js
 
+sudo: required
+services:
+- docker
+
 node_js:
   - "0.12"
 
@@ -10,7 +14,6 @@ branches:
 addons:
   ssh_known_hosts:
   - github.com
-  - blog-panjiabang.app.cnpaas.io
 
 before_install:
   - openssl aes-256-cbc -K $encrypted_3ba5678e770b_key -iv $encrypted_3ba5678e770b_iv -in .travis/travis.enc -out ~/.ssh/id_rsa -d
@@ -25,6 +28,11 @@ install:
   - npm install
 
 script:
-  - hexo clean
   - hexo g
   - hexo d
+  - cp .travis/Dockerfile ./Dockerfile
+  - docker build -t index.alauda.cn/jamespan/weblog:latest .
+  - docker tag index.alauda.cn/jamespan/weblog:latest index.alauda.cn/jamespan/weblog:$(date +%Y%m%d%H%M%S)
+after_success:
+  - docker login index.alauda.cn -e="$ALAUDA_DOCKER_EMAIL" -u="$ALAUDA_DOCKER_USERNAME" -p="$ALAUDA_DOCKER_PASSWORD"
+  - docker push index.alauda.cn/jamespan/weblog
