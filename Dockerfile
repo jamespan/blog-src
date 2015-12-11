@@ -25,6 +25,7 @@ RUN hexo generate && \
     ln -sf /dev/stdout /var/log/nginx/access.log && ln -sf /dev/stderr /var/log/nginx/error.log && \
     echo "Done"
 
+RUN rm -rf /tmp/*
 
 EXPOSE 80
 
