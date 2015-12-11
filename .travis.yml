@@ -38,9 +38,5 @@ script:
   - docker tag $IMAGE_NAME:latest $IMAGE_NAME:$(date +%Y%m%d%H%M%S)
   - docker images
 after_success:
-  #- export DOCKER_OPTS="--insecure-registry index.alauda.cn"
-  #- service docker restart
-  #- echo $ALAUDA_DOCKER_EMAIL
-  #- docker login -e="$ALAUDA_DOCKER_EMAIL" -u="$ALAUDA_DOCKER_USERNAME" -p="$ALAUDA_DOCKER_PASSWORD" index.alauda.cn
   - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
   - docker push $IMAGE_NAME
