@@ -4,8 +4,7 @@ MAINTAINER Pan Jiabang <panjiabang@gmail.com>
 
 # Install Nginx
 
-RUN    apk add --update nginx
-RUN     rm -rf /var/cache/apk/* 
+RUN    apk add --update nginx && rm -rf /var/cache/apk/*
 RUN     ln -sf /dev/stdout /var/log/nginx/access.log 
 RUN ln -sf /dev/stderr /var/log/nginx/error.log
 
