@@ -36,6 +36,6 @@ script:
   - docker images
 after_success:
   - export DOCKER_OPTS="--insecure-registry index.alauda.cn"
-  - sudo service docker restart
+  - service docker restart
   - docker login -e="$ALAUDA_DOCKER_EMAIL" -u="$ALAUDA_DOCKER_USERNAME" -p="$ALAUDA_DOCKER_PASSWORD" index.alauda.cn
   - docker push index.alauda.cn/jamespan/weblog
