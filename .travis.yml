@@ -32,7 +32,7 @@ install:
 
 script:
   - hexo g
-  #- hexo d
+  - hexo d
   - cp .travis/Dockerfile ./Dockerfile
   - docker build -t $IMAGE_NAME:latest .
   - docker tag $IMAGE_NAME:latest $IMAGE_NAME:$(date +%Y%m%d%H%M%S)

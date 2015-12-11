@@ -3,6 +3,7 @@ categories:
   - Life
 cc: true
 comments: true
+thumbnail: //i.imgur.com/dyaOd0Hm.png
 date: 2015-12-11 00:02:59
 ---
 

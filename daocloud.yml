@@ -1,4 +1,0 @@
-image: daocloud/ci-node:0.12
-
-script:
-  - echo "Nothing to CI"
