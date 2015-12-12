@@ -35,16 +35,12 @@ date: 2015-12-13 02:33:31
 
 这周六深夜，我还去看了一部电影，「师父」，挺好看的，讲的是北洋军阀时期天津武馆江湖的故事，江湖里的阴谋诡计和扭曲的人际关系。
 
-这周还给团队成员简单分享了一下技术博客的写作实践和心得。写了快一年了，回头看看，写博客真的让我收获了很多东西，算是进入正循环了吧~
-
-<div class="video-container">
-    <iframe name="slide" onload="this.height=slide.document.body.scrollHeight" src="/slides/share-your-knowledge-by-blogging/" width="100%" scrolling="no"></iframe>
-</div>
+这周还给团队成员简单分享了一下[技术博客的写作实践][2]。写了快一年了，回头看看，写博客真的让我收获了很多东西，算是进入正循环了吧~
 
 2015 年就要结束了，完结撒花！
 
 
 [1]: http://www.solidot.org/story?sid=46342
-
+[2]: /slides/share-your-knowledge-by-blogging/
 
 
