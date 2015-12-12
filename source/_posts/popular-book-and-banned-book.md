@@ -4,8 +4,8 @@ tags:
 categories:
   - Life
 thumbnail: //i.imgur.com/ReiXBV0.jpg
-cc: false
-comments: false
+cc: true
+comments: true
 date: 2015-12-13 02:33:31
 ---
 
