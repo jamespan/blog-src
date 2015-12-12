@@ -16,14 +16,16 @@ comment: true
 -   技术博客：http://blog.jamespan.me
 -   Github：https://github.com/JamesPan
 
+目前暂无求职意向。如果你有兴趣加入我们，请给我发[邮件](mailto:panjiabang@gmail.com)。
 
--   期望职位：高级/资深开发工程师
+<!-- -   期望职位：高级/资深开发工程师
 -   期望薪资：25k（北京、上海）
--   期望城市：湾区、北京、上海
+-   期望城市：湾区、北京、上海 -->
 
-我目前在杭州，对我在电子面单团队的工作比较满意，老板比较 nice，如果你有兴趣加入我们，请给我发[邮件](mailto:panjiabang@gmail.com)。
+<!-- 我目前在杭州，对我在电子面单团队的工作比较满意，老板比较 nice，如果你有兴趣加入我们，请给我发[邮件](mailto:panjiabang@gmail.com)。 -->
 
-我也渴望更广阔的技术视野、更有挑战的技术难题，如果你认可我的能力，并能提供我想要的平台，也请给我发[邮件](mailto:panjiabang@gmail.com)。
+<!-- 我也渴望更广阔的技术视野、更有挑战的技术难题，如果你认可我的能力，并能提供我想要的平台，也请给我发[邮件](mailto:panjiabang@gmail.com)。  -->
+
 
 # 工作经历
 
@@ -83,8 +85,9 @@ comment: true
 -   [Timestamp - 一个关于时间戳的轻应用](/2015/01/19/timestamp-the-light-app/)
 -   [使用 JavaScript 实现 iframe 判断和页面重定向](/2015/01/12/redirect-with-js/)
 
-<!-- ## 演讲和讲义
-暂无 -->
+## 演讲和讲义
+
+-   [与世界分享你的技术、思考和吐槽——技术博客写作实践](/slides/share-your-knowledge-by-blogging/)
 
 # 技能清单
 

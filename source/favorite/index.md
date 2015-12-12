@@ -6,6 +6,9 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1eyxg0noaz4j20rs12wkc8.jpg [师父](http://movie.douban.com/subject/25919910/) %}
+{% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1eyxg31oat8j208l0c0t8n.jpg [MacTalk 跨越边界](http://book.douban.com/subject/26663519/) %}
+{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1eyxg9a7uz5j20rs15tgr9.jpg [走出帝制:从晚清到民国的历史回望](http://www.amazon.cn/dp/B016OHU51Q/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1ey11kb76xxj210v1jkno1.jpg [007：幽灵党](http://movie.douban.com/subject/11620560/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1exu11vywgoj20go0nkn8u.jpg [我被绑架到贵族女校当庶民样本](http://movie.douban.com/subject/25919935/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1exswud7onwj20hs0outcf.jpg [安德的游戏](http://movie.douban.com/subject/5323957/) %}
