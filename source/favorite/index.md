@@ -6,6 +6,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1ez5dt3qyt9j21kw27g7wh.jpg [寻龙诀](http://movie.douban.com/subject/3077412/) %}
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1eyxg0noaz4j20rs12wkc8.jpg [师父](http://movie.douban.com/subject/25919910/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1eyxg31oat8j208l0c0t8n.jpg [MacTalk 跨越边界](http://book.douban.com/subject/26663519/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1eyxg9a7uz5j20rs15tgr9.jpg [走出帝制:从晚清到民国的历史回望](http://www.amazon.cn/dp/B016OHU51Q/) %}
