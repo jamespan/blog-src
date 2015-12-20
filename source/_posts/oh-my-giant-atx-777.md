@@ -1,9 +1,8 @@
 title: 高速过弯的时候抱死后轮，自行车也会漂
-tags:
-  - Tool
 categories:
-  - Study
+  - Life
 cc: true
+thumbnail: //i.imgur.com/8ePQrMcm.jpg
 comments: true
 date: 2015-12-20 23:59:52
 ---
