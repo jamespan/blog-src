@@ -7,8 +7,8 @@ tags:
 categories:
   - Study
 thumbnail: //i.imgur.com/I9fgKqF.png
-cc: false
-comments: false
+cc: true
+comments: true
 hljs: true
 math: true
 date: 2016-01-10 23:40:11
