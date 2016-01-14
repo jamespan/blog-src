@@ -21,7 +21,7 @@
     "hexo-renderer-stylus": "^0.2.0",
     "hexo-ruby-character": "^1.0.6",
     "hexo-filter-asset-inline": "1.1.0",
-    "hexo-filter-indicate-the-source": "1.0.0",
+    "hexo-filter-indicate-the-source": "1.0.1",
     "hexo-server": "^0.1.2"
   }
 }
