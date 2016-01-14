@@ -16,7 +16,7 @@ thumbnail: http://ww2.sinaimg.cn/small/e724cbefgw1erzew6tmvlj21kw16ob29.jpg
 
 工作了一整年，也到了该做总结的时候。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 # 实习 #
 

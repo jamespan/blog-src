@@ -18,7 +18,7 @@ comments: true
 ## 想读
 + [经济学原理（下）](http://book.douban.com/subject/1029988/)
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 ## 已读
 + [从0到1](http://book.douban.com/subject/26297606/)

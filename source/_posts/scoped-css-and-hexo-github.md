@@ -15,7 +15,7 @@ thumbnail: http://ww1.sinaimg.cn/large/e724cbefgw1esqttwyc4tj205p02jmx5.jpg
 
 之前我用的 Github 挂件是从开源中国社区的页面上抠下来的，勉强能用，但是和这个挂件比起来就差的远了。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 # 命令崩坏 #
 

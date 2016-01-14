@@ -15,7 +15,7 @@ date: 2015-10-02 04:15:14
 
 一年多来，OS X 从当初的 10.9 Mavericks，到 10.10 Yosemite，再到如今的 10.11 El Capitan，每次都有让我心动不已无法割舍的杀手级特性，即便最初的版本有一些小小的瑕疵，也是瑕不掩瑜。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 ![](http://ww3.sinaimg.cn/mw1024/e724cbefgw1ewm4jmwty3j20yg0mzn6z.jpg)
 

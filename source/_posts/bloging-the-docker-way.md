@@ -20,7 +20,7 @@ date: 2015-11-15 01:23:20
 
 DaoCloud 根据代码目录中的 Dockerfile，在代码提交到 Github 之后，自动抓取最新的代码进行自动集成，通过集成后就构建 Docker image，然后自动部署最新的镜像。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 虽然之前也写过不少 Dockerfile 了，但是还没写过专门用在 DaoCloud 上面的，于是我就入乡随俗先看看文档，然后看看他们给出的 2048 游戏镜像的例子。
 

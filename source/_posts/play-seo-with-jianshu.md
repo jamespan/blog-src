@@ -16,7 +16,7 @@ date: 2015-03-25 20:41:48
 
 昨天晚上我突然想到了一个方法，或许能够帮助提升博客文章在搜索引擎的排名。当然，我主要关注的搜索引擎还是 Google。百度是啥，能吃么？
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 ![](http://ww2.sinaimg.cn/large/e724cbefgw1exdxk3zbt2j20hi0ab75y.jpg)
 

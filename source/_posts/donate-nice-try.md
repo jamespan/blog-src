@@ -12,7 +12,7 @@ date: 2015-03-18 01:48:26
 
 ![王垠-对的人](http://ww3.sinaimg.cn/large/e724cbefgw1exdxplrrk0j20h908r3yv.jpg)
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 简书是我觉得很赞的一个内容分享社区。从“找回文字的力量”，到“交流故事，沟通想法”，虽然格调日趋下降，但是也因为用户基数的增加，这个社区变得愈发的丰富多彩。
 

@@ -17,7 +17,7 @@ date: 2015-03-16 02:59:20
 
 点进去一看，发现这个果然是一个高贵冷艳的第三方评论系统，可以对网页内容做圈点，对圈点的内容做点评，界面和功能一样的狂拽酷炫。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 ![](http://ww4.sinaimg.cn/large/e724cbefgw1eq6zbr8tnlj20yr0l4gpw.jpg)
 

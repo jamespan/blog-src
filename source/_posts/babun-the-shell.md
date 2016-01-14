@@ -21,7 +21,7 @@ date: 2015-04-09 00:13:35
 
 幸运的是，我们现在有了 [Babun][3]，一个 Windows 上的开箱即用的壳程序，基于 Cygwin，胜于 Cygwin。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 # 简介 #
 

@@ -16,7 +16,7 @@ thumbnail: http://ww2.sinaimg.cn/small/e724cbefgw1esu3i3a9rxj20go0af0u1.jpg
 
 因为一开始想错了方向，我们折腾了一天才确认是内存不足，只好联系管理开发环境的同事分配更大内存的机器，然后应用终于部署起来了。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 # 宕机 #
 

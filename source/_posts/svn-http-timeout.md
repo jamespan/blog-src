@@ -20,7 +20,7 @@ date: 2015-04-15 01:08:28
 svn: E175012: Connection timed out
 ```
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 一开始的时候我怀疑是 SVN 的版本比较低，于是用 brew 安装了最新的稳定版，问题依旧。
 

@@ -20,7 +20,7 @@ thumbnail: http://ww2.sinaimg.cn/small/e724cbefgw1et29qkfz7lj20b408cjsn.jpg
 
 仔细一看，是字体渲染的问题。联想起之前在 Stack Overflow 看到过[讨论][3]说 Mac 下只有 Apple 维护的 [JDK 6][4] 才能比较好的在 Retina 分辨率下渲染程序界面。其实我之前从官网下载的 IDEA 用的就是 Apple 的 JDK 6，界面渲染的好好的，为什么从 Cask 下载的 IDEA 出了渲染问题？
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 # 尝试
 

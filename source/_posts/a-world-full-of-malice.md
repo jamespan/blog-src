@@ -13,7 +13,7 @@ thumbnail: http://ww4.sinaimg.cn/small/e724cbefgw1et29me8y80j21kw0vxwoq.jpg
 
 ![知乎瞎扯](http://ww1.sinaimg.cn/large/e724cbefgw1et29lq1ighj20hs0eqgn0.jpg)
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 尼玛，这是什么鬼啊！我顿时感觉到了来自世界的满满恶意。然后我就想起了不久前在 B 站看过的一个一本正经胡说八道的视频。
 

@@ -17,7 +17,7 @@ date: 2015-11-17 03:03:46
 
 为了让博客里面的代码块稍微好看一点点，我用[中科大的 Google Fonts 服务][1]加载了 Source Code Pro 这个字体。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 按照设定字体的惯例，我们会为字体设置 fallback，当 Source Code Pro 不可用时，自动降级为其他字体。什么叫「不可用」呢？比如找不到字体，或者加载字体超时之类的，应该算不可用吧。
 

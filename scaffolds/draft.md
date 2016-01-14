@@ -4,6 +4,7 @@ tags:
 categories:
   - Study
 
-cc: true
+cc: false
 comments: false
+
 ---

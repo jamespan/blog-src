@@ -14,7 +14,7 @@ date: 2015-07-08 22:10:47
 
 一年过去了，2015 年 7 月 7 日，早上一到公司打开阿里内外，就看到入职一周年的祝贺。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 ![一周年快乐](http://ww1.sinaimg.cn/large/e724cbefgw1etuneoh8hjj21kw0uqjw6.jpg)
 

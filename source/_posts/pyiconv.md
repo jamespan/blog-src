@@ -14,7 +14,7 @@ comments: true
 
 周末的早上无聊就造了一会轮子，把代码写出来了，算是 iconv 的 Python 复刻，增加了自动识别编码的功能，顺便练习用 Python 解析命令行参数。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 另外，我为了方便检测文本编码，使用了一个叫`chardet`的库。通过`pip install chardet`安装该依赖即可。
 

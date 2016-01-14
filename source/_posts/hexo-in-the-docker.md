@@ -22,7 +22,7 @@ comments: true
 
 不管怎么说，这样折腾一番之后，我的 Hexo 博客环境没有之前好用了。看来 2.8 已经没法待下去了，只有升级到 3.0 这条路。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 # Docker #
 

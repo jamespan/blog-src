@@ -16,7 +16,7 @@ Velocity 大会在永泰福朋喜来登酒店召开，刚到帝都那天晚上�
 
 第一天，9:30 大会开始，我们踩着时间点来到会场，领取了入场券，开始听分享。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 ![大牛们谈笑风生，小菜们学习一个](http://ww1.sinaimg.cn/mw1024/e724cbefgw1ev2obukbsvj21kw16o7kl.jpg)
 

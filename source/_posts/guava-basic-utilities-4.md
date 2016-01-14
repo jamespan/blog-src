@@ -18,7 +18,7 @@ Guava 是 Java 开发者的好朋友。虽然我在开发中使用 Guava 很长�
 
 Precondition 是先决条件的意思，也叫前置条件，可以人为是使函数正常执行的参数需要满足的条件。在 Preconditions 这个静态工厂中，Guava 为我们提供了一系列的静态方法，用于帮助我们在函数执行的开始检查参数，函数执行的过程中检查状态等等。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 ```java
 Preconditions.checkArgument(5 < 3);//IllegalArgumentException

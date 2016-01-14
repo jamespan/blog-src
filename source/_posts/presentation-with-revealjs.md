@@ -16,7 +16,7 @@ reveal.js 是一个帮助你快速使用 HTML 创建漂亮的幻灯片的框架�
 
 reveal.js 提供了一个 [Demo][1]，其作用更像是一个速查手册，介绍了 reveal.js 的各种功能和特效。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 # Demo
 

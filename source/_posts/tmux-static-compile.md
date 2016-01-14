@@ -13,7 +13,7 @@ date: 2015-06-12 23:36:07
 
 Tmux 唯一的依赖是 libevent，所以我需要先把它编译出来。之前我编译软件之后都是直接使用 root 权限，如今没有了 root 权限，安装软件都成了让我拙计的事情。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 先从最近声名狼藉的 sourceforge 把 libevent 的源码包抓下来，然后从 Github 把 tmux 的源码包也抓下来。
 

@@ -21,7 +21,7 @@ Java 始终是一个面向对象（命令式）的语言，在我们使用函数
 
 Predicate 接口是我们第二个介绍的 Guava 函数式编程基础设施。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 下面这段代码是去掉注释之后的 Predicate 接口。
 

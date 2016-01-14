@@ -19,7 +19,7 @@ Guava 是 Java 开发者的好朋友。虽然我在开发中使用 Guava 很长�
 
 Charsets 是一个常量工厂，给出了 6 个Java 承诺了全平台支持的字符集，类似的静态工厂在 Apache 的类库中也有提供。如果没有静态变量，我们要么使用 Charset#forName 方法，传入一个字符串来获取指定的字符集，要么自己定义一个类似的工厂类。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 使用 Charset#forName 的问题就在于用户需要关注入参字符串的拼写，一旦拼写错误就会出现意料之外的事情。
 

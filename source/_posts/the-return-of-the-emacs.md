@@ -20,7 +20,7 @@ thumbnail: http://ww4.sinaimg.cn/small/e724cbefgw1et29jaibmlj213l0o2aj2.jpg
 
 大三的时候，我看了大名鼎鼎的《计算机程序的构造和解释》，从此加入了括号神教。于是，我的编辑器也从 Vim 变成了 Emacs。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 那是第一次，我发现我可以用我熟悉的语言，去自定义我的编辑器。如此多的插件，都用 lisp 实现，整个编辑器，简直就是括号神教教众的游乐场。
 

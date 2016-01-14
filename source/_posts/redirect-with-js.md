@@ -18,7 +18,7 @@ comments: true
 
 从 Google 的搜索结果直接点进 Timeline，就只能看到一个纯净的时间轴，看起来这个页面跟我的博客没有半毛钱关系。那怎么才能让 Google 的搜索结果指向博客页面呢？
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 # 方案
 

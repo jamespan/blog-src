@@ -17,7 +17,7 @@ date: 2015-11-27 17:54:30
 
 「快者优先」的 Lua 实现作为我的 NGINX 配置的一部分，可以从 [dynamic-upstream-weight.lua][4] 获得。在 Lua 之外，我们还需要两个全局的 Key-Value 缓存作为调整负载策略的数据基础，配置方式详见我的 NGINX 站点配置 [blog.jamespan.me][5]。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 为了实现这个负载均衡特性，我对 [lua-upstream-nginx-module][1] 做了修改，增加了修改 upstream server 的权重的 Lua API，详见 [JamesPan/lua-upstream-nginx-module][2] 的 commit [6b40d40a4][3]。
 

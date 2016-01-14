@@ -16,7 +16,7 @@ comments: true
 
 这几天我在做项目的时候，花了几个小时把这个黑科技从我的 Demo 项目迁移到了生产代码中，然后做了大量的改进。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 <!-- <img src="http://ww1.sinaimg.cn/small/e724cbefgw1eruyt2uc4fj20rs0rsdhi.jpg"/> -->
 

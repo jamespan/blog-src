@@ -2,6 +2,7 @@ title: hexo-ruby-character：写作 OO 读作 XX
 tags:
   - Blogging
   - Node.js
+  - Hexo
 categories:
   - Study
 cc: true
@@ -16,7 +17,7 @@ thumbnail: http://ww1.sinaimg.cn/large/e724cbefgw1etcx5af7hlj204v04vdfn.jpg
 
 早些时候，当我想要做旁注标记的时候，只能先把文字写上，发音写在括号里。其实这样的做法是很痛苦的，因为拼音的声调实在是太难输入了。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 后来，iOS 的[应用商店][3]里出现了一款叫做「写(dú)」的 App，对我而言简直就是福音，我经常逛的一个推广优质应用的网站——少数派也专门为这个 App 写了博文，《[喜(sàng)闻(xīn)乐(bìng)见(kuáng)：写(dú)][11]》。
 

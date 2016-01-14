@@ -15,7 +15,7 @@ thumbnail: http://ww1.sinaimg.cn/small/e724cbefgw1euefr736eej211m0xktck.jpg
 
 其实之前我有过一台阿里云（万网）的虚拟主机，免费的，青岛节点。让人感到憋屈的是，这台主机需要备案之后才能做域名绑定。为了不备案，这个虚拟主机我就一直闲置着。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 上周开始我不满足于 Github Pages 之类的静态页面托管服务，希望在 App 部署上得到更大的自由，于是开始考虑购买国外的虚拟主机，目标锁定 Digital Ocean。晚上和室友说了一下这个事情，室友是运维方面的技术专家。
 

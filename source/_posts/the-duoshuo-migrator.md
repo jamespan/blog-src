@@ -18,7 +18,7 @@ comments: true
 
 对切换评论系统的前因后果以及中间过程感兴趣的话，可以看看我之前的博文《{% post_link goodbye-duoshuo %}》。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 # 轮子 #
 

@@ -15,7 +15,7 @@ thumbnail: http://ww3.sinaimg.cn/small/e724cbefgw1eri9t9fhemj20uq0ha0v5.jpg
 
 在状态不好的那两个周末，我看完了《[樱花庄的宠物女孩][1]》，然后又一遍一遍地看《[路人女主的养成方法][2]》。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 ![](http://ww3.sinaimg.cn/large/e724cbefgw1eri9t9fhemj20uq0ha0v5.jpg)
 

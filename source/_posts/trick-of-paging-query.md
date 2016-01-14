@@ -19,7 +19,7 @@ date: 2015-01-22 01:53:19
 
 一开始的时候，分页查询用的是 limit 子句，SQL 语句形态如下。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 ```sql
 select * from table where xxx in (1,2,3) order by id limit #offset#, 200

@@ -16,7 +16,7 @@ date: 2015-11-01 01:18:48
 
 现在 Github 上大量的开源软件都在使用一个叫 [Travis CI][1] 的服务来做持续集成，也就是在代码推到 Github 之后，Travis CI 根据位于项目根目录的 `.travis.yml` 中的描述来构建集成环境、运行测试并产出集成报告。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 项目维护者们还可以把 Travis CI 产出的测试结果、覆盖率等等指标，通过 [Shields.io][2] 生成一个个的「badge」放在 README 最开始的地方，仿佛一个军人骄傲地向世人展示胸前的勋章。
 

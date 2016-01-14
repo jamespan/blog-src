@@ -19,7 +19,7 @@ thumbnail: http://ww3.sinaimg.cn/small/e724cbefgw1es1l6kwqm5j20bg081dg3.jpg
 
 看到这种大新闻，我跑得比谁都快！当时我就提交了试读申请。
 
-<!-- more -->
+<!-- more --><!-- indicate-the-source -->
 
 经过几天的等待，我终于收到了 JobDeer 从帝都寄过来的书。
 
