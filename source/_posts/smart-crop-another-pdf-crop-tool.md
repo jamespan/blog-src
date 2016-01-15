@@ -3,6 +3,7 @@ tags:
   - Tool
   - Python
   - Java
+  - Algorithm
   - Digital Image Processing
 categories:
   - Study
