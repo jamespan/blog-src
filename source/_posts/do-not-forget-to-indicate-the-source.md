@@ -91,9 +91,6 @@ indicate_the_source:
     - jamespan.me
     # - localhost
   template: "<blockquote><p>转载请注明出处：<%- post.permalink %></p><p>访问原文「<a href='<%- post.permalink %>'><%- post.title %></a>」获取最佳阅读体验并参与讨论</p></blockquote>"
-
-asset_inline:
-  enable: false
 ```
 
 然后在文章的 Markdown 源码中找一处插入 `<!-- indicate-the-source -->`，
