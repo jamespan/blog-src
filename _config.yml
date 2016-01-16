@@ -145,7 +145,7 @@ indicate_the_source:
     - blog.jamespan.me
     - jamespan.me
     # - localhost
-  template: "<blockquote><p>转载请注明出处：<%- post.permalink %></p><p>访问原文「<a href='<%- post.permalink %>'><%- post.title %></a>」获取最佳阅读体验并参与讨论</p></blockquote>"
+  template: "<blockquote><p>转载请注明出处：<%- post.permalink %></p><p>访问<a href='<%- post.permalink %>'>原文</a>「<a href='<%- post.permalink %>'><%- post.title %></a>」获取最佳阅读体验并参与讨论</p></blockquote>"
 
 asset_inline:
   enable: true
