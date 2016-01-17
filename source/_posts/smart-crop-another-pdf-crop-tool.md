@@ -137,7 +137,7 @@ $$
 下载下来的是一个可执行的 jar 包，在在终端输入如下命令进入 Smart Crop 的字符界面。
 
 ```bash
-java -jar smart-crop-latest.jar
+java -jar smart-crop-cli-1.0.0-executable.jar
 ```
 
 然后用 `crop` 命令来处理 PDF 文档，自动识别正文区域并切除白边。
