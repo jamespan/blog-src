@@ -15,7 +15,7 @@ math: true
 date: 2016-01-10 23:40:11
 ---
 
-这是我元旦假期的折腾成果。这里先分享一下思路和实现过程中遇到的有意思的事情，代码稍后整理后分享到 Github。
+这是我元旦假期的折腾成果。这里先分享一下思路和实现过程中遇到的有意思的事情<del>，代码稍后整理后分享到 Github</del>。
 
 前些日子，同事送了我一个 Kindle，于是我开心地往里面灌了好几本书，开始假装文化人。
 
@@ -130,7 +130,7 @@ $$
 
 ## 工程实现与产品化 ##
 
-元旦假期里我就已经把这个算法实现并且开发了一个完整的能够直接处理 PDF 文档的程序。只不过设计算法的时候用的是 Python，最后做工程实现的时候用的是 Java，这里面也是有许多妥协和不得已，具体原因以及过程我会在后续博文中分享，这里先上个图，然后给个[下载链接][3]。目前暂且放在[阿里云 OSS][4] ，待我把代码整理整理放到 Github 上开源后再迁移到 Github 的 Release 上。
+元旦假期里我就已经把这个算法实现并且开发了一个完整的能够直接处理 PDF 文档的程序。只不过设计算法的时候用的是 Python，最后做工程实现的时候用的是 Java，这里面也是有许多妥协和不得已，具体原因以及过程我会在后续博文中分享，这里先上个图，然后给个[下载链接][3]。<del>目前暂且放在[阿里云 OSS][4] ，待我把代码整理整理放到 Github 上开源后再迁移到 Github 的 Release 上。</del>
 
 ![](//i.imgur.com/gnqke9dl.png)
 
@@ -182,7 +182,7 @@ crop --use-multi-core --input in.pdf --output out.pdf
 
 [1]: https://en.wikipedia.org/wiki/Flood_fill
 [2]: https://zh.wikipedia.org/wiki/大津算法
-[3]: http://jamespan.oss-cn-shenzhen.aliyuncs.com/share/smart-crop-latest.jar
+[3]: https://github.com/JamesPan/pdf-smart-crop/releases
 [4]: https://www.aliyun.com/product/oss/
 
 
