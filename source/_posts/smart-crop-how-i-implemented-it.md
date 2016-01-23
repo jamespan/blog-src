@@ -9,8 +9,8 @@ categories:
   - Study
 thumbnail: //i.imgur.com/I9fgKqF.png
 hljs: true
-cc: false
-comments: false
+cc: true
+comments: true
 date: 2016-01-20 00:11:21
 ---
 
