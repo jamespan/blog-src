@@ -4,6 +4,7 @@ tags:
   - Thinking
 categories:
   - Life
+thumbnail: //i.imgur.com/JiLypI8.jpg
 cc: true
 comments: true
 date: 2016-01-26 01:05:47
