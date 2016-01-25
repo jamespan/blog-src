@@ -6,6 +6,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f0bqlp5gw8j21hc276e81.jpg [美丽心灵](http://movie.douban.com/subject/1306029/) %}
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f09t74z3omj21jk27e1kz.jpg [真相禁区](https://movie.douban.com/subject/26348798/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f02kottgbmj21kw2gsb29.jpg [大空头](http://movie.douban.com/subject/26303622/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1ezwm063a12j21kw2964qr.jpg [后会无期](http://movie.douban.com/subject/25805741/) %}
