@@ -141,6 +141,9 @@ markdown:
 html_minifier:
   exclude: 
 
+image_stream:
+  jquery: False
+
 indicate_the_source:
   pattern: indicate-the-source
   enable: true
