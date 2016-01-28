@@ -78,4 +78,12 @@ comment: true
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1etyrug9t1lj208c0apq38.jpg [代码大全](http://book.douban.com/subject/1477390/) %}
 {% endstream %}
 
+---
 
+鸣谢：
+
++ [jQuery](https://jquery.com)
++ [jQuery Lazy Load](https://plugins.jquery.com/lazyload/)
++ [BootCDN](http://www.bootcdn.cn)
++ [Plugins | Hexo](http://hexo.io/docs/plugins.html)
++ [做一个照片流，分享你喜欢的书和电影](/2016/01/28/show-your-favorites-collection-in-hexo/)
