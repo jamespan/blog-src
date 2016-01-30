@@ -2,7 +2,7 @@ title: 提防那些 Blog 写得好的产品经理
 tags:
   - Thinking
 categories:
-  - LIFE
+  - Life
 math: true
 thumbnail: //i.imgur.com/6V8npB7.jpg
 cc: true
