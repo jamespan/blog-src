@@ -28,7 +28,6 @@
       <% } else { %>
       <% if (is_post() && (post.toc == null || page.toc != null && post.toc)){ %>
         <div id="toc" class="toc-article">
-          <!-- <strong class="toc-title"><%= __('contents') %></strong> -->
           <%- toc(post.content) %>
         </div>
       <% } %>
