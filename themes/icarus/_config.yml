@@ -1,12 +1,10 @@
 # Header
 menu:
-  #Home: /
-  Archives: /archives/
-  Tags: /tags/
+  Archive: /archives/
+  Tag: /tags/
   Timeline: /timeline/
   About: /about/
   Favorite: /favorite/
-  Wiki: //wiki.jamespan.me/
 
 
 # Content
