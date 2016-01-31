@@ -6,11 +6,11 @@
   var disqus_title = '<%- page.title %>';
   var disqus_url = '<%- config.url %>/<%- page.path %>';
   <% } %>
-  (function(){
+  (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + 'a.disquscdn.com/<% if (page.comments) { %>embed.js<% } else { %>count.js<% } %>';
+    dsq.src = '//a.disquscdn.com/<% if (page.comments) { %>embed.js<% } else { %>count.js<% } %>';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
 </script>
