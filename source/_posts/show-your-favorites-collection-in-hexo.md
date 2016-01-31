@@ -27,12 +27,12 @@ date: 2016-01-28 02:26:02
 
 Hexo 的脚本插件是 Hexo 插件的一种特殊形式，仅当插件简单到不需要依赖 Hexo 之外的其他模块时使用。
 
-从 Github 上我博客的源码目录下载最新的脚本，然后放到你本地博客源码目录的 `scripts` 目录或者主题目录下的 `scripts` 目录。
+从 Github 上我博客的源码目录下载脚本，然后放到你本地博客源码目录的 `scripts` 目录或者主题目录下的 `scripts` 目录。
 
 ```bash
 cd myblog
 mkdir -p scripts && cd scripts
-wget -c https://raw.githubusercontent.com/JamesPan/blog-src/master/themes/icarus/scripts/image-stream.js
+wget -c https://raw.githubusercontent.com/JamesPan/blog-src/8ac83216ef4f2904d326ec7cddcf7adba56d9757/themes/icarus/scripts/image-stream.js
 ```
 
 ## 配置 ##
