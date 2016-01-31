@@ -20,6 +20,7 @@
     "hexo-renderer-markdown-it": "~3.3.1",
     "hexo-renderer-stylus": "^0.2.0",
     "hexo-ruby-character": "^1.0.6",
+    "hexo-filter-asset-inline": "1.1.1",
     "hexo-filter-indicate-the-source": "1.0.2",
     "hexo-server": "^0.1.2"
   }
