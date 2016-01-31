@@ -28,7 +28,7 @@ before_install:
   - git config --global user.email panjiabang@gmail.com
 
 install:
-  - npm install
+  - npm install --production
 
 script:
   - ./node_modules/hexo/bin/hexo g
