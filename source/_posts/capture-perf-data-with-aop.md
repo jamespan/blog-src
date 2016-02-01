@@ -16,9 +16,9 @@ date: 2015-08-31 01:40:26
 
 <!-- more --><!-- indicate-the-source -->
 
-开发者需要在业务生产代码中嵌入 APM 厂商提供的埋点代码，才能够使用 APM 厂商提供的 Saas 服务。在瞬息万变的技术大潮中，这种代码级别的侵入和绑定，总是让开发者忧心忡忡。如果我作为架构师，在自建 APM 还是使用 Saas APM 上，我也会谨慎考虑。
+开发者需要在业务生产代码中嵌入 APM 厂商提供的埋点代码，才能够使用 APM 厂商提供的 SaaS 服务。在瞬息万变的技术大潮中，这种代码级别的侵入和绑定，总是让开发者忧心忡忡。如果我作为架构师，在自建 APM 还是使用 SaaS APM 上，我也会谨慎考虑。
 
-然而无论自建 APM 还是使用 Saas 服务，其底层模型无非就是海量日志的实时处理，数据来源就是应用产生的性能日志了。
+然而无论自建 APM 还是使用 SaaS 服务，其底层模型无非就是海量日志的实时处理，数据来源就是应用产生的性能日志了。
 
 {% blockquote Jim Barksdale %}
 If we have data, let’s look at data. If all we have are opinions, let’s go with mine.
@@ -26,7 +26,7 @@ If we have data, let’s look at data. If all we have are opinions, let’s go w
 
 这是一个数据为王的时代，夸张一点说，数据可以指导一切！
 
-言归正传，如果我们不希望使用 APM 尝试提供的强侵入的服务，我们就只能自建服务了，比如以 AOP 的方式采集线程内调用树以及调用开销并输出日志，然后使用 ELK(Elasticsearch, Logstash, and Kibana) 去采集日志并提供搜索、可视化等功能。如果采集的日志仅作为离线计算使用，可以直接用 Flume 把日志写入 HDFS。
+言归正传，如果我们不希望使用 APM 厂商提供的强侵入的服务，我们就只能自建服务了，比如以 AOP 的方式采集线程内调用树以及调用开销并输出日志，然后使用 ELK(Elasticsearch, Logstash, and Kibana) 去采集日志并提供搜索、可视化等功能。如果采集的日志仅作为离线计算使用，可以直接用 Flume 把日志写入 HDFS。
 
 随着系统流量越来越大，上述的方案渐渐就扛不住了，然后就需要自己实现高性能的日志采集 Agent，把采集到的日志一股脑写入 Kafka 之类的能扛大量堆积消息的 MQ 里面，然后使用 Storm/JStorm 做实时的流式计算。
 
