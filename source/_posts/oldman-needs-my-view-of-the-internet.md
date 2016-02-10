@@ -4,7 +4,7 @@ tags:
 categories:
   - Study
 hljs: true
-thumbnail: //i.imgur.com/8zGk8yK.png
+thumbnail: https://i.imgur.com/8zGk8yK.png
 cc: true
 comments: true
 date: 2016-02-10 15:01:46
@@ -22,7 +22,7 @@ date: 2016-02-10 15:01:46
 
 五层摆放的是各种专业书籍，电脑的，工业制造的，农业生产的，武术气功的，林林总总。有趣的是，我在摆放 M$ Office 系列书籍的书架上，发现了几本「React——引领未来的用户界面开发框架」，顿时笑趴在地，这大概是 React 有史以来被黑得最惨的一次了吧。
 
-![](//i.imgur.com/evihxc6l.jpg)
+![](https://i.imgur.com/evihxc6l.jpg)
 
 转着转着转到了摆放数据库技术的书架区，我指着其中的几本书，向家父解释我这段时间在工作中接触和学习的 Redis，我在前段时间学习的 MySQL 和它那我不熟悉的分支 MariaDB，以及号称世界上最先进的开源数据库的 PostgreSQL 和它的分布式版本 Greenplum。
 
@@ -69,7 +69,7 @@ error connecting to: www.google.com.hk:80 dial tcp: lookup www.google.com.hk on 
 
 一番 Google 之后发现，这是因为阿里云的服务器，即使在海外，用的还是国内的被污染的 DNS。解决办法自然是用纯天然无污染的 DNS 啦。于是我 ping 了一下 8.8.8.8，RTT 竟如此感人，2ms！莫非我这台服务器居然和 8.8.8.8 在同一个机房！
 
-![](//i.imgur.com/rbEINft.png)
+![](https://i.imgur.com/rbEINft.png)
 
 那么我接下来就是要修改 DNS 了！Docker 容器启动的时候，如果启动参数中没有 `--dns` 系列参数，Docker daemon 就会去翻宿主机的 `/etc/resolv.conf` 把里面的 name server 捞出来给容器使用。一开始的时候我用了简单粗暴的方法，修改宿主机的 `/etc/resolv.conf`，在里面加上两个 Google 提供的 name server。
 
