@@ -43,7 +43,7 @@ date: 2016-02-10 15:01:46
 
 ```bash
 docker pull jamespan/shadowsocks-go
-docker run -d --restart=always --name ss-proxy -p 8388:8388 -v path-to-config.json:/tmp/shadowsocks-config.json jamespan/shadowsocks-go
+docker run -d --restart=always --name ss-proxy -p port:8388 -v path-to-config.json:/tmp/shadowsocks-config.json jamespan/shadowsocks-go
 ```
 
 如果不挂载外部配置文件的话，影梭会使用我打包在镜像里的默认配置，在 8388 端口提供服务，密码是 password，加密算法是 aes-128-cfb。我当然是强烈建议自行挂载配置文件的。
@@ -84,7 +84,7 @@ Docker 提供了 `--dns` [系列参数][2]，能够在启动容器的时候指�
 我们在配置 DNS 的时候呢，一般都是直接配置一对作为主备。使用 Docker 命令行指定多个 name server 的时候，要这么搞：
 
 ```
-docker run -d --restart=always --dns=8.8.8.8 --dns=8.8.4.4 --name ss-proxy -p 8388:8388 -v path-to-config.json:/tmp/shadowsocks-config.json jamespan/shadowsocks-go
+docker run -d --restart=always --dns=8.8.8.8 --dns=8.8.4.4 --name ss-proxy -p port:8388 -v path-to-config.json:/tmp/shadowsocks-config.json jamespan/shadowsocks-go
 ```
 
 Docker 系列命令行参数的一个特点是，如果你想要表达列表，需要自己把参数重复多次，比如设置多个 DNS name server 就把 `--dns` 参数多写几遍，设置多个端口映射就把 `-p` 参数多写几遍……
