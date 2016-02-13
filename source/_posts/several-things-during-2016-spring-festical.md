@@ -1,6 +1,7 @@
 title: 丙申春假二三事
 categories:
   - Life
+thumbnail: https://i.imgur.com/xVn4pb6.jpg
 cc: true
 comments: true
 date: 2016-02-14 03:11:05
