@@ -1,5 +1,5 @@
 title: 潘家邦童鞋的简历
-#date: 2014-07-17 11:03:29
+date: 2016-02-15 11:03:29
 
 comment: true
 ---
@@ -8,7 +8,7 @@ comment: true
 
 -   潘家邦/男/1993
 -   本科/天津大学 计算机科学系
--   工作年限：1年
+-   工作年限：1 年
 
 
 -   Email：[panjiabang@gmail.com](mailto:panjiabang@gmail.com)
@@ -21,7 +21,7 @@ comment: true
 
 # 工作经历
 
-## 阿里巴巴-阿里云 （2016 年 1 月 ~ 至今）
+## 阿里巴巴-阿里云 （2016 年 2 月 ~ 至今）
 
 ### AliCloudDB
 
@@ -66,9 +66,6 @@ comment: true
 ## 开源项目
 -   [hexo-ruby-character](https://github.com/JamesPan/hexo-ruby-character)
     为静态博客系统 Hexo 添加「旁注标记」功能的插件，效果如<ruby>博客<rp>(</rp><rt>bó kè</rt><rp>)</rp></ruby>
-
--   [Timestamp](http://www.jamespan.me/lapp/timestamp/index.html)
-	一个获取当前时间戳的轻应用，能够根据参数调整时间戳格式，为解决 iOS 上无功能完善的同类型应用而开发
 
 -   [pyiconv](https://github.com/JamesPan/pyiconv)
     Unix 实用工具 iconv 的 Python 复刻和增强，增加自动识别编码的功能，在公司内网发表后立刻被同事用于日常工作
