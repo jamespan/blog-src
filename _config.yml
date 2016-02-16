@@ -29,6 +29,14 @@ category_dir: categories
 code_dir: downloads/code
 permalink_defaults:
 
+# Header
+menu:
+  Archive: /archives/
+  Tag: /tags/
+  Nonsense: /nonsense/
+  About: /about/
+  Favorite: /favorite/
+
 # Links
 links:
   刘典的博客: http://blog.sina.com.cn/ld2254432
@@ -111,6 +119,7 @@ google_analytics: UA-64482504-1
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
 theme: icarus
+# theme: mewpassant
 
 
 exclude_generator:
