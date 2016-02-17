@@ -4,8 +4,8 @@ tags:
 categories:
   - Life
 thumbnail: https://i.imgur.com/ShjVKT5.jpg
-cc: false
-comments: false
+cc: true
+comments: true
 date: 2016-02-17 01:25:29
 ---
 
