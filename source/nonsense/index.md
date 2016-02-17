@@ -21,3 +21,9 @@ comments: false
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
 </script>
+
+<script type="text/javascript">
+  $(function(){
+    $(".article-footer").remove();
+  });
+</script>
