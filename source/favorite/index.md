@@ -6,6 +6,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f1auv3fnd0j21kw2957wh.jpg [卧虎藏龙：青冥宝剑](http://movie.douban.com/subject/21327512/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f0zcla6r77j20il0rs11j.jpg [高跟鞋先生](http://movie.douban.com/subject/26652816/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f0hs7grqjvj20dc0hsta9.jpg [股权是什么](https://www.zhihu.com/publications/hour/19550544) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f0bqlp5gw8j21hc276e81.jpg [美丽心灵](http://movie.douban.com/subject/1306029/) %}
