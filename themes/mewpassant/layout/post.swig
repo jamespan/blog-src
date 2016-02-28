@@ -1,0 +1,41 @@
+{% extends 'default.swig' %}
+
+<div class="col-8" id="main">
+  <div class="res-cons">
+  <article class="post clearfix">
+  {% include '_partials/article.swig' %}
+  <footer class="post-footer">
+    <div class="meta">
+      {% include post/author.html %} and 
+      File under {% include post/categories.html %}
+    </div>
+    {% unless page.sharing == false %}
+      {% include post/sharing.html %}
+    {% endunless %}
+    <div class="meta">
+      {% if page.previous.url %}
+        <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+      {% endif %}
+      {% if page.next.url %}
+        <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
+      {% endif %}
+    </div>
+  </footer>
+</article>
+{% if site.disqus_short_name and page.comments == true %}
+  <section>
+    <h3>Comments</h3>
+    <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+  </section>
+{% endif %}
+  </div>
+</div>
+{% unless page.sidebar == false %}
+  <aside id="secondary">
+  {% if site.post_asides.size %}
+    {% include_array post_asides %}
+  {% else %}
+    {% include_array default_asides %}
+  {% endif %}
+</aside>
+{% endunless %}

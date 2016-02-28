@@ -1,0 +1,2 @@
+<a class="index-nav current" href="{{ root_url }}/">Blog</a>
+<a class="archives-nav" href="{{ root_url }}/archives">Archives</a>

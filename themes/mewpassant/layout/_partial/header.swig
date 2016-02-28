@@ -1,0 +1,15 @@
+    <div class="container">
+        <div class="col-group">
+            <div class="site-name ">
+                <a id="logo" href="{{ root_url }}/">
+                   {{ site.title }}
+                </a>
+                {% if site.subtitle %}<p class="description">{{ site.subtitle }}</p>{% endif %}
+            </div>
+            <div>
+                <nav id="nav-menu" class="clearfix">
+                    {% include 'custom/navigation.swig' %}
+                </nav>
+            </div>
+        </div>
+    </div>
