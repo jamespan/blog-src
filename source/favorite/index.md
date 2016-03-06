@@ -6,6 +6,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f1nbnm9339j21jk26ku0x.jpg [叶问3](https://movie.douban.com/subject/11598977/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f1hsev4ex4j21bl1ww1kx.jpg [数学女孩](https://book.douban.com/subject/26677354/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f1f9l931ldj21bn1xgb29.jpg [死侍](http://movie.douban.com/subject/3718279/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f1auv3fnd0j21kw2957wh.jpg [卧虎藏龙：青冥宝剑](http://movie.douban.com/subject/21327512/) %}

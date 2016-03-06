@@ -11,6 +11,7 @@ hljs: true
 comments: true
 ---
 
+这是我在一年前随手写下的代码，而且这个代码只会被我使用一次，如今我已经没有精力和时间再去跟进和维护它了。如果你在使用中遇到问题，能够自己解决最好，不能解决的话请访问 http://urouge.github.io/migrate-to-disqus/ 获取一个更新的轮子，前些日子有人用它完成了评论系统的迁移。
 
 # 背景 #
 
@@ -54,13 +55,6 @@ python duoshuo-migrator.py -i ~/Desktop/export.json  -o a.xml
 
 希望我顺手造的轮子能在你逃离多说拥抱 Disqus 的时候，帮你减少麻烦节省时间，也希望我的贡献让这个世界稍微变得美好了那么一点点~
 
-# Change Log #
-
-## 2015-11-02 ##
-
-根据网友[屠夫9441][3] 的反馈，增强了代码的健壮性。怀疑是多说修改了导出的文件格式，原本 post 的 post_id 字段是 string 类型，现在变成 number 了。
-
-{% github JamesPan duoshuo-migrator 0be479c1 %}
 
 [1]: http://www.yinwang.org/blog-cn/2013/04/13/generality/
 [2]: http://github.com/JamesPan/duoshuo-migrator
