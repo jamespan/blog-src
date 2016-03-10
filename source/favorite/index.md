@@ -6,6 +6,8 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f1s6zqo3a4j213e1jp168.jpg [疯狂动物城](https://movie.douban.com/subject/25662329/) %}
+{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f1s6x5xs9bj21kw27gqv5.jpg [谍影特工](https://movie.douban.com/subject/10792320/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f1nbnm9339j21jk26ku0x.jpg [叶问3](https://movie.douban.com/subject/11598977/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f1hsev4ex4j21bl1ww1kx.jpg [数学女孩](https://book.douban.com/subject/26677354/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f1f9l931ldj21bn1xgb29.jpg [死侍](http://movie.douban.com/subject/3718279/) %}
