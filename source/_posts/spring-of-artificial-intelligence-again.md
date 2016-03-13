@@ -3,6 +3,7 @@ tags:
   - Thinking
 categories:
   - Study
+thumbnail: http://i.imgur.com/Hjs8fcEm.png
 cc: true
 comments: true
 date: 2016-03-10 23:52:47
@@ -14,7 +15,7 @@ AlphaGo 连续两天在围棋上击败李世石，世界为之侧目。「开发
 
 <!-- more --><!-- indicate-the-source -->
 
-> 目前我所在的技术团队是「阿里[云数据库](https://www.aliyun.com/product/rds/)服务团队」，我们正在寻找优秀的资深工程师以及技术专家。如果你有数据库、自动化运维等方面的工作经验，或者在 Python、C++ 等语言上有一定的造诣，而且愿意在云计算领域做点事情，那么，我很期待你的[来信](mailto:panjiabang@gmail.com)！
+{% recruit %}
 
 自从几十年前人工智能出现在大众视野中，它就成为了人民群众的一个闲聊扯淡时的谈资，尤其是类似于「奇点」这种耸人听闻的名词，更是被非专业人士津津乐道，仿佛知道了奇点就能做些什么使自己摆脱被机器人统治的命运。
 
