@@ -17,7 +17,7 @@ date: 2015-04-09 00:13:35
 
 我曾经也有过一段不得不使用 Windows 进行开发的日子，在那段黑暗的日子里，Cygwin 无疑是一缕春风，一道阳光，给我的笔记本带来了些许效率的色彩。然而，就使用体验来说，Cygwin 与 Linux 相去甚远。且不说软件数量、版本这个硬伤，单是安装软件这一操作，就让人感觉繁琐无比。
 
-虽然 Cygwin 号称 *Get that Linux felling on Windows*，给人的感觉却一点都不 Linux。
+虽然 Cygwin 号称 *Get that Linux feeling on Windows*，给人的感觉却一点都不 Linux。
 
 幸运的是，我们现在有了 [Babun][3]，一个 Windows 上的开箱即用的壳程序，基于 Cygwin，胜于 Cygwin。
 
