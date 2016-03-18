@@ -3,7 +3,7 @@ tags:
   - Thinking
 categories:
   - Study
-thumbnail: http://i.imgur.com/Hjs8fcEm.png
+thumbnail: https://i.imgur.com/Hjs8fcEm.png
 cc: true
 comments: true
 date: 2016-03-10 23:52:47
