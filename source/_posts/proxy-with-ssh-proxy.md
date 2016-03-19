@@ -90,13 +90,22 @@ node -e "$(< ./proxy.pac);for(var key in domains){console.log(key)}" | python ./
 
 当然，autoproxy2pac 参数中的代理不能不写可以乱写，反正这个不是重点。得到 PAC 文件之后就是让 node 加载这个名为 PAC 实际上是 JavaScript 的文件，并把文件中的一个叫 domains 的哈希表的 key 输出，这样就得到域名集合了~
 
-到目前为止一切都很美好，但是接下来的事情及有些不那么美好了，这也是我说 SSH Proxy 基本上实现了我想要的功能的原因。「基本上」实现了，就是还有一些隐含需求没有实现的的意思，比如性能。
+当时我在使用 SSH Proxy 的时候遭遇了一些影响使用体验的性能问题，然后就给开发者邮件反馈了下，在最近发布的版本（16.03）中他们已经搞定了~
 
-SSH Proxy 的「偏好设置」界面，当我导入 3000+ 条白名单之后，卡了，卡成翔了！从此只要一打开这软件的偏好设置，不管点哪里，都会卡好一会，风火轮转啊转，然后才响应，这体验不能再糟糕了。
+> 版本 16.03 中的新功能
+> 1. 增加: 现在支持 SOCKS4 和 SOCKS4A 代理协议
+> 2. **修正: 当黑/白名单条目上千时, 进入首选项会导致 App 卡住**
+> 3. 修正: 连接成功后, 首次数据交换更迅速
+> 4. 修正: 即便设置项被关闭, SSH Proxy 仍然执行 "严格检查主机密钥"
+> 5. 改进: 大幅提高数据交换效率
+> 6. 改进: 对一些只允许访问 80 (HTTP) 和 443 (HTTPS) 的防火墙, 这个版本提高了穿透性
+> 7. 其它小幅改进
 
-幸好导入了 gfwlist 之后，我基本上就不需要怎么去折腾白名单了，不然动不动卡成翔可不好玩。把系统代理直接设置成 SSH Proxy 生成的 SOCKS 之后，可以直接从菜单栏的图标上，选择代理策略，轻松切换全局代理和白名单代理。
+这个版本号还是比较有趣的，模仿 Ubuntu 么，16 年 3 月释出的版本号就叫 16.03。
 
-其实我还是蛮喜欢这个软件的，有时间找他们谈笑风生一下，如果不赶紧把性能的问题搞定，说不得我就只能亲自动手造一个轮子了嘿嘿嘿~
+更让我感到意外的是，我的英文名 James Pan 还出现在了 SSH Proxy 的 About 界面，这还是人生头一回呢，感觉自己萌萌哒。
+
+![](http://ww1.sinaimg.cn/large/e724cbefgw1f22hywdo9ej20go0atjsw.jpg)
 
 [1]: https://www.ibm.com/developerworks/cn/linux/l-cn-sshforward/
 [2]: https://www.debian-administration.org/article/449/SSH_dynamic_port_forwarding_with_SOCKS
