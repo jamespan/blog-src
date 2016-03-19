@@ -99,3 +99,20 @@ comment: true
 + [BootCDN](http://www.bootcdn.cn)
 + [Plugins | Hexo](http://hexo.io/docs/plugins.html)
 + [做一个照片流，分享你喜欢的书和电影](/2016/01/28/show-your-favorites-collection-in-hexo/)
+
+
+<script type="text/javascript">
+$(function() {
+  var shown = 18;
+  $('figure').slice(shown).addClass('foldable');
+  if ($('.foldable').length > 0) {
+    $('.foldable').hide();
+    $('div.hexo-img-stream').after('<p id="btn-more" class="article-more-link" align="center"><a href="javascript:;">Show More</a></p>');
+    $('#btn-more').click(function() {
+      $('.foldable').show();
+      $('#btn-more').hide();
+    });
+  }
+});
+</script>
+
