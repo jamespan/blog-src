@@ -1,13 +1,14 @@
 title: Bullshit
 meta: false
 comments: false
+static-disqus: true
 ---
 
 
-[Disqus 都支持哪些 HTML 标签呢？][1]可以用 `<br>` 换行，用 `<p>` 分段，用 `<a>` 写超链接，用 `<blockquote>` 引用别人的话，用 `<s>` 加删除线，`<u>` 加下划线，`<strong>` 加粗，还可以用 `<pre><code>` 给代码加上高亮特技！不过 Google 不抓取 Disqus 的评论内容真是让人遗憾呢！
+[Disqus 都支持哪些 HTML 标签呢？][1]可以用 `<br>` 换行，用 `<p>` 分段，用 `<a>` 写超链接，用 `<blockquote>` 引用别人的话，用 `<s>` 加删除线，`<u>` 加下划线，`<strong>` 加粗，还可以用 `<pre><code>` 给代码加上高亮特技！
 
 <div id="disqus_thread">
-  吭哧吭哧加载中…渣网速！
+  吭哧吭哧加载中…网速感人
   <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
 
