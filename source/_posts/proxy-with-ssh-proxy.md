@@ -105,7 +105,7 @@ node -e "$(< ./proxy.pac);for(var key in domains){console.log(key)}" | python ./
 
 更让我感到意外的是，我的英文名 James Pan 还出现在了 SSH Proxy 的 About 界面，这还是人生头一回呢，感觉自己萌萌哒~
 
-![](http://ww1.sinaimg.cn/large/e724cbefgw1f22hywdo9ej20go0atjsw.jpg)
+![](http://ww2.sinaimg.cn/large/e724cbefgw1f236hfziukj213k0ru44w.jpg)
 
 [1]: https://www.ibm.com/developerworks/cn/linux/l-cn-sshforward/
 [2]: https://www.debian-administration.org/article/449/SSH_dynamic_port_forwarding_with_SOCKS
