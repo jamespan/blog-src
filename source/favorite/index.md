@@ -6,6 +6,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f28cepm5koj212y1jke0e.jpg [荒野猎人](https://movie.douban.com/subject/5327268/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f2784xw3p6j208i0c33z7.jpg [图灵的秘密](http://book.douban.com/subject/10779604/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f21h2rlzxvj21kw295x6p.jpg [倭寇的踪迹](https://movie.douban.com/subject/6425116/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f21df7vsiuj21kw299kjl.jpg [箭士柳白猿](https://movie.douban.com/subject/7564989/) %}
