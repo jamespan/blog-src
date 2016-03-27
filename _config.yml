@@ -168,6 +168,14 @@ indicate_the_source:
 asset_inline:
  enable: false
 
+fancy_underline:
+ enable: false
+ underline_selectors:
+   - ".article-entry a"
+ exclude_selectors:
+   - "p.article-more-link a"
+ play_sound: true
+
 #search:
 #  path: search.xml
 #  field: post
