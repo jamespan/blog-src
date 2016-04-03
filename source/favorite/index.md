@@ -6,6 +6,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f2jd4x3eh5j205z08dt90.jpg [听爸爸的话！](https://movie.douban.com/subject/10569609/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f2i92m4srhj20su15otir.jpg [我的特工爷爷](https://movie.douban.com/subject/25945280/) %}
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f28cepm5koj212y1jke0e.jpg [荒野猎人](https://movie.douban.com/subject/5327268/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f2784xw3p6j208i0c33z7.jpg [图灵的秘密](http://book.douban.com/subject/10779604/) %}
