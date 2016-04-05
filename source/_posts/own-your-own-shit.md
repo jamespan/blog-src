@@ -4,10 +4,12 @@ tags:
 categories:
   - Study
 hljs: true
-thumbnail: https://i.imgur.com/Vci1O9Jm.jpg
-cc: false
-comments: false
+thumbnail: 'https://i.imgur.com/Vci1O9Jm.jpg'
+cc: true
+comments: true
+date: 2016-04-05 23:55:06
 ---
+
 
 最近我开始接管一个应用 T，然而我并不是接管应用 T 的开发工作，而是搞一个新的应用 Q 来取代它，但是在 T 下线之前，我得做一些日常运维的工作让 T 能够正常工作下去。
 
