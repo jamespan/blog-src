@@ -6,6 +6,8 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f2rmo7cqmej21kw27nqv5.jpg [伦敦陷落](https://movie.douban.com/subject/25757186/) %}
+{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f2rmpge1n2j20rg12wjvh.jpg [在下坂本，有何贵干？](https://movie.douban.com/subject/26708698/) %}
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f2pr5mhpvmj208i0c3gm1.jpg [DOOM启世录（纪念版）](https://book.douban.com/subject/26642310/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f2jd4x3eh5j205z08dt90.jpg [听爸爸的话！](https://movie.douban.com/subject/10569609/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f2i92m4srhj20su15otir.jpg [我的特工爷爷](https://movie.douban.com/subject/25945280/) %}
