@@ -9,7 +9,6 @@ comment: true
 {% stream %}
 <!-- {% figure  []() %} -->
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f1hsev4ex4j21bl1ww1kx.jpg [数学女孩](https://2.taobao.com/item.htm?id=529629921884) %}
-{% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1etysv2eabtj208l0bxaa5.jpg [构建之法](https://2.taobao.com/item.htm?id=529655900544) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f2rm3f9kqsj20ao0dc3zd.jpg [编程之美](https://2.taobao.com/item.htm?id=529615406500) %}
 {% endstream %}
 
