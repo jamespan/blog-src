@@ -6,6 +6,8 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f2wntwi5omj21kw299b2a.jpg [希特勒回来了](https://movie.douban.com/subject/26585014/) %}
+{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f2wnse02orj20900bct8z.jpg [七周七并发模型](https://book.douban.com/subject/26337939/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f2rysuk2rxj208u0blt8w.jpg [Docker源码分析](https://book.douban.com/subject/26581184/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f2rmo7cqmej21kw27nqv5.jpg [伦敦陷落](https://movie.douban.com/subject/25757186/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f2rmpge1n2j20rg12wjvh.jpg [在下坂本，有何贵干？](https://movie.douban.com/subject/26708698/) %}
@@ -81,6 +83,7 @@ comment: true
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1ettk1rwd0rj20dw0jnac4.jpg [漫画家与助手们](http://movie.douban.com/subject/25785220/) %}
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1etyrrgmvlyj21ii28i1kx.jpg [互联网之子](http://movie.douban.com/subject/25785114/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1etytk2s5xzj20a30a374f.jpg [金钱有术](http://book.douban.com/subject/26237302/) %}
+{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f2wnwr1kxej208l0c0gls.jpg [重来](https://book.douban.com/subject/5320866/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1etyquwbgosj21kw2dwu0y.jpg [绣春刀](http://movie.douban.com/subject/24745500/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1etytngy6xgj20a30a3t91.jpg [创业时我们在知乎聊什么](http://book.douban.com/subject/25800616/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1etyot1u02dj20ir0rsdhk.jpg [硅谷 第一季](http://movie.douban.com/subject/20644938/) %}
