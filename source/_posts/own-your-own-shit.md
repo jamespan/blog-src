@@ -1,4 +1,4 @@
-title: own your own shit —— 从 NGINX 日志滚动说起
+title: 从 NGINX 日志滚动说起
 tags:
   - NGINX
 categories:
