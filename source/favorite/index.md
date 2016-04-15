@@ -6,6 +6,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f2xqpnu26qj20go0nwwlx.jpg [线上游戏的老婆不可能是女生](https://movie.douban.com/subject/26588672/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f2wntwi5omj21kw299b2a.jpg [希特勒回来了](https://movie.douban.com/subject/26585014/) %}
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f2wnse02orj20900bct8z.jpg [七周七并发模型](https://book.douban.com/subject/26337939/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f2rysuk2rxj208u0blt8w.jpg [Docker源码分析](https://book.douban.com/subject/26581184/) %}
