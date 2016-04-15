@@ -9,6 +9,7 @@ nav:
   next: 'Next'
   prev: 'Prev'
 widget:
+  announces: 'announces'
   recents: 'recents'
   archives: 'archives'
   categories: 'categories'

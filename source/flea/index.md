@@ -1,22 +1,26 @@
-title: Flea Market
+title: Exchange
+date: 2016-04-10 15:18:29
 comment: true
 ---
 
-我来，我见，我征服！书籍不是陈设，是知识的载体。当我把知识消化吸收，这载体对我便再无用处。
+这里展示的是我手上已经看完了的而且不打算收藏的实体书。如果你手上有我想看的书，那么正好，我们可以做个交换，或许还可以交个朋友。当然，运费到付。
 
-买一本书，结一份缘，愿这本书能帮助你少走些弯路，多看些风景。
+如果你手上闲置的书籍不在我的「心愿单」中，但你觉得我或许会感兴趣，我也不会拒绝沟通。
+
+如果我们在三次元中已经是朋友，尽管开口便是，直接赠送。
+
+请在评论区留言交流。
 
 {% stream %}
 <!-- {% figure  []() %} -->
-{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f1hsev4ex4j21bl1ww1kx.jpg [数学女孩](https://2.taobao.com/item.htm?id=529629921884) %}
-{% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f2rm3f9kqsj20ao0dc3zd.jpg [编程之美](https://2.taobao.com/item.htm?id=529615406500) %}
+{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f1hsev4ex4j21bl1ww1kx.jpg [数学女孩](https://book.douban.com/subject/26677354/) %}
+{% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f2rm3f9kqsj20ao0dc3zd.jpg [编程之美](https://book.douban.com/subject/3004255/) %}
 {% endstream %}
 
----
+## 心愿单
 
-鸣谢：
-
-+ [闲鱼](https://2.taobao.com/)
-
-
+{% stream %}
+<!-- {% figure  []() %} -->
+{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f2xuhm8ab5j20930b9q3l.jpg [具体数学](https://book.douban.com/subject/21323941/) %}
+{% endstream %}
 

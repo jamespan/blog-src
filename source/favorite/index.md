@@ -1,6 +1,5 @@
 title: Favorite
-#date: 2014-07-17 11:03:29
-
+date: 2015-10-26 11:03:29
 comment: true
 ---
 
@@ -99,6 +98,7 @@ comment: true
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1etysyd54u9j207s0b4aac.jpg [编程之道](http://book.douban.com/subject/1899158/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1ettjb8kgt1j20b40fjjsi.jpg [某科学的超电磁炮](http://movie.douban.com/subject/4067827/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1etyrvt8ckzj20bc0g474w.jpg [人月神话](http://book.douban.com/subject/1102259/) %}
+{% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f2rm3f9kqsj20ao0dc3zd.jpg [编程之美](https://book.douban.com/subject/3004255/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1etyrug9t1lj208c0apq38.jpg [代码大全](http://book.douban.com/subject/1477390/) %}
 {% endstream %}
 

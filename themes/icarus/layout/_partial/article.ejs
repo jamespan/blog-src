@@ -10,7 +10,6 @@
         <% if ((post.meta == null) || (page.meta != null && post.meta)){ %>
         <div class="article-meta">
           <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
-          <%- partial('post/category') %>
           <%- partial('post/pv') %>
           <%- partial('post/source') %>
           <%- partial('post/author') %>
@@ -44,6 +43,7 @@
       <% } else if (post.comments && config.duoshuo_shortname){ %>
         <a href="<%- post.permalink %>#ds-thread" class="article-comment-link"><%= __('article.comments') %></a>
       <% } %>
+      <%- partial('post/category') %> 
       <%- partial('post/tag') %>
     </footer>
   </div>
