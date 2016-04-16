@@ -13,6 +13,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f2yuf9i3nhj208o0bu0su.jpg [只是为了好玩](https://book.douban.com/subject/25930025/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f1hsev4ex4j21bl1ww1kx.jpg [数学女孩](https://book.douban.com/subject/26677354/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f2rm3f9kqsj20ao0dc3zd.jpg [编程之美](https://book.douban.com/subject/3004255/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f2rysuk2rxj208u0blt8w.jpg [Docker源码分析](https://book.douban.com/subject/26581184/) %}
