@@ -5,6 +5,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f32xwuzrs5j20te15o77z.jpg [龙虾](https://movie.douban.com/subject/20514947/) %} 
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f2z2sju03mj20b40gomy4.jpg [驯服烂代码](https://book.douban.com/subject/26208707/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f2yuf9i3nhj208o0bu0su.jpg [只是为了好玩](https://book.douban.com/subject/25930025/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f2xqpnu26qj20go0nwwlx.jpg [线上游戏的老婆不可能是女生](https://movie.douban.com/subject/26588672/) %}
