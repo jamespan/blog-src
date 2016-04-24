@@ -5,6 +5,8 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f37vbkfennj208c0c90t6.jpg [一个定理的诞生](https://book.douban.com/subject/26681315/) %} 
+{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f37vagkcczj20h30o6tca.jpg [垫底辣妹](https://movie.douban.com/subject/26259677/) %} 
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f342g692x5j21kw2bthdt.jpg [一夜惊喜](https://movie.douban.com/subject/16475702/) %}
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f32xwuzrs5j20te15o77z.jpg [龙虾](https://movie.douban.com/subject/20514947/) %} 
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f2z2sju03mj20b40gomy4.jpg [驯服烂代码](https://book.douban.com/subject/26208707/) %}
