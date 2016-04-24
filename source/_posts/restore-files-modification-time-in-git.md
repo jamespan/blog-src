@@ -5,6 +5,7 @@ tags:
 categories:
   - Study
 thumbnail: 'https://i.imgur.com/2YbLXqh.png'
+hljs: true
 cc: true
 comments: true
 date: 2016-04-24 12:53:09
