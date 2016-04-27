@@ -5,6 +5,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f3bmaliiwog205007it93.gif [Software Architecture Patterns](http://www.oreilly.com/programming/free/software-architecture-patterns.csp) %}
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f38655c19gj21kw27g4qq.jpg [美人鱼](https://movie.douban.com/subject/19944106/) %} 
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f37vbkfennj208c0c90t6.jpg [一个定理的诞生](https://book.douban.com/subject/26681315/) %} 
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f37vagkcczj20h30o6tca.jpg [垫底辣妹](https://movie.douban.com/subject/26259677/) %} 
