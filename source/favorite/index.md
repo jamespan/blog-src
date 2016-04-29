@@ -3,6 +3,8 @@ date: 2015-10-26 11:03:29
 comment: true
 ---
 
+> 生命要浪费在美好的事物上，体重一定要浪费在美味的食物上，爱情一定要浪费在你爱的人身上 —— 佚名
+
 {% stream %}
 <!-- {% figure  []() %} -->
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f3bmaliiwog205007it93.gif [Software Architecture Patterns](http://www.oreilly.com/programming/free/software-architecture-patterns.csp) %}
