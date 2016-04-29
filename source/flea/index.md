@@ -14,11 +14,11 @@ comment: true
 {% stream %}
 <!-- {% figure  []() %} -->
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f37vbkfennj208c0c90t6.jpg [一个定理的诞生](https://book.douban.com/subject/26681315/) %} 
-{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f2z2sju03mj20b40gomy4.jpg [驯服烂代码](https://book.douban.com/subject/26208707/) %}
+<!--{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f2z2sju03mj20b40gomy4.jpg [驯服烂代码](https://book.douban.com/subject/26208707/) %}-->
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f2yuf9i3nhj208o0bu0su.jpg [只是为了好玩](https://book.douban.com/subject/25930025/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f1hsev4ex4j21bl1ww1kx.jpg [数学女孩](https://book.douban.com/subject/26677354/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f2rm3f9kqsj20ao0dc3zd.jpg [编程之美](https://book.douban.com/subject/3004255/) %}
-{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f2rysuk2rxj208u0blt8w.jpg [Docker源码分析](https://book.douban.com/subject/26581184/) %}
+<!--{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f2rysuk2rxj208u0blt8w.jpg [Docker源码分析](https://book.douban.com/subject/26581184/) %}-->
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f2pr5mhpvmj208i0c3gm1.jpg [DOOM启世录（纪念版）](https://book.douban.com/subject/26642310/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1etyst9xf3ej208f0c674i.jpg [若为自由故](http://book.douban.com/subject/26314527/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f2xv3ks9z0j208f0c6q38.jpg [拖拉一点也无妨](https://book.douban.com/subject/24839553/) %}
