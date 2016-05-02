@@ -7,6 +7,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f3h5oegeo9j20xc1ddtfa.jpg [猫鼠游戏](https://movie.douban.com/subject/1305487/) %}
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f3evz5toprj20tu15oq8p.jpg [北京遇上西雅图之不二情书](https://movie.douban.com/subject/26322792/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f3eo5mspl3j20rs13bn8i.jpg [踏血寻梅](https://movie.douban.com/subject/25966085/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f3bmaliiwog205007it93.gif [Software Architecture Patterns](http://www.oreilly.com/programming/free/software-architecture-patterns.csp) %}
