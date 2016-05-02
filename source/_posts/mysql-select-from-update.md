@@ -1,7 +1,7 @@
 title: 更新多行数据，然后把更新的结果读出来，这样的 SQL 要怎么写？
 tags:
   - MySQL
-  - AliCloudDB
+  - ApsaraDB
 categories:
   - Study
 thumbnail: https://i.imgur.com/zztN4bU.jpg
