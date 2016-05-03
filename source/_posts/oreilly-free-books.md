@@ -19,7 +19,11 @@ date: 2016-04-30 02:40:11
 
 {% recruit %}
 
-当然，O'Reilly 出的最接地气的一本书，当属下面这本（误
+华章出版的最有名的图书，当属这本「施法导论」（误
+
+![](https://i.imgur.com/7L1KiAL.jpg)
+
+而 O'Reilly 出的最接地气的一本书，当属下面这本（误
 
 ![](https://i.imgur.com/aZEascJl.jpg)
 
