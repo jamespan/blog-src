@@ -10,6 +10,7 @@
         <% if ((post.meta == null) || (page.meta != null && post.meta)){ %>
         <div class="article-meta">
           <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
+          <%- partial('post/source') %>
           <%- partial('post/author') %>
         </div>
         <% } %>
