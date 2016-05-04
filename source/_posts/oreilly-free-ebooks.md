@@ -41,7 +41,7 @@ So, the MVP of this article comes. Following is a one line code of JavaScript th
 $.map($('body > article:nth-child(4) > div > section > div > a'), function(e){return e.href.replace(/free/, "free/files").replace(/csp.*/, "pdf")})
 ```
 
-Just open the dev tools, than paste above jQuery expression into console and hit enter, boom! All the PDF ebook download links are there, it's easy to download them all using wget or axel.
+Just open the dev tools, then paste jQuery expression above into console and hit enter, boom! All the PDF ebook download links are there, it's easy to download them all using wget or axel.
 
 ![](https://i.imgur.com/txLqgnx.png)
 
