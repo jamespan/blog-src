@@ -10,7 +10,7 @@ comments: true
 date: 2016-05-04 23:25:10
 ---
 
-There are some books you will never want to read if you're not an expert. Yet, some presses are good at publishing those books, like [Huazhang](http://www.hzbook.com/ps/) and O'Reilly.
+There are some books you will never want to read if you're not an expert. Yet, some presses are good at publishing those books, like [Huazhang][3] and O'Reilly.
 
 It's easy to recognize books from these two presses. I have read lot's Huazhang books at  college, mostly the basis of computer science. We call these books "black cover books" while it's actual name may be "computer science series". 
 
@@ -28,11 +28,11 @@ And the most honest book published by O'Reilly was following.
 
 ![](https://i.imgur.com/aZEascJl.jpg)
 
-Let's return to the main topic. I read *[Free Programming Reports][2]* several days ago, in fragmentary times.
+Let's return to the main topic. I read *[Software Architecture Patterns][1]* several days ago, in fragmentary times.
 
 The book introducing some common architectures like mud, layered, event driven, etc. The most surprising part is there is a chapter about microservice, which is the hottest architectures nowadays. Not only tell how but also why it design, what problem it solved, that tradeoff it made, etc.
 
-This book is one of the O'Reilly free book collection, Free Programming Reports. Besides programming, there are topics like business, data, IoT, etc. Just like an eater wandering into a room full of delicious free food!
+This book is one of the O'Reilly free book collection, [Free Programming Reports][2]. Besides programming, there are topics like business, data, IoT, etc. Just like an eater wandering into a room full of delicious free food!
 
 I used to download the resource I like from the internet, in case of I can't find it anywhere some days later. Who knows, life is a bitch, so as the internet.
 
@@ -50,4 +50,5 @@ Happy reading!
 
 [1]: http://www.oreilly.com/programming/free/software-architecture-patterns.csp
 [2]: http://www.oreilly.com/programming/free/
+[3]: http://www.hzbook.com/ps/
 
