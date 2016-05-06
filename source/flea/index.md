@@ -13,6 +13,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f3lx4cxzecj208c0c9mxh.jpg [番茄工作法图解](https://book.douban.com/subject/5916234/) %}
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f37vbkfennj208c0c90t6.jpg [一个定理的诞生](https://book.douban.com/subject/26681315/) %} 
 <!--{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f2z2sju03mj20b40gomy4.jpg [驯服烂代码](https://book.douban.com/subject/26208707/) %}-->
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f2yuf9i3nhj208o0bu0su.jpg [只是为了好玩](https://book.douban.com/subject/25930025/) %}
