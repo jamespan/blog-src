@@ -7,11 +7,6 @@
       <span id="location"><i class="fa fa-map-marker"></i><%= config.location %></span>
       <a id="follow" href="<%= config.follow %>" target="_blank"><%=__('profile.follow')%></a>
     </div>
-    <% if(theme.recruit) { %>
-    <div class="base-info profile-block">
-      <p><a href="mailto:jiabang.pjb@alibaba-inc.com">阿里集团-菜鸟网络面向社会招聘资深工程师、技术专家，有意者邮件联系，长期有效</a></p>
-    </div>
-    <% } %>
     <div class="article-info profile-block">
       <div class="article-info-block">
         <%= site.posts.length %>
@@ -27,8 +22,10 @@
       <div style="background:url(<%= theme.wechat %>) no-repeat;background-size:240px 240px;height:240px;width:240px" id="wechat-qrcode">
     </div>
     </div>
-    
     <% } %>
+    <div class="base-info profile-block" align="center">
+      <img src="https://travis-ci.org/JamesPan/blog-src.svg?branch=master">
+    </div>
     <% if(theme.contacts) { %>
     <div class="contact-info profile-block">
       <table class="contact-list">
