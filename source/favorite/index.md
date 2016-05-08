@@ -7,6 +7,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f3o2tcra82j208r0brwev.jpg [Open Stack设计与实现](https://book.douban.com/subject/26374647/) %}
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f3n4j3tlhvj20fk0m80w7.jpg [Re：从零开始的异世界生活](https://movie.douban.com/subject/26575153/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f3lx4cxzecj208c0c9mxh.jpg [番茄工作法图解](https://book.douban.com/subject/5916234/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f3ks84ezv4j208f0c60t0.jpg [程序员的呐喊](https://book.douban.com/subject/25884108/) %}
