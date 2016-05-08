@@ -9,7 +9,7 @@ profile: true
 # Sidebar
 sidebar: right
 widgets:
-- announce
+# - announce
 - recent_posts
 - links
 
