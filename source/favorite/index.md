@@ -7,6 +7,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f3uqa4r8zyj20b00go783.jpg [火锅英雄](https://movie.douban.com/subject/25662327/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f3t4dz3yzjj208r0bo74n.jpg [你好哇，程序员](https://book.douban.com/subject/26772838/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f3ry2ccl5ej208r0br3yw.jpg [文明之光 （第三册）](https://book.douban.com/subject/26275177/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f3p2pxdxl8g205007iq35.gif [How to Make Mistakes in Python](http://www.oreilly.com/programming/free/how-to-make-mistakes-in-python.csp) %} 
