@@ -28,29 +28,25 @@
   <% if (theme.rss){ %>
     <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
   <% } %>
-  <% if (theme.favicon){ %>
-    <link rel="shortcut icon" href="<%- theme.favicon %>">
-  <% } else { %>
-    <link rel="shortcut icon" href="<%- config.root %>favicon.ico">
-  <% } %>
-  <% if (theme.apple_icon_57){ %>
-    <link rel="apple-touch-icon-precomposed" href="<%- theme.apple_icon_57 %>" sizes="57x57">
-  <% } %>
-  <% if (theme.apple_icon_72){ %>
-    <link rel="apple-touch-icon-precomposed" href="<%- theme.apple_icon_72 %>" sizes="72x72">
-  <% } %>
-  <% if (theme.apple_icon_76){ %>
-    <link rel="apple-touch-icon-precomposed" href="<%- theme.apple_icon_76 %>" sizes="76x76">
-  <% } %>
-  <% if (theme.apple_icon_114){ %>
-    <link rel="apple-touch-icon-precomposed" href="<%- theme.apple_icon_114 %>" sizes="114x114">
-  <% } %>
-  <% if (theme.apple_icon_120){ %>
-    <link rel="apple-touch-icon-precomposed" href="<%- theme.apple_icon_120 %>" sizes="120x120">
-  <% } %>
-  <% if (theme.apple_icon_152){ %>
-    <link rel="apple-touch-icon-precomposed" href="<%- theme.apple_icon_152 %>" sizes="152x152">
-  <% } %>
+  
+  <link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/icons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/icons/android-chrome-192x192.png" sizes="192x192">
+  <meta name="msapplication-square70x70logo" content="/icons/smalltile.png" />
+  <meta name="msapplication-square150x150logo" content="/icons/mediumtile.png" />
+  <meta name="msapplication-wide310x150logo" content="/icons/widetile.png" />
+  <meta name="msapplication-square310x310logo" content="/icons/largetile.png" />
   
   <link rel="stylesheet" type="text/css" href="/css/style.css">
   <% /*
