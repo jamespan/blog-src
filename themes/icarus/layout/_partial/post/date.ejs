@@ -1,6 +1,10 @@
 <div class="<%= class_name %>">
-  <i class="fa fa-cloud-upload" aria-hidden="true"></i>
-  <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= date(post.date, date_format) %></time>
-  <i class="fa fa-pencil-square" aria-hidden="true"></i>
-  <time datetime="<%= date_xml(post.updated) %>" itemprop="dateUpdated"><%= date(post.updated, date_format) %></time>
+  <div class="<%= class_name %>" style="display:inline;">
+    <i class="fa fa-upload" aria-hidden="true"></i>
+    <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= date(post.date, date_format) %></time>
+  </div>
+  <div style="display:inline;">
+    <i class="fa fa-edit" aria-hidden="true"></i>
+    <time datetime="<%= date_xml(post.updated) %>" itemprop="dateUpdated"><%= date(post.updated, date_format) %></time>
+  </div>
 </div>
