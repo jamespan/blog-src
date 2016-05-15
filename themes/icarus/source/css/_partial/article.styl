@@ -95,22 +95,23 @@
     border-bottom: 1px solid color-border
     padding: 10px 0
   blockquote
-      background #f9f9f9
-      quotes "\201C""\201D""\2018""\2019"
-      border-left .2em solid color-border
-      margin 20px 0px
-      padding 0px 30px
-      line-height line-height
-      font-size font-size
-      footer
-        background color-section
-        padding 0
-        margin 0
-        font-size 80%
-        line-height 1em
-      cite
-        font-style italic
-        padding-left 0.5em
+    position: relative;
+    margin: 0 -20px;
+    padding: 10px 20px 10px 54px;
+    &:before
+      top: 20px;
+      left: 10px;
+      content: "\f10d";
+      color: #e2e2e2;
+      font-size: 2em;
+      font-family: FontAwesome;
+      text-align: center;
+      position: absolute;
+    footer
+      font-size: 0.9em;
+    cite
+      &:before
+        content: " - ";
   .pullquote
     text-align: left
     width: 45%
