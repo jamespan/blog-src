@@ -7,6 +7,8 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f3w5blhlowj208u0bldgp.jpg [数据之巅](https://book.douban.com/subject/25871778/) %}
+{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f3w5f7vj2ej20om0yhq97.jpg [一念天堂](https://movie.douban.com/subject/26611801/) %}
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f3vcdl8kp7j21k92bcnpd.jpg [硅谷 第三季](https://movie.douban.com/subject/26366492/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f3uqa4r8zyj20b00go783.jpg [火锅英雄](https://movie.douban.com/subject/25662327/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f3t4dz3yzjj208r0bo74n.jpg [你好哇，程序员](https://book.douban.com/subject/26772838/) %}
