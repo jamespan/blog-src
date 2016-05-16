@@ -13,6 +13,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f3xo6poow0j208r0brq38.jpg [让云落地：云计算服务模式](https://book.douban.com/subject/26709066/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f3w5blhlowj208u0bldgp.jpg [数据之巅](https://book.douban.com/subject/25871778/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f3t4dz3yzjj208r0bo74n.jpg [你好哇，程序员](https://book.douban.com/subject/26772838/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f3ry2ccl5ej208r0br3yw.jpg [文明之光 （第三册）](https://book.douban.com/subject/26275177/) %}
