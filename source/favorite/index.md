@@ -9,6 +9,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f42dlhuqseg205007iaaj.gif [Open by Design](http://www.oreilly.com/programming/free/open-by-design.csp) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f3z7ypgbccj208f0c6t8x.jpg [有限与无限的游戏](https://book.douban.com/subject/25742296/) %}
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f3xo6poow0j208r0brq38.jpg [让云落地：云计算服务模式](https://book.douban.com/subject/26709066/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f3we5x4o6kj21kw27nhdt.jpg [幻体：续命游戏](https://movie.douban.com/subject/24325815/) %}
