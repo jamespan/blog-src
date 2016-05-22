@@ -15,6 +15,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f446u0h4dqj208i0c3q36.jpg [思考的乐趣](https://book.douban.com/subject/10779597/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f438udl1f5j212b1kw7jo.jpg [狩猎](https://movie.douban.com/subject/6985810/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f42ii6k24mj21kw27m4qq.jpg [白日焰火](https://movie.douban.com/subject/21941804/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f42dlhuqseg205007iaaj.gif [Open by Design](http://www.oreilly.com/programming/free/open-by-design.csp) %}
