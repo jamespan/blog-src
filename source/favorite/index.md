@@ -5,16 +5,17 @@ comment: true
 
 也许你听说过，「业余时间决定人生」；也许你还听说过，「听过很多道理，依然过不好这一生」。书籍、代码、博客、运动、电影、动漫、美剧，这就是我的业余生活。
 
+> 我的能力就这么多。我若全心工作，则必然忽略生活；我若用心生活，则必然一事无成；我若两者兼顾，又难免平庸
+
 显然，我绝不可能是一个现充。
 
 <!-- 我不知道这样的业余生活会将我引向何方，我知道的是： -->
 
 <!-- > 生命要浪费在美好的事物上，体重要浪费在美味的食物上，爱情要浪费在你爱的人身上 -->
 
-> 我的能力就这么多。我若全心工作，则必然忽略生活；我若用心生活，则必然一事无成；我若两者兼顾，又难免平庸
-
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f44koxkhdhj20e10l2q50.jpg [大学之路](https://book.douban.com/subject/26584286/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f446u0h4dqj208i0c3q36.jpg [思考的乐趣](https://book.douban.com/subject/10779597/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f438udl1f5j212b1kw7jo.jpg [狩猎](https://movie.douban.com/subject/6985810/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f42ii6k24mj21kw27m4qq.jpg [白日焰火](https://movie.douban.com/subject/21941804/) %}
