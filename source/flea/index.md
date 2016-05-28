@@ -11,25 +11,11 @@ comment: true
 
 请在评论区留言交流。
 
+PS：刚把一箱书寄回家，目前手上暂无闲置图书。但是照我最近看书的尿性，很快就会有的！
+
 {% stream %}
 <!-- {% figure  []() %} -->
-{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f3xo6poow0j208r0brq38.jpg [让云落地：云计算服务模式](https://book.douban.com/subject/26709066/) %}
-{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f3w5blhlowj208u0bldgp.jpg [数据之巅](https://book.douban.com/subject/25871778/) %}
-{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f3t4dz3yzjj208r0bo74n.jpg [你好哇，程序员](https://book.douban.com/subject/26772838/) %}
-{% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f3ry2ccl5ej208r0br3yw.jpg [文明之光 （第三册）](https://book.douban.com/subject/26275177/) %}
-{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f3lx4cxzecj208c0c9mxh.jpg [番茄工作法图解](https://book.douban.com/subject/5916234/) %}
-{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f37vbkfennj208c0c90t6.jpg [一个定理的诞生](https://book.douban.com/subject/26681315/) %} 
-<!--{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f2z2sju03mj20b40gomy4.jpg [驯服烂代码](https://book.douban.com/subject/26208707/) %}-->
-{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f2yuf9i3nhj208o0bu0su.jpg [只是为了好玩](https://book.douban.com/subject/25930025/) %}
-{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f1hsev4ex4j21bl1ww1kx.jpg [数学女孩](https://book.douban.com/subject/26677354/) %}
-{% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f2rm3f9kqsj20ao0dc3zd.jpg [编程之美](https://book.douban.com/subject/3004255/) %}
-<!--{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f2rysuk2rxj208u0blt8w.jpg [Docker源码分析](https://book.douban.com/subject/26581184/) %}-->
-{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f2pr5mhpvmj208i0c3gm1.jpg [DOOM启世录（纪念版）](https://book.douban.com/subject/26642310/) %}
-<!-- {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1etyst9xf3ej208f0c674i.jpg [若为自由故](http://book.douban.com/subject/26314527/) %} -->
-{% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f2xv3ks9z0j208f0c6q38.jpg [拖拉一点也无妨](https://book.douban.com/subject/24839553/) %}
-{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f2xv5a120uj208f0c6aa9.jpg [淘宝技术这十年](https://book.douban.com/subject/24335672/) %}
-<!-- {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1ettji4fnq5j208i0c074r.jpg [黑客与画家](http://book.douban.com/subject/6021440/) %} -->
-{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f2xv8pnr23j208l0c0dgh.jpg [数学之美](https://book.douban.com/subject/10750155/) %}
+
 {% endstream %}
 
 ## 心愿单

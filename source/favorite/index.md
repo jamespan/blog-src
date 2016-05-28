@@ -15,6 +15,8 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f4blztee8wj208r0brmxd.jpg [松本行弘的程序世界](https://book.douban.com/subject/6756090/) %}
+{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f4blxq9ozvj21kw27gkjm.jpg [我是证人](https://movie.douban.com/subject/26313973/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f46yrbg9gkj20jg0rjgou.jpg [空之境界](https://movie.douban.com/subject/2354897/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f44koxkhdhj20e10l2q50.jpg [大学之路](https://book.douban.com/subject/26584286/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f446u0h4dqj208i0c3q36.jpg [思考的乐趣](https://book.douban.com/subject/10779597/) %}
