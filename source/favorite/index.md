@@ -15,6 +15,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f4rr12jj17j208c0c9gm7.jpg [从Paxos到Zookeeper](https://book.douban.com/subject/26292004/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f4rnbrv9b0j21e01tkdqz.jpg [情趣体验师](https://movie.douban.com/subject/26700845/) %} 
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f4p2ghbllmj20pa0zkwim.jpg [魔兽](https://movie.douban.com/subject/2131940/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f4n69hwr5hj208i0c3jrh.jpg [重新定义公司](https://book.douban.com/subject/26582822/) %}
