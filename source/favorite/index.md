@@ -15,6 +15,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f54kjvd884j21871qqnpe.jpg [Person of Interest](https://movie.douban.com/subject/26387813/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefjw1f4zzh3kdzcj20ao0go786.jpg [危机13小时](https://movie.douban.com/subject/26220717/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f4z8iw25hhj21aw1xg4qp.jpg [王牌贱谍：格林斯比](https://movie.douban.com/subject/25830732/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f4rr12jj17j208c0c9gm7.jpg [从Paxos到Zookeeper](https://book.douban.com/subject/26292004/) %}
