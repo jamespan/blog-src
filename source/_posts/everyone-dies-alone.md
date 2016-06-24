@@ -1,11 +1,12 @@
 title: 我们都会在孤独中离开
-
 categories:
   - Life
-thumbnail: https://i.imgur.com/yEy5y1um.png
+thumbnail: 'https://i.imgur.com/yEy5y1um.png'
 cc: true
 comments: true
+date: 2016-06-25 01:06:31
 ---
+
 
 > Everyone dies alone.  But if you mean something to someone, if you help someone or love someone, if even a single person remembers you. Then maybe, you never really die at all.
 
