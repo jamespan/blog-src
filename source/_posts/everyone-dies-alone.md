@@ -76,7 +76,7 @@ Reese 本以为他要保护的是一个柔弱的心理医生，却没想到这�
 
 ![](https://i.imgur.com/a5ntlT5.png)
 
-Root 终于和 Shaw 共度良宵了，虽然是在 Shaw 的模拟中，但也让广大肖根党一本满足。
+Root 终于和 Shaw 共度良宵了，虽然是在 Shaw 的模拟中，但也让广大肖根党一本满足。百合无限好！
 
 ![](https://i.imgur.com/jkGPfxu.png)
 
