@@ -9,12 +9,9 @@ comment: true
 
 显然，我绝不可能是一个现充。
 
-<!-- 我不知道这样的业余生活会将我引向何方，我知道的是： -->
-
-<!-- > 生命要浪费在美好的事物上，体重要浪费在美味的食物上，爱情要浪费在你爱的人身上 -->
-
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f56s89vheoj20b40gotca.jpg [惊天魔盗团2](https://movie.douban.com/subject/25662337/) %}
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f54kjvd884j21871qqnpe.jpg [Person of Interest](https://movie.douban.com/subject/26387813/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefjw1f4zzh3kdzcj20ao0go786.jpg [危机13小时](https://movie.douban.com/subject/26220717/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f4z8iw25hhj21aw1xg4qp.jpg [王牌贱谍：格林斯比](https://movie.douban.com/subject/25830732/) %}
