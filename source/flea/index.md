@@ -11,10 +11,10 @@ comment: true
 
 请在评论区留言交流。
 
-PS：刚把一箱书寄回家，目前手上暂无闲置图书。但是照我最近看书的尿性，很快就会有的！
-
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f4rr12jj17j208c0c9gm7.jpg [从Paxos到Zookeeper](https://book.douban.com/subject/26292004/) %}
+
 
 {% endstream %}
 
