@@ -13,6 +13,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f58tdhrqmbj208o0bu74l.jpg [Objective-C 程序设计](https://book.douban.com/subject/19967897/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f4rr12jj17j208c0c9gm7.jpg [从Paxos到Zookeeper](https://book.douban.com/subject/26292004/) %}
 
 
