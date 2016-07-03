@@ -17,7 +17,6 @@ comment: true
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f4rr12jj17j208c0c9gm7.jpg [从Paxos到Zookeeper](https://book.douban.com/subject/26292004/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f5h0i5casaj20a30a6wem.jpg [正义女神不睁眼](https://book.douban.com/subject/26689753/) %}
 
-
 {% endstream %}
 
 ## 心愿单
