@@ -11,6 +11,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f5s2bbzau8j20bn0godjd.jpg [寒战](https://movie.douban.com/subject/6890730/) %}
 {% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1f5p6htfhsdj20bs0gotcn.jpg [寒战2](https://movie.douban.com/subject/20505982/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f5okvr06qej20c90gotbp.jpg [食戟之灵 贰之皿](https://movie.douban.com/subject/26688568/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f5n0lin8tmj20b40gon1f.jpg [大鱼海棠](https://movie.douban.com/subject/5045678/) %}
