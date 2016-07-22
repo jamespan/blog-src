@@ -11,6 +11,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f63777xz6aj20900bcjro.jpg [软技能](https://book.douban.com/subject/26835090/) %}
 {% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1f5w6iwghwkj208c0c9jrw.jpg [一条狗](https://book.douban.com/subject/26760591/) %}
 {% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f5v2mln4gnj2076095t8z.jpg [精准拉伸](https://book.douban.com/subject/26818259/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefjw1f5uwknz937j20bs0gotbo.jpg [这个美术部有问题！](https://movie.douban.com/subject/26655965/) %}
