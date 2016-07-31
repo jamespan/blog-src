@@ -18,6 +18,8 @@ Velocity 大会在永泰福朋喜来登酒店召开，刚到帝都那天晚上�
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 ![大牛们谈笑风生，小菜们学习一个](http://ww1.sinaimg.cn/mw1024/e724cbefgw1ev2obukbsvj21kw16o7kl.jpg)
 
 ![入场券](http://ww4.sinaimg.cn/mw1024/e724cbefgw1ev4bunt1akj21hs1hsqrr.jpg)

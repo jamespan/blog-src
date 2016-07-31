@@ -25,6 +25,8 @@ comments: true
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 # 相见欢
 
 14 年 3 月，我来到阿里实习。公司发的电脑是一台 ThinkPad，安装的是万恶的 Windows。在经历了将近两个月的生产力严重缩水后，我决定对自己做一次投资。

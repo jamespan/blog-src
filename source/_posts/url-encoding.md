@@ -13,6 +13,8 @@ thumbnail: http://ww3.sinaimg.cn/small/e724cbefgw1es8uaglowgj20ca07f3yz.jpg
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 一开始我给同事的建议是使用搜索引擎的客户端提供的 API 去组装查询条件，不要自己在地址栏里面拼链接，如果 API 出了问题那就可以去找维护搜索引擎的同学修复了。也许我这种有 API 就调 API 的习惯，是我很少掉进坑里的原因？
 
 我直接问同事要了他正在调试的链接和文档，开始折腾。几分钟之后我发现，URL 中的加号，在搜索引擎返回的查询参数中，变成了空格。然后我怀疑这个问题和 URL Encoding 有关，一番 Google 之后把加号换成了 %2B，然后就搞定了。
