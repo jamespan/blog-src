@@ -1,6 +1,7 @@
 title: 别了，西溪园区
 categories:
   - Life
+thumbnail: https://i.imgur.com/4bv9V0Gm.jpg
 cc: true
 comments: true
 date: 2016-07-31 23:33:57
