@@ -22,5 +22,6 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww2.sinaimg.cn/bmiddle/72f96cbagw1f6qpc9p6h7j20eq0iy407.jpg [设计原本 珍藏版](https://book.douban.com/subject/23820913/) %}
 {% endstream %}
 
