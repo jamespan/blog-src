@@ -13,8 +13,8 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
-{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f58tdhrqmbj208o0bu74l.jpg [Objective-C 程序设计](https://book.douban.com/subject/19967897/) %}
-{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1f5h0i5casaj20a30a6wem.jpg [正义女神不睁眼](https://book.douban.com/subject/26689753/) %}
+{% figure https://ws2.sinaimg.cn/bmiddle/e724cbefgw1f58tdhrqmbj208o0bu74l.jpg [Objective-C 程序设计](https://book.douban.com/subject/19967897/) %}
+{% figure https://ws2.sinaimg.cn/bmiddle/e724cbefgw1f5h0i5casaj20a30a6wem.jpg [正义女神不睁眼](https://book.douban.com/subject/26689753/) %}
 
 {% endstream %}
 
@@ -22,6 +22,6 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
-{% figure http://ww2.sinaimg.cn/bmiddle/72f96cbagw1f6qpc9p6h7j20eq0iy407.jpg [设计原本 珍藏版](https://book.douban.com/subject/23820913/) %}
+{% figure https://ws2.sinaimg.cn/bmiddle/72f96cbagw1f6qpc9p6h7j20eq0iy407.jpg [设计原本 珍藏版](https://book.douban.com/subject/23820913/) %}
 {% endstream %}
 
