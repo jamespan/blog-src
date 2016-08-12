@@ -4,7 +4,7 @@ tags:
   - Mac
 categories:
   - Study
-thumbnail: 'http://ww2.sinaimg.cn/small/e724cbefgw1ewm45mnaryj20qz0dt0wt.jpg'
+thumbnail: 'https://ws2.sinaimg.cn/small/e724cbefgw1ewm45mnaryj20qz0dt0wt.jpg'
 cc: true
 comments: true
 date: 2015-10-02 04:15:14
@@ -19,21 +19,21 @@ date: 2015-10-02 04:15:14
 
 {% recruit %}
 
-![](http://ww3.sinaimg.cn/mw1024/e724cbefgw1ewm4jmwty3j20yg0mzn6z.jpg)
+![](https://ws3.sinaimg.cn/mw1024/e724cbefgw1ewm4jmwty3j20yg0mzn6z.jpg)
 
 备份完成，开始升级。随着下载进程的开始，我的心却一点一点往下沉。下载的速度实在是太慢了啊！之前从 10.9 升级到 10.10 的时候，下载只用了几十分钟，哪有这次这么夸张，居然要两天。过了几分钟后，预计的下载时间稳定在 20+h 的样子。
 
-![](http://ww1.sinaimg.cn/mw1024/e724cbefgw1ewm4va9yy1j20w709y7a9.jpg)
+![](https://ws1.sinaimg.cn/mw1024/e724cbefgw1ewm4va9yy1j20w709y7a9.jpg)
 
 这个下载速度我真的没法接受啊，等安装好了菜都凉了。我只好各种想办法提高下载速度，挂各种 VPN。几经尝试之后，我发现挂 VPN 连到香港可以获得一个可接受的下载时长，两小时左右。
 
-![](http://ww2.sinaimg.cn/mw1024/e724cbefgw1ewm540zwcvj20w609ytf1.jpg)
+![](https://ws2.sinaimg.cn/mw1024/e724cbefgw1ewm540zwcvj20w609ytf1.jpg)
 
 香港网络有一个好，下载苹果系统的更新，跑的比谁都快！
 
 几个小时很快就过去了，系统升级也进展到了最后时刻，接下来就是安装升级镜像了。
 
-![](http://ww4.sinaimg.cn/mw1024/e724cbefgw1ewm6d1dkulj20m80haaax.jpg)
+![](https://ws4.sinaimg.cn/mw1024/e724cbefgw1ewm6d1dkulj20m80haaax.jpg)
 
 经过半个多小时的等待，系统终于完成了升级，等待我们的，将会是怎样的结局？
 
@@ -43,11 +43,11 @@ date: 2015-10-02 04:15:14
 
 传说中的 Split View 果然好用，沉浸模式的实用性大大提高。
 
-![](http://ww2.sinaimg.cn/mw1024/e724cbefgw1ewm6zajwlqj21kw0zknhl.jpg)
+![](https://ws2.sinaimg.cn/mw1024/e724cbefgw1ewm6zajwlqj21kw0zknhl.jpg)
 
 然后我开始发现一些问题。
 
-![](http://ww1.sinaimg.cn/mw1024/e724cbefgw1ewm70ozwuwj20n309gt9w.jpg)
+![](https://ws1.sinaimg.cn/mw1024/e724cbefgw1ewm70ozwuwj20n309gt9w.jpg)
 
 明明系统语言是英文，App Store 的几个 tab 下面用的却是中文，这是几个意思？这个问题比较好搞，在 App Store 中把区域切换成美国，tab 下面的字就变成英文了，然后再切回中国，tab 下面的字还是不变。嗯，这是个逼死强迫症的 bug。
 
@@ -57,7 +57,7 @@ date: 2015-10-02 04:15:14
 
 于是我去一个不存在的网站和 Monosnap 的人谈笑风生了了一下下，估计很快这个问题就能从软件更新得到修复。
 
-![](http://ww1.sinaimg.cn/mw1024/e724cbefgw1ewm7h5s5r9j20ge070dgu.jpg)
+![](https://ws1.sinaimg.cn/mw1024/e724cbefgw1ewm7h5s5r9j20ge070dgu.jpg)
 
 我还是相信 Monosnap 的开发者的，也许是这个问题没有出现在预览版中吧，否则早就修复了。我喜欢这个软件，也希望有朝一日能写出这样的好软件，值得我们依赖和信赖的软件。
 
@@ -71,21 +71,21 @@ date: 2015-10-02 04:15:14
 
 Apple Music 一个月 10 块钱的价格近乎白送，用还不到一顿饭的价格，换一个月的正版音乐授权，怎么看似乎都是赚了。然而今天下午我尝试播放了一会，发现音乐卡顿十分严重，甚至一度无法完整播放一首歌，体验甚是糟糕。
 
-![](http://ww2.sinaimg.cn/mw1024/e724cbefgw1ewm8ofy4msj20xo0n7wnc.jpg)
+![](https://ws2.sinaimg.cn/mw1024/e724cbefgw1ewm8ofy4msj20xo0n7wnc.jpg)
 
 当时我的内心是崩溃的，只能默默关掉 iTunes 打开了网易云音乐。然而到了深夜再次尝试播放的时候，卡顿消失了。对此我只能怀疑是下午遭遇流量高峰而苹果的流媒体分发不足以支撑这么高的流量了。希望苹果尽快搞定~
 
 不久之前，iBooks 上的中文书籍可以说是寥寥无几，只有基本聊胜于无的古籍，比如红楼梦、西游记之类的早已没有版权的著作。今天再看的时候，似乎让人感觉到 iBooks 的中文内容也在渐渐有了气候，虽然上架的书籍以快餐类为主，但是目前的电子书市场，哪个不是快餐呢？
 
-![](http://ww4.sinaimg.cn/mw1024/e724cbefgw1ewm8di8vwhj20vk0o6n49.jpg)
+![](https://ws4.sinaimg.cn/mw1024/e724cbefgw1ewm8di8vwhj20vk0o6n49.jpg)
 
 最近东野圭吾的小说莫名走红，各大电子书内容分发渠道也是跟风推荐，《从 0 到 1》前些日子也是热的不行。我下载了几本电子书的试读章节，想看看电子书的制作程度。结果我只能说非常一般，排版上毫无诚意，相比起多看、亚马逊毫无竞争力，让我仿佛回到了高中那种看盗版小说的年代。
 
-![](http://ww4.sinaimg.cn/mw1024/e724cbefgw1ewm8kef7cnj20x20oy11c.jpg)
+![](https://ws4.sinaimg.cn/mw1024/e724cbefgw1ewm8kef7cnj20x20oy11c.jpg)
 
 至于 iTunes 电影，我找了一部免费电影《智取虎威山》作为尝试。跟购买软件类似，开始下载后不久，就弹出窗口询问是否开始播放。
 
-![](http://ww3.sinaimg.cn/mw1024/e724cbefgw1ewm8y6abilj20ww0mfn2n.jpg)
+![](https://ws3.sinaimg.cn/mw1024/e724cbefgw1ewm8y6abilj20ww0mfn2n.jpg)
 
 不知道苹果搞了什么飞机，当 iTunes 正在播放影片时，对 iTunes 做截图，影片部分就变成灰色的了，莫非真是版权保护？
 

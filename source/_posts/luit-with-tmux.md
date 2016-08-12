@@ -7,7 +7,7 @@ categories:
 hljs: true
 cc: true
 comments: true
-thumbnail: http://ww1.sinaimg.cn/small/e724cbefgw1et0lz06e18j212p0nywk0.jpg
+thumbnail: https://ws1.sinaimg.cn/small/e724cbefgw1et0lz06e18j212p0nywk0.jpg
 date: 2015-06-12 00:13:02
 ---
 
@@ -28,7 +28,7 @@ sdfsdTmux 一般都是安装在服务器使用才能发挥最大效用，本地�
 
 最后参考了 fooCoder 的博文《[终端环境之tmux][3]》和 Treri Liu 的 Tmux [配置][4]，以 fooCoder 的配置为基础，加入了其他我觉得有意思的配置。
 
-![Tmux 终端复用](http://ww1.sinaimg.cn/large/e724cbefgw1et0lz06e18j212p0nywk0.jpg)
+![Tmux 终端复用](https://ws1.sinaimg.cn/large/e724cbefgw1et0lz06e18j212p0nywk0.jpg)
 
 由于某种不可抗力，我登录到服务器之后，总是没法避免的需要修改一下终端的文本编码，不然日志什么的都会乱码。之前我一直是手动修改，最近我终于感到厌烦，希望结束这一切重复的动作。
 

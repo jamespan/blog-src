@@ -48,11 +48,11 @@ date: 2015-04-09 00:13:35
 
 默认的终端模拟器是 Mintty，稍微调节了一下设置之后，看起来还是很不错的，能够把终端半透明化，光标设置成一闪一闪的方块。
 
-![](http://ww4.sinaimg.cn/large/e724cbefgw1exdxigvwxuj20bo06x3ys.jpg)
+![](https://ws4.sinaimg.cn/large/e724cbefgw1exdxigvwxuj20bo06x3ys.jpg)
 
 Babun 默认集成了 Vim，那么我来尝试安装 Emacs。执行 `pact install emacs` 之后开始安装。
 
-![](http://ww2.sinaimg.cn/large/e724cbefgw1exdxj2y6zfj20bn06x403.jpg)
+![](https://ws2.sinaimg.cn/large/e724cbefgw1exdxj2y6zfj20bn06x403.jpg)
 
 下载各种依赖之后，Emacs 安装成功，不过这是一个纯命令行版本的 Emacs，emacs-nox。
 

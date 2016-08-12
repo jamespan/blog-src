@@ -8,7 +8,7 @@ categories:
   - Essay
 cc: true
 comments: true
-thumbnail: http://ww2.sinaimg.cn/small/e724cbefgw1erloakbg0hj20hs08ymxu.jpg
+thumbnail: https://ws2.sinaimg.cn/small/e724cbefgw1erloakbg0hj20hs08ymxu.jpg
 ---
 
 这周六晚上我对博客动了个大手术，把博客的主题从 Pacman 换成了现在的 icarus。
@@ -23,7 +23,7 @@ thumbnail: http://ww2.sinaimg.cn/small/e724cbefgw1erloakbg0hj20hs08ymxu.jpg
 
 切换的过程中，我一边修改代码调试页面效果，一边思考着为什么我切换一个主题要做这么多事情，是什么东西把博客主题的迁移成本弄的这么高？
 
-![](http://ww2.sinaimg.cn/large/e724cbefgw1erloakbg0hj20hs08ymxu.jpg)
+![](https://ws2.sinaimg.cn/large/e724cbefgw1erloakbg0hj20hs08ymxu.jpg)
 
 # 学习 #
 

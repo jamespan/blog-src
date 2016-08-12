@@ -11,7 +11,7 @@ date: 2015-03-20 10:39:45
 
 最近我在博客的侧栏挂上了招聘信息，一条关于社招，一条关于校招。
 
-![招聘信息](http://ww2.sinaimg.cn/large/e724cbefgw1exdxlggtkyj207708pwf6.jpg)
+![招聘信息](https://ws2.sinaimg.cn/large/e724cbefgw1exdxlggtkyj207708pwf6.jpg)
 
 刚把招聘信息挂到博客上的时候，为了让更多的人看到，我找了之前写的一篇博文，投稿到[小道消息][1]和[开发者头条][2]，然后坐等访问量一点一点爬升。
 

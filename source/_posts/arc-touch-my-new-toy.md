@@ -4,7 +4,7 @@ tags:
   - OS X
 categories:
   - Life
-thumbnail: 'http://ww4.sinaimg.cn/small/e724cbefgw1ev3ft15d9cj20qo0hr7b9.jpg'
+thumbnail: 'https://ws4.sinaimg.cn/small/e724cbefgw1ev3ft15d9cj20qo0hr7b9.jpg'
 cc: true
 comments: true
 date: 2015-08-15 18:08:02
@@ -32,11 +32,11 @@ date: 2015-08-15 18:08:02
 
 第二天拿到鼠标之后，有些小激动。
 
-![鼠标外包装](http://ww3.sinaimg.cn/mw1024/e724cbefgw1ev3cfyt58tj21kw1kwwyo.jpg)
+![鼠标外包装](https://ws3.sinaimg.cn/mw1024/e724cbefgw1ev3cfyt58tj21kw1kwwyo.jpg)
 
 打开包装之后，里面的鼠标和想象中的一模一样，对我来说，no surprise 就是坠吼的。
 
-![鼠标开箱](http://ww4.sinaimg.cn/mw1024/e724cbefgw1ev3cp4awizj21kw1kw4k3.jpg)
+![鼠标开箱](https://ws4.sinaimg.cn/mw1024/e724cbefgw1ev3cp4awizj21kw1kw4k3.jpg)
 
 鼠标的使用过程当然不会是一帆风顺，在蓝牙配对上就遇到了困难。
 

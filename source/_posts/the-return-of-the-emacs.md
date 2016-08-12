@@ -7,7 +7,7 @@ cc: true
 hljs: [lisp]
 comments: true
 date: 2015-04-05 18:08:47
-thumbnail: http://ww4.sinaimg.cn/small/e724cbefgw1et29jaibmlj213l0o2aj2.jpg
+thumbnail: https://ws4.sinaimg.cn/small/e724cbefgw1et29jaibmlj213l0o2aj2.jpg
 ---
 
 > 归去来兮，田园将芜胡不归？
@@ -72,7 +72,7 @@ thumbnail: http://ww4.sinaimg.cn/small/e724cbefgw1et29jaibmlj213l0o2aj2.jpg
 
 这份配置还提供了一种将用户配置和默认配置隔离的方法。文档中有一段文字和代码隐晦地给出了相应方法。
 
-![Emacs Starter Kit](http://ww4.sinaimg.cn/large/e724cbefgw1et29k8bw67j20k30fo41z.jpg)
+![Emacs Starter Kit](https://ws4.sinaimg.cn/large/e724cbefgw1et29k8bw67j20k30fo41z.jpg)
 
 看出来了吗？我们可以根据系统名称做出针对不同操作系统的配置，也可以根据用户登录名做出针对不同用户的配置，这样我们在自定义编辑器行为的时候就不用去修改默认配置，同时我们需要关心和备份的配置文件就只有用户配置和系统配置了。
 
@@ -122,7 +122,7 @@ Emacs Starter Kit 提供了一个函数 starter-kit-install-if-needed，用来�
 
    传说中的沉浸模式，绝妙的文档编辑体验！就像 OS X 上许多主打沉浸模式的 Markdown 编辑器一样，它把文本区域收敛到窗口的中间，让你专注于文字创作。
 
-   ![Darkroom](http://ww4.sinaimg.cn/large/e724cbefgw1et29jaibmlj213l0o2aj2.jpg)
+   ![Darkroom](https://ws4.sinaimg.cn/large/e724cbefgw1et29jaibmlj213l0o2aj2.jpg)
    
    对于我这种有多个显示器的家伙，自然是把 Emacs 全屏之后放在正中央的屏幕上，旁边两个屏幕用来放置浏览器和代码之类的窗口。
 

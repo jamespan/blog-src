@@ -5,7 +5,7 @@ tags:
 categories:
   - Study
 hljs: true
-thumbnail: 'http://ww2.sinaimg.cn/small/e724cbefgw1ewsvsttdujj2074074gls.jpg'
+thumbnail: 'https://ws2.sinaimg.cn/small/e724cbefgw1ewsvsttdujj2074074gls.jpg'
 cc: true
 comments: true
 date: 2015-10-07 21:57:18
@@ -50,7 +50,7 @@ ssh -N -D port [user@]hostname
 
 这个应用基本上实现了我想要造的轮子的所有功能，仅售 25 RMB，我就毫不犹豫地买下了。代理策略上，SSH Proxy 有 4 种默认策略：全部走代理，仅白名单走代理，仅黑名单不走代理，全不走代理。
 
-![](http://ww1.sinaimg.cn/large/e724cbefgw1ewsrd283wuj20ho0b0wfv.jpg)
+![](https://ws1.sinaimg.cn/large/e724cbefgw1ewsrd283wuj20ho0b0wfv.jpg)
 
 我们平时最常用的代理策略是「仅白名单走代理」，于是我就想着，只需要把一个域名集合导入到 SSH Proxy 就万事大吉了！
 
@@ -105,7 +105,7 @@ node -e "$(< ./proxy.pac);for(var key in domains){console.log(key)}" | python ./
 
 更让我感到意外的是，我的英文名 James Pan 还出现在了 SSH Proxy 的 About 界面，这还是人生头一回呢，感觉自己萌萌哒~
 
-![](http://ww2.sinaimg.cn/large/e724cbefgw1f236hfziukj213k0ru44w.jpg)
+![](https://ws2.sinaimg.cn/large/e724cbefgw1f236hfziukj213k0ru44w.jpg)
 
 [1]: https://www.ibm.com/developerworks/cn/linux/l-cn-sshforward/
 [2]: https://www.debian-administration.org/article/449/SSH_dynamic_port_forwarding_with_SOCKS

@@ -99,7 +99,7 @@ Functions 是 Guava 中与 Function 接口配套使用的工具类，为处理�
 
 Functions 是一个方法工厂，提供各种返回 Function 实例的方法。如果我们把 Function 视为函数，那么 Functions 的方法就是高阶函数，因为它能够将函数作为它的返回值。
 
-![](http://ww3.sinaimg.cn/large/e724cbefgw1exdxo0skzjj20dy06wmym.jpg)
+![](https://ws3.sinaimg.cn/large/e724cbefgw1exdxo0skzjj20dy06wmym.jpg)
 
 Functions#toStringFunction 返回这样一个函数 $f(x) = x.toString()$，以对象为入参，以对象的 toString 方法的返回值为返回值。
 
@@ -125,7 +125,7 @@ Functions#forSupplier 以 Guava 的 Supplier 实例为入参，返回一个 Func
 
 下面这张图是 Functions 类的结构。
 
-![](http://ww1.sinaimg.cn/large/e724cbefgw1exdxof9z73j20dy0bpjtm.jpg)
+![](https://ws1.sinaimg.cn/large/e724cbefgw1exdxof9z73j20dy0bpjtm.jpg)
 
 可以看出，Functions 的 8 个公有方法都有对应的内部类作为功能支撑。这 8 个方法的实现大同小异，我们这里选取两个具有代表性的方法进行源码分析。
 

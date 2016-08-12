@@ -1,7 +1,7 @@
 title: 不知不觉，加入阿里巴巴一年了
 categories:
   - Work
-photo: 'http://ww4.sinaimg.cn/large/e724cbefgw1etunkma721j215i05840j.jpg'
+photo: 'https://ws4.sinaimg.cn/large/e724cbefgw1etunkma721j215i05840j.jpg'
 cc: true
 comments: true
 date: 2015-07-08 22:10:47
@@ -16,11 +16,11 @@ date: 2015-07-08 22:10:47
 
 <!-- more --><!-- indicate-the-source -->
 
-![一周年快乐](http://ww1.sinaimg.cn/large/e724cbefgw1etuneoh8hjj21kw0uqjw6.jpg)
+![一周年快乐](https://ws1.sinaimg.cn/large/e724cbefgw1etuneoh8hjj21kw0uqjw6.jpg)
 
 我一开始没太在意，开始像平常一样啃面包，然后师兄突然出现在身后，对我说“一周年快乐”，并送给了我一枚纪念徽章。
 
-![一周年纪念徽章](http://ww1.sinaimg.cn/bmiddle/e724cbefgw1etuo7xew2qj21kw1kwx1k.jpg)
+![一周年纪念徽章](https://ws1.sinaimg.cn/bmiddle/e724cbefgw1etuo7xew2qj21kw1kwx1k.jpg)
 
 <!-- 当年师兄在阿里三周年的时候，大老板给了他一个“真棒玉坠”，然后我们小团队一起合影留念。 -->
 

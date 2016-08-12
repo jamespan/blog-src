@@ -3,7 +3,7 @@ tags:
   - Speech
 categories:
   - Study
-photo: 'http://ww2.sinaimg.cn/large/e724cbefgw1ev2oqr6u80j20k203ht98.jpg'
+photo: 'https://ws2.sinaimg.cn/large/e724cbefgw1ev2oqr6u80j20k203ht98.jpg'
 cc: true
 comments: true
 date: 2015-08-16 22:02:04
@@ -20,9 +20,9 @@ Velocity 大会在永泰福朋喜来登酒店召开，刚到帝都那天晚上�
 
 {% recruit %}
 
-![大牛们谈笑风生，小菜们学习一个](http://ww1.sinaimg.cn/mw1024/e724cbefgw1ev2obukbsvj21kw16o7kl.jpg)
+![大牛们谈笑风生，小菜们学习一个](https://ws1.sinaimg.cn/mw1024/e724cbefgw1ev2obukbsvj21kw16o7kl.jpg)
 
-![入场券](http://ww4.sinaimg.cn/mw1024/e724cbefgw1ev4bunt1akj21hs1hsqrr.jpg)
+![入场券](https://ws4.sinaimg.cn/mw1024/e724cbefgw1ev4bunt1akj21hs1hsqrr.jpg)
 
 # 现代互联网标准 #
 

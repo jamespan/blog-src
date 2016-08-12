@@ -34,7 +34,7 @@ comments: true
 
 至于我，当然是要把页面的容错做好，把当年挖的坑填上。
 
-![神秘的程序员们-9 http://blog.xiqiao.info/2009/12/16/611](http://ww4.sinaimg.cn/large/e724cbefgw1esm3nrwqw5j20fa07f3zz.jpg)
+![神秘的程序员们-9 http://blog.xiqiao.info/2009/12/16/611](https://ws4.sinaimg.cn/large/e724cbefgw1esm3nrwqw5j20fa07f3zz.jpg)
 
 # 技术与流程 #
 

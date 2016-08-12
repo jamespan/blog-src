@@ -7,7 +7,7 @@ categories:
   - Work
 cc: true
 comments: true
-thumbnail: http://ww2.sinaimg.cn/small/e724cbefgw1esu3i3a9rxj20go0af0u1.jpg
+thumbnail: https://ws2.sinaimg.cn/small/e724cbefgw1esu3i3a9rxj20go0af0u1.jpg
 ---
 
 这两天有几个同事在部署新应用的时候遇到了阻碍，师兄让我去帮忙看看。
@@ -24,7 +24,7 @@ thumbnail: http://ww2.sinaimg.cn/small/e724cbefgw1esu3i3a9rxj20go0af0u1.jpg
 
 虚拟机大法好，玩坏了再申请一台就是了。但是，Linux 服务器居然能因为内存问题而宕机！感觉我的认知被颠覆了。之前我一直认为 Linux 内核有一个被称为 OOM Killer 的机制，能够在系统内存不足的时候结束内存大户，从而释放出大量内存，让系统回到健康状态。
 
-![OOM Killer](http://ww2.sinaimg.cn/large/e724cbefgw1esu3i3a9rxj20go0af0u1.jpg)
+![OOM Killer](https://ws2.sinaimg.cn/large/e724cbefgw1esu3i3a9rxj20go0af0u1.jpg)
 
 系统把进程结束了不是问题，问题是进程把系统给结束了。为什么说好的 OOM Killer 没有发挥作用力挽狂澜？我要搞个大新闻，把内核批判一番。
 

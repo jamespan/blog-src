@@ -43,7 +43,7 @@ wget -c https://raw.githubusercontent.com/JamesPan/blog-src/8ac83216ef4f2904d326
 image_stream:
   jquery: //cdn.bootcss.com/jquery/2.1.0/jquery.min.js
   jquery_lazyload: //cdn.bootcss.com/jquery.lazyload/1.9.1/jquery.lazyload.min.js
-  img_placeholder: http://ww4.sinaimg.cn/large/e724cbefgw1etyppy7bgwg2001001017.gif
+  img_placeholder: https://ws4.sinaimg.cn/large/e724cbefgw1etyppy7bgwg2001001017.gif
 ```
 
 前面两个是插件依赖的模块的 CDN 链接，第三个是实现页面中图片懒加载时用到的占位符，如果有需要可以替换为自己喜欢的链接。

@@ -5,7 +5,7 @@ categories:
   - Work
 cc: true
 comments: true
-thumbnail: http://ww1.sinaimg.cn/large/e724cbefgw1etsa1hemp5g20d30cwglq.gif
+thumbnail: https://ws1.sinaimg.cn/large/e724cbefgw1etsa1hemp5g20d30cwglq.gif
 date: 2015-07-05 22:25:23
 ---
 

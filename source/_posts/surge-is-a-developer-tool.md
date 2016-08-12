@@ -4,7 +4,7 @@ tags:
 categories:
   - Study
 cc: true
-thumbnail: http://ww2.sinaimg.cn/small/e724cbefgw1exhepdy2j3j204v04v0sl.jpg
+thumbnail: https://ws2.sinaimg.cn/small/e724cbefgw1exhepdy2j3j204v04v0sl.jpg
 comments: true
 date: 2015-10-29 01:01:44
 ---

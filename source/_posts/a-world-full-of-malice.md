@@ -5,13 +5,13 @@ categories: [Life, Essay]
 cc: true
 comments: true
 date: 2015-03-28 14:15:25
-thumbnail: http://ww4.sinaimg.cn/small/e724cbefgw1et29me8y80j21kw0vxwoq.jpg
+thumbnail: https://ws4.sinaimg.cn/small/e724cbefgw1et29me8y80j21kw0vxwoq.jpg
 ---
 
 不知从什么时候开始，起床之后的第一件事就是打开知乎日报看瞎扯。常在河边走，哪有不湿鞋。就在这周三，我一起床就遭遇了强烈的精神攻击，整个人都不好了。
 
 
-![知乎瞎扯](http://ww1.sinaimg.cn/large/e724cbefgw1et29lq1ighj20hs0eqgn0.jpg)
+![知乎瞎扯](https://ws1.sinaimg.cn/large/e724cbefgw1et29lq1ighj20hs0eqgn0.jpg)
 
 <!-- more --><!-- indicate-the-source -->
 
@@ -29,11 +29,11 @@ thumbnail: http://ww4.sinaimg.cn/small/e724cbefgw1et29me8y80j21kw0vxwoq.jpg
 
 作为一个宅男，除了写代码之外的娱乐活动就是去哔哩哔哩看看动漫，最近的几部动漫都挺不错的，《[路人女主的养成方法][1]》也刚刚完结。
 
-![毁灭吧现充](http://ww4.sinaimg.cn/large/e724cbefgw1et29me8y80j21kw0vxwoq.jpg)
+![毁灭吧现充](https://ws4.sinaimg.cn/large/e724cbefgw1et29me8y80j21kw0vxwoq.jpg)
 
 集腹黑、黑长直等萌属性于一身的诗羽学姐，有着教科书式的傲娇的英梨梨，还有存在感薄弱的吐槽役加藤惠，都是很萌很萌的女主角。
 
-![宅的全力](http://ww4.sinaimg.cn/large/e724cbefgw1et29muwurlj21kw0vu0yz.jpg)
+![宅的全力](https://ws4.sinaimg.cn/large/e724cbefgw1et29muwurlj21kw0vu0yz.jpg)
 
 路人女主完结了，还是有许多不舍，无论如何，至少失去了每个周五看更新的喜悦。不知道下一次出现这么有趣的新番是什么时候了，未来总是充满了不确定性。
 
@@ -47,7 +47,7 @@ thumbnail: http://ww4.sinaimg.cn/small/e724cbefgw1et29me8y80j21kw0vxwoq.jpg
 
 不知道是不是我的错觉，我感到 Filco 的键帽手感比 KEYCOOL 的好很多，打字的时候如丝般顺滑。
 
-![新玩具](http://ww3.sinaimg.cn/large/e724cbefgw1et29nazl9nj20hs0no41u.jpg)
+![新玩具](https://ws3.sinaimg.cn/large/e724cbefgw1et29nazl9nj20hs0no41u.jpg)
 
 也许就像大部分人没法理解宅男花了许多钱买手办一样，我们这些追求极致编码体验的码农，在电脑和键盘上花了许多钱，外人也是很难理解的。哈哈，该被黑的时候还是被黑，该自嘲的时候就去自嘲，不足为外人道也。
 

@@ -5,10 +5,10 @@ tags:
 categories:
   - Life
   - Essay
-photos: "http://ww2.sinaimg.cn/large/e724cbefgw1es0u3vzaipj20ri08rgr6.jpg"
+photos: "https://ws2.sinaimg.cn/large/e724cbefgw1es0u3vzaipj20ri08rgr6.jpg"
 cc: true
 comments: true
-thumbnail: http://ww3.sinaimg.cn/small/e724cbefgw1es1l6kwqm5j20bg081dg3.jpg
+thumbnail: https://ws3.sinaimg.cn/small/e724cbefgw1es1l6kwqm5j20bg081dg3.jpg
 ---
 
 几天前的一个下午，我在小道消息看到这样一条推荐。
@@ -31,7 +31,7 @@ thumbnail: http://ww3.sinaimg.cn/small/e724cbefgw1es1l6kwqm5j20bg081dg3.jpg
 
 Get 社区的页脚有这么一行文字，让我知道了 JobDeer，我也套用 JobDeer 提供的 Markdown 模板，在我的博客挂上了一份简历。让我哭笑不得的是，今年收集实习生简历的时候，很多学生的简历也是套用同一份模板，让人感觉毫无新意。{% heimu 当年我参加校招的时候简历是用 LaTeX 精心制作的，逼格爆表。 %}
 
-![](http://ww3.sinaimg.cn/large/e724cbefgw1es1l6kwqm5j20bg081dg3.jpg)
+![](https://ws3.sinaimg.cn/large/e724cbefgw1es1l6kwqm5j20bg081dg3.jpg)
 
 后来，@Easy 写了一本叫《[程序员跳槽全攻略][1]》，我趁着限免下了一本。可惜的是，这本书和我大部分的电子书收藏一样，被我放入了 To Read List 之后，再也没有读过。没办法，生产者的速度比消费者快。
 

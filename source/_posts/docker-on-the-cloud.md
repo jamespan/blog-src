@@ -8,7 +8,7 @@ cc: true
 hljs: true
 comments: true
 date: 2015-07-25 02:28:13
-thumbnail: http://ww1.sinaimg.cn/small/e724cbefgw1euefr736eej211m0xktck.jpg
+thumbnail: https://ws1.sinaimg.cn/small/e724cbefgw1euefr736eej211m0xktck.jpg
 ---
 
 前几天，我在阿里云买了一台 ECS，香港节点乞丐版，1 核 1G 内存 20G SSD。

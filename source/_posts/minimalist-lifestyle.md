@@ -4,7 +4,7 @@ tags:
 categories:
   - Life
   - Essay
-thumbnail: 'http://ww3.sinaimg.cn/small/e724cbefgw1et3ud93atyj208o0bujrs.jpg'
+thumbnail: 'https://ws3.sinaimg.cn/small/e724cbefgw1et3ud93atyj208o0bujrs.jpg'
 cc: true
 comments: true
 date: 2015-06-14 20:27:23

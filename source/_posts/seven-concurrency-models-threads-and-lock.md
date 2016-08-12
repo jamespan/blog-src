@@ -29,7 +29,7 @@ date: 2015-04-06 23:52:07
 
 # 脑图 #
 
-![线程与锁](http://ww1.sinaimg.cn/large/e724cbefgw1exdxm6pb8uj21b60kgwk5.jpg)
+![线程与锁](https://ws1.sinaimg.cn/large/e724cbefgw1exdxm6pb8uj21b60kgwk5.jpg)
 
 
 [1]: http://book.douban.com/subject/25736606/

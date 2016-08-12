@@ -23,7 +23,7 @@ date: 2015-04-17 00:18:39
 
 一开始看还好，多看几眼就会发现，二维码的背景色和页面颜色不一致，有着明显的区别。
 
-![](http://ww1.sinaimg.cn/large/e724cbefgw1er7t6il79mj207x086q3q.jpg)
+![](https://ws1.sinaimg.cn/large/e724cbefgw1er7t6il79mj207x086q3q.jpg)
 
 看了几天之后，我实在受不了了，就用 Gimp 对图片稍作修改，把背景的白色，变成了透明，然后用导出的 png 文件替换了原先的 jpg 文件。部署到 GitCafe 之后，各种刷新发现变更没生效。
 

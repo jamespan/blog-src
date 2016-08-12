@@ -8,7 +8,7 @@ categories:
 hljs: true
 cc: true
 comments: true
-thumbnail: 'http://ww4.sinaimg.cn/large/e724cbefgw1ewh0jn35xrj20d603tdgf.jpg'
+thumbnail: 'https://ws4.sinaimg.cn/large/e724cbefgw1ewh0jn35xrj20d603tdgf.jpg'
 date: 2015-09-29 21:44:23
 ---
 
@@ -74,11 +74,11 @@ wekan:
 
 在讨论组中咨询确认这个问题，作者表示 Wekan 目前确实缺少系统功能配置方面的支持。
 
-![](http://ww4.sinaimg.cn/large/e724cbefgw1ewhfir4mt5j20k4057dgo.jpg)
+![](https://ws4.sinaimg.cn/large/e724cbefgw1ewhfir4mt5j20k4057dgo.jpg)
 
 最后一个问题是无意中发现的，应该算是我的部署失误。Wekan 用到了 WebSocket，我部署的时候仅仅是做了普通的 HTTP 反向代理，直到无意中在 Chrome Console 发现这个错误信息。
 
-![](http://ww4.sinaimg.cn/large/e724cbefgw1ewh0bjnof8j20ff01ljrw.jpg)
+![](https://ws4.sinaimg.cn/large/e724cbefgw1ewh0bjnof8j20ff01ljrw.jpg)
 
 于是我就参考 NGINX 的博客[^1]把 HTTP 反代升级成为支持 WebSocket 的反代。
 

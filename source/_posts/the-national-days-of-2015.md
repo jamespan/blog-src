@@ -3,7 +3,7 @@ tags:
   - delicacy
 categories:
   - Life
-thumbnail: http://ww2.sinaimg.cn/small/e724cbefgw1ewszptyoefj21kw1kwnh0.jpg
+thumbnail: https://ws2.sinaimg.cn/small/e724cbefgw1ewszptyoefj21kw1kwnh0.jpg
 cc: true
 comments: true
 date: 2015-10-07 23:59:07
@@ -30,39 +30,39 @@ date: 2015-10-07 23:59:07
 
 1.  食其家的牛{% ruby 丼|洞 %}
 
-    ![牛丼 ￥14](http://ww1.sinaimg.cn/bmiddle/e724cbefgw1ewszfz9teuj21kw1kw4kh.jpg)
+    ![牛丼 ￥14](https://ws1.sinaimg.cn/bmiddle/e724cbefgw1ewszfz9teuj21kw1kw4kh.jpg)
 
     食戟之灵即视感有木有！想起了肉魅有木有！这个「丼」字，虽然在汉字里面的发音是「井」和「胆」，WikiPedia 上的「[牛丼][1]」词条也注音为「胆」，但是店员却告知发音为「洞」。
 
 2.  味千拉面的拉面
 
-    ![招牌三宝拉面 ￥39](http://ww2.sinaimg.cn/bmiddle/e724cbefgw1ewszptyoefj21kw1kwnh0.jpg)
+    ![招牌三宝拉面 ￥39](https://ws2.sinaimg.cn/bmiddle/e724cbefgw1ewszptyoefj21kw1kwnh0.jpg)
 
     还是食戟之灵即视感！这浓郁的汤底，让人深陷其中无法自拔！身体内部充满了热度，细胞在不断恢复年轻的活力，返璞归真，多谢款待~
 
 3.  鲜芋仙的烧仙草
 
-    ![](http://ww4.sinaimg.cn/bmiddle/e724cbefgw1ewt0atg2urj21kw1kw7s3.jpg)
+    ![](https://ws4.sinaimg.cn/bmiddle/e724cbefgw1ewt0atg2urj21kw1kw7s3.jpg)
 
 4.  奇葩的面包名字
 
-    ![](http://ww1.sinaimg.cn/bmiddle/e724cbefgw1ewt0ev8dsej21kw1kw4k3.jpg)
+    ![](https://ws1.sinaimg.cn/bmiddle/e724cbefgw1ewt0ev8dsej21kw1kw4k3.jpg)
 
 5.  菠萝包，童年的味道
 
-    ![](http://ww4.sinaimg.cn/bmiddle/e724cbefgw1ewt0glfv9yj21kw1kwqkj.jpg)
+    ![](https://ws4.sinaimg.cn/bmiddle/e724cbefgw1ewt0glfv9yj21kw1kwqkj.jpg)
 
 6.  让人忍不住想在名字中间加个 G
 
-    ![](http://ww4.sinaimg.cn/bmiddle/e724cbefgw1ewt0iec2jej21kw1kwkay.jpg)
+    ![](https://ws4.sinaimg.cn/bmiddle/e724cbefgw1ewt0iec2jej21kw1kwkay.jpg)
 
 7.  新华书店里的鸡汤
 
-    ![](http://ww1.sinaimg.cn/mw1024/e724cbefgw1ewt0m332nzj21kw16o1jd.jpg)
+    ![](https://ws1.sinaimg.cn/mw1024/e724cbefgw1ewt0m332nzj21kw16o1jd.jpg)
 
 8.  热火朝天的香港奶茶
 
-    ![](http://ww2.sinaimg.cn/bmiddle/e724cbefgw1ewt0p04f4cj21kw16odz8.jpg)
+    ![](https://ws2.sinaimg.cn/bmiddle/e724cbefgw1ewt0p04f4cj21kw16odz8.jpg)
 
     好几次去，都因为人太多而放弃了排队。下次找个机会尝尝~
 
@@ -72,12 +72,12 @@ date: 2015-10-07 23:59:07
 这个假期，看了好几部电影，有去电影院看的，有从 BT 下载的，也有从 Youku、哔哩哔哩看的。
 
 {% stream %}
-{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1ewsibsiv3wj21k92bc4qp.jpg [白日梦想家](http://movie.douban.com/subject/2133323/) %}
-{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1ewsf6xl0qcj20900bc74s.jpg [30岁的保健体育](https://movie.douban.com/subject/5308296/) %}
-{% figure http://ww4.sinaimg.cn/bmiddle/e724cbefgw1ewrv6mkqmuj20dw0fnju6.jpg [这个男人来自地球](http://movie.douban.com/subject/2300586/) %}
-{% figure http://ww3.sinaimg.cn/bmiddle/e724cbefgw1ewpsmz6o3cj21kw27cu0y.jpg [解救吾先生](http://movie.douban.com/subject/25798448/) %}
-{% figure http://ww2.sinaimg.cn/bmiddle/e724cbefgw1ewpsli9y18j21kw27nqv5.jpg [夏洛特烦恼](http://movie.douban.com/subject/25964071/) %}
-{% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1ewn7u9xph3j21ip20wqv6.jpg [十二公民](http://movie.douban.com/subject/24875534/) %}
+{% figure https://ws2.sinaimg.cn/bmiddle/e724cbefgw1ewsibsiv3wj21k92bc4qp.jpg [白日梦想家](http://movie.douban.com/subject/2133323/) %}
+{% figure https://ws3.sinaimg.cn/bmiddle/e724cbefgw1ewsf6xl0qcj20900bc74s.jpg [30岁的保健体育](https://movie.douban.com/subject/5308296/) %}
+{% figure https://ws4.sinaimg.cn/bmiddle/e724cbefgw1ewrv6mkqmuj20dw0fnju6.jpg [这个男人来自地球](http://movie.douban.com/subject/2300586/) %}
+{% figure https://ws3.sinaimg.cn/bmiddle/e724cbefgw1ewpsmz6o3cj21kw27cu0y.jpg [解救吾先生](http://movie.douban.com/subject/25798448/) %}
+{% figure https://ws2.sinaimg.cn/bmiddle/e724cbefgw1ewpsli9y18j21kw27nqv5.jpg [夏洛特烦恼](http://movie.douban.com/subject/25964071/) %}
+{% figure https://ws1.sinaimg.cn/bmiddle/e724cbefgw1ewn7u9xph3j21ip20wqv6.jpg [十二公民](http://movie.douban.com/subject/24875534/) %}
 {% endstream %}
 
 啊，有奇怪的东西混进来了，「30 岁的保健体育」是什么鬼？其实这是一部节操掉光了的动漫，比 SOX 更没节操~
@@ -86,7 +86,7 @@ date: 2015-10-07 23:59:07
 
 给本杀的椅子和电脑来个合影~
 
-![](http://ww2.sinaimg.cn/bmiddle/e724cbefgw1ewt1b8cg8xj21kw23u1iy.jpg)
+![](https://ws2.sinaimg.cn/bmiddle/e724cbefgw1ewt1b8cg8xj21kw23u1iy.jpg)
 
 
 

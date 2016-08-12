@@ -4,7 +4,7 @@ tags:
   - Movie
 categories:
   - Life
-thumbnail: 'http://ww4.sinaimg.cn/small/e724cbefgw1ewp5guc21sj20rs0ijta9.jpg'
+thumbnail: 'https://ws4.sinaimg.cn/small/e724cbefgw1ewp5guc21sj20rs0ijta9.jpg'
 cc: true
 comments: true
 date: 2015-10-04 15:48:57

@@ -43,11 +43,11 @@ date: 2015-04-12 23:09:46
 
 我在主题里加了一个 ejs 文件，然后对博文的渲染过程稍作修改，在正文之前插入我新增的 ejs。接下来就是编写文案了。最后做出来是这个效果。
 
-![新博客引导文案](http://ww4.sinaimg.cn/large/e724cbefgw1et2gmz8u3zj20py0d2acc.jpg)
+![新博客引导文案](https://ws4.sinaimg.cn/large/e724cbefgw1et2gmz8u3zj20py0d2acc.jpg)
 
 基本上我的每篇博文都有被 Google 收录，比如直接搜索 [babun][3]，就可以在第一页看到我的博文，位置仅次于 Babun 的官网和 Github。
 
-![Google 搜索 babun](http://ww4.sinaimg.cn/large/e724cbefgw1ery7lkoll1j20rp0r8doh.jpg)
+![Google 搜索 babun](https://ws4.sinaimg.cn/large/e724cbefgw1ery7lkoll1j20rp0r8doh.jpg)
 
 在博文之前加上这段文字之后，博客的新域名一下子就多出了不少入链，新博文不但有入链，还有相应的锚文本。
 

@@ -6,7 +6,7 @@ categories:
 
 cc: true
 comments: true
-thumbnail: http://ww2.sinaimg.cn/small/e724cbefgw1erzew6tmvlj21kw16ob29.jpg
+thumbnail: https://ws2.sinaimg.cn/small/e724cbefgw1erzew6tmvlj21kw16ob29.jpg
 ---
 
 
@@ -26,7 +26,7 @@ thumbnail: http://ww2.sinaimg.cn/small/e724cbefgw1erzew6tmvlj21kw16ob29.jpg
 
 我在酒店住了 11 天，然后搬进了一个漂亮的住宅区。我和几个阿里的同事合住，异地实习的住房补贴除了 Cover 房租，还有剩余。
 
-![绿城・翡翠城](http://ww2.sinaimg.cn/mw1024/e724cbefgw1erzew6tmvlj21kw16ob29.jpg)
+![绿城・翡翠城](https://ws2.sinaimg.cn/mw1024/e724cbefgw1erzew6tmvlj21kw16ob29.jpg)
 
 ## 报道 ##
 
@@ -144,7 +144,7 @@ thumbnail: http://ww2.sinaimg.cn/small/e724cbefgw1erzew6tmvlj21kw16ob29.jpg
 
 今年发生了不少事情，一些同行因为加班过度先走一步，然后业界开始了关于加班、KPI 等等一系列东西的论战。
 
-![左耳朵耗子的微博](http://ww1.sinaimg.cn/large/e724cbefgw1erze80mknqj20gm04rq45.jpg)
+![左耳朵耗子的微博](https://ws1.sinaimg.cn/large/e724cbefgw1erze80mknqj20gm04rq45.jpg)
 
 同事问我是站哪边的。我说我站在耗子这边，他们笑了，说我口嫌体正直，因为我是团队里面加班加得最凶的人。
 

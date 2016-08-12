@@ -18,7 +18,7 @@ date: 2015-03-25 20:41:48
 
 <!-- more --><!-- indicate-the-source -->
 
-![](http://ww2.sinaimg.cn/large/e724cbefgw1exdxk3zbt2j20hi0ab75y.jpg)
+![](https://ws2.sinaimg.cn/large/e724cbefgw1exdxk3zbt2j20hi0ab75y.jpg)
 
 # 简书
 
@@ -44,9 +44,9 @@ date: 2015-03-25 20:41:48
 
 简书的在 Google 的权重，不知道比我的博客高到哪里去！最让人膝盖中箭的是，直接无论是搜索关键字还是搜索标题，我发布在简书的摘要，都排在博客本尊的前面。
 
-![关键字搜索](http://ww4.sinaimg.cn/large/e724cbefgw1exdxkh3793j20me0kpjyt.jpg)
+![关键字搜索](https://ws4.sinaimg.cn/large/e724cbefgw1exdxkh3793j20me0kpjyt.jpg)
 
-![标题搜索](http://ww1.sinaimg.cn/large/e724cbefgw1exdxkusnrsj20mm09jdim.jpg)
+![标题搜索](https://ws1.sinaimg.cn/large/e724cbefgw1exdxkusnrsj20mm09jdim.jpg)
 
 对我而言，似乎这是一种一箭双雕的做法，既能够在一个高质量的网站上面增加指向我的博客的链接，又实实在在的输出了内容。
 

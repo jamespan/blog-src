@@ -8,7 +8,7 @@ categories:
 cc: true
 comments: true
 date: 2015-06-21 21:06:31
-thumbnail: http://ww1.sinaimg.cn/large/e724cbefgw1etcx5af7hlj204v04vdfn.jpg
+thumbnail: https://ws1.sinaimg.cn/large/e724cbefgw1etcx5af7hlj204v04vdfn.jpg
 ---
 
 关于「写作 OO 读作 XX」这种事情，虽然已经玩了许久，但是还是感觉挺有意思。其实「写作 OO 读作 XX」是日文书写中的[旁注标记][1]，用于表达「OO 的正确含义是 XX」[^1]。
@@ -59,7 +59,7 @@ hexo-ruby-character 默认的行为是在拼音之间添加空格来区分音节
 
 Happy hacking! 为了让更多的人用到它，我向 Hexo 的插件列表提交了 [Pull Request][10]，~~希望能合并到主干~~~，它现在已经在 Hexo 的[插件列表][12]里面了。
 
-![Hexo Plugin](http://ww1.sinaimg.cn/large/e724cbefgw1etd3n5q53ij20mh06wdg3.jpg)
+![Hexo Plugin](https://ws1.sinaimg.cn/large/e724cbefgw1etd3n5q53ij20mh06wdg3.jpg)
 
 [1]: https://zh.wikipedia.org/wiki/旁註標記
 [2]: http://zh.moegirl.org/zh-cn/写作oo读作xx

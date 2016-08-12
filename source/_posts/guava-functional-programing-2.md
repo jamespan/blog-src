@@ -70,7 +70,7 @@ Predicates 是 Guava 中与 Predicate 接口配套使用的工具类，提供了
 
 Predicates 是一个方法工厂，返回各种各样的 Predicate 实例。
 
-![](http://ww1.sinaimg.cn/large/e724cbefgw1exdxoxkpk7j20de0c8ad1.jpg)
+![](https://ws1.sinaimg.cn/large/e724cbefgw1exdxoxkpk7j20de0c8ad1.jpg)
 
 Predicates#alwaysTrue 返回一个永真谓词，Predicates#alwaysFalse 返回一个永假谓词。
 

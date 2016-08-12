@@ -4,7 +4,7 @@ categories:
   - Work
 cc: true
 comments: true
-thumbnail: http://ww3.sinaimg.cn/small/e724cbefgw1es8uaglowgj20ca07f3yz.jpg
+thumbnail: https://ws3.sinaimg.cn/small/e724cbefgw1es8uaglowgj20ca07f3yz.jpg
 ---
 
 下午去公司蹭健身房，本以为可以悄悄的来，悄悄的走，结果锻炼完回到工位歇会的功夫，就被同事叫去帮忙看问题了。同事在项目中用到一个基于 Solr 构建的搜索引擎，我这边也用了。

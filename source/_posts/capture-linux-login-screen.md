@@ -3,7 +3,7 @@ tags:
   - Linux
 categories:
   - Study
-thumbnail: 'http://ww1.sinaimg.cn/large/e724cbefgw1ewng5svd8sj20b604rgm2.jpg'
+thumbnail: 'https://ws1.sinaimg.cn/large/e724cbefgw1ewng5svd8sj20b604rgm2.jpg'
 hljs: true
 cc: true
 comments: true
@@ -48,13 +48,13 @@ convert /tmp/shot.xwd /tmp/ss.png
 
 当然不能拍脑袋，要有理有据。一开始的时候我习惯性的以为我在用的 dm 是 kdm，结果就掉到坑里了。
 
-![](http://ww2.sinaimg.cn/large/e724cbefgw1ewng2bql7tj20ro0dk76x.jpg)
+![](https://ws2.sinaimg.cn/large/e724cbefgw1ewng2bql7tj20ro0dk76x.jpg)
 
 其实很简单，只需要把名字中包含 dm 的进程捞出来看一眼，就能确定命令该怎么写了。
 
 最后，美图共赏~
 
-![](http://ww1.sinaimg.cn/mw1024/e724cbefgw1ewnb8odazkj211y0lcdz0.jpg)
+![](https://ws1.sinaimg.cn/mw1024/e724cbefgw1ewnb8odazkj211y0lcdz0.jpg)
 
 [1]: http://blog.jamespan.me/2015/10/03/free-as-in-freedom/
 [2]: http://askubuntu.com/questions/43458/how-can-i-take-a-screenshot-of-the-login-screen

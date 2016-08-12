@@ -58,7 +58,7 @@ Notebooks Lite 虽然能够输入时间戳，但是格式不是我希望的。�
 
 一开始的效果是下面这样的。
 
-![](http://ww3.sinaimg.cn/large/e724cbefgw1exdxs7gn6aj208w08wwer.jpg)
+![](https://ws3.sinaimg.cn/large/e724cbefgw1exdxs7gn6aj208w08wwer.jpg)
 
 绿色 Genreate 按钮的 click 事件绑定了函数，一旦触发就会计算当前时间戳并更新页面显示。如此一来，生成时间戳的功能就算是完成了。
 
@@ -115,7 +115,7 @@ $('#timestamp').on('click', function (e) {
 
 这时候效果是下面这样。
 
-![](http://ww3.sinaimg.cn/large/e724cbefgw1exdxsiynuoj207407474e.jpg)
+![](https://ws3.sinaimg.cn/large/e724cbefgw1exdxsiynuoj207407474e.jpg)
 
 ## URL 参数解析
 
@@ -144,7 +144,7 @@ var generate = function() {
 
 就这么用了几天之后，感觉略有不爽。因为使用了自动全选之后，对操作的要求比较高，只能轻轻触碰选区才能触发复制选项，如果操作失误，选择就变成了光标，只能长按 + 全选 + 复制。
 
-![](http://ww1.sinaimg.cn/large/e724cbefgw1exdxsu8rssj20hs08zq36.jpg)
+![](https://ws1.sinaimg.cn/large/e724cbefgw1exdxsu8rssj20hs08zq36.jpg)
 
 如果不使用自动全选，那么就得点击 + 长按 + 全选 + 复制。
 
@@ -170,7 +170,7 @@ $('#generate-button').on('click', function (e) {
 
 最终的效果是下面这样。
 
-![](http://ww3.sinaimg.cn/large/e724cbefgw1exdxt6rflij2092082wer.jpg)
+![](https://ws3.sinaimg.cn/large/e724cbefgw1exdxt6rflij2092082wer.jpg)
 
 # 总结
 

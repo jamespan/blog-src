@@ -4,7 +4,7 @@ tags:
   - Precision
 categories:
   - Work
-thumbnail: 'http://ww1.sinaimg.cn/bmiddle/e724cbefgw1ew0unvadj2j207g05o3yz.jpg'
+thumbnail: 'https://ws1.sinaimg.cn/bmiddle/e724cbefgw1ew0unvadj2j207g05o3yz.jpg'
 cc: true
 comments: true
 date: 2015-09-14 01:17:02
@@ -50,7 +50,7 @@ fastjson 则不同，对于数字类型，它会尽可能的使用最小的类�
 
 [^1]: [Double-precision floating-point format][2]
 
-![双精度浮点数](http://ww1.sinaimg.cn/large/e724cbefgw1ew1a83twibj20yc06ymy9.jpg)
+![双精度浮点数](https://ws1.sinaimg.cn/large/e724cbefgw1ew1a83twibj20yc06ymy9.jpg)
 
 和 Long 型一样，Double 占据 64 bit。1 bit 符号位，11 bit 指数位，52 bit 尾数位。
 
@@ -60,11 +60,11 @@ fastjson 则不同，对于数字类型，它会尽可能的使用最小的类�
 
 借助系统自带的计算器，我们可以轻松地得到一个整数的二进制形式，OS X 和 Linux 的计算器都带有这个功能，至少 Gnome 和 KDE 的计算器是支持的。
 
-![大整数的二进制表示](http://ww2.sinaimg.cn/large/e724cbefgw1ew1avmqukyj20b205dwev.jpg)
+![大整数的二进制表示](https://ws2.sinaimg.cn/large/e724cbefgw1ew1avmqukyj20b205dwev.jpg)
 
 得到二进制表示之后，忽略第一个为 1 的 bit，之后的 52 bit 就是尾数。
 
-![尾数与丢失的比特](http://ww4.sinaimg.cn/large/e724cbefgw1ew1bb7p19xj20b205ejrw.jpg)
+![尾数与丢失的比特](https://ws4.sinaimg.cn/large/e724cbefgw1ew1bb7p19xj20b205ejrw.jpg)
 
 # 带着镣铐的舞蹈 #
 

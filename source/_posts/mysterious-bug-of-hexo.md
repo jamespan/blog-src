@@ -5,7 +5,7 @@ categories:
   - Study
 cc: true
 comments: true
-thumbnail: 'http://ww2.sinaimg.cn/small/e724cbefgw1et26nuhrnhj20c60b4mxl.jpg'
+thumbnail: 'https://ws2.sinaimg.cn/small/e724cbefgw1et26nuhrnhj20c60b4mxl.jpg'
 date: 2015-06-13 10:21:25
 ---
 

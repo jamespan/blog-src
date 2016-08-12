@@ -21,7 +21,7 @@ date: 2015-07-29 01:56:25
 
 我习惯用 Opera 来访问和调试我自己的这几个小网站，如今的 Opera 也用了 Chrome 内核，开发者工具十分顺手。我开着开发者工具，在 Opera 中访问部署到 Gitcafe 的 Wiki，惊奇地发现整个页面加载过程只消耗了 664KB 的流量。（当我开始写这篇文字，打算截图的时候，页面的流量消耗就变成 763KB 了，与此相伴的还有 Gitcafe 的 NGINX 版本从 1.6.3 变成了 1.8.0，当时的现场已经找不回来了）
 
-![Opera 开发者工具](http://ww2.sinaimg.cn/large/e724cbefgw1euizo5rnp2j20ht07lwfp.jpg)
+![Opera 开发者工具](https://ws2.sinaimg.cn/large/e724cbefgw1euizo5rnp2j20ht07lwfp.jpg)
 
 这是什么黑科技！说好的 2.7MB 呢？
 

@@ -10,7 +10,7 @@ date: 2015-03-18 01:48:26
 
 前些日子，我在浏览简书上的文字的时候，注意到了文章的最下方，有一个可以让读者点赞的地方。比如垠神新作[对的人](http://www.jianshu.com/p/8f9a5be17499)，短短几个小时，收获了 61 个喜欢。
 
-![王垠-对的人](http://ww3.sinaimg.cn/large/e724cbefgw1exdxplrrk0j20h908r3yv.jpg)
+![王垠-对的人](https://ws3.sinaimg.cn/large/e724cbefgw1exdxplrrk0j20h908r3yv.jpg)
 
 <!-- more --><!-- indicate-the-source -->
 
@@ -24,7 +24,7 @@ date: 2015-03-18 01:48:26
 
 后来，我在微博文章的最后看到了一个大大的“赏”字。
 
-![微博打赏](http://ww3.sinaimg.cn/large/e724cbefgw1exdxpwrcxlj20go041t8l.jpg)
+![微博打赏](https://ws3.sinaimg.cn/large/e724cbefgw1exdxpwrcxlj20go041t8l.jpg)
 
 我开始思考，是否我也能在我的博客弄一个类似的点赞、打赏的东西，让我在写博客之余收获一些虚无的成就感？
 
@@ -34,11 +34,11 @@ date: 2015-03-18 01:48:26
 
 最终做出来的效果是这样的。
 
-![捐赠](http://ww1.sinaimg.cn/large/e724cbefgw1exdxq749oaj20n1027dg1.jpg)
+![捐赠](https://ws1.sinaimg.cn/large/e724cbefgw1exdxq749oaj20n1027dg1.jpg)
 
 如果有读者点击了绿色按钮，会在新标签页中打开支付宝的转账页面。为了能够知道是我的哪篇文字让读者产生了鼓 (juān) 励 (zèng)我的冲动，我在备注里写上了文章标题。
 
-![转账](http://ww4.sinaimg.cn/large/e724cbefgw1exdxqhl1kej20f308pwf2.jpg)
+![转账](https://ws4.sinaimg.cn/large/e724cbefgw1exdxqhl1kej20f308pwf2.jpg)
 
 这个捐赠按钮的实现很简单，就是向支付宝的转账页面 POST 一个表单而已。
 

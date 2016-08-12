@@ -7,7 +7,7 @@ categories:
 cc: true
 comments: true
 date: 2015-01-16 12:39:24
-thumbnail: http://ww2.sinaimg.cn/small/e724cbefgw1et29qkfz7lj20b408cjsn.jpg
+thumbnail: https://ws2.sinaimg.cn/small/e724cbefgw1et29qkfz7lj20b408cjsn.jpg
 ---
 
 # 背景
@@ -26,7 +26,7 @@ thumbnail: http://ww2.sinaimg.cn/small/e724cbefgw1et29qkfz7lj20b408cjsn.jpg
 
 一定是我打开的方式不对。先看看 Cask 版 IDEA 运行时用的哪个 JDK 。打开 About IntelliJ IDEA 瞅瞅，果然都是 JDK 7 惹的祸。
 
-![IDEA with JDK 7](http://ww2.sinaimg.cn/large/e724cbefgw1et29qkfz7lj20b408cjsn.jpg)
+![IDEA with JDK 7](https://ws2.sinaimg.cn/large/e724cbefgw1et29qkfz7lj20b408cjsn.jpg)
 
 那么问题来了，为什么官网的 IDEA 用的是 JDK 6，从 Cask 下载的用的却是 JDK 7 ？明明 Cask 也是从官网下载的。
 
@@ -42,7 +42,7 @@ thumbnail: http://ww2.sinaimg.cn/small/e724cbefgw1et29qkfz7lj20b408cjsn.jpg
 
 修改之后启动 IDEA，看起来问题解决了！
 
-![IDEA with JDK 6](http://ww1.sinaimg.cn/large/e724cbefgw1et29ry1qd2j20b408c75w.jpg)
+![IDEA with JDK 6](https://ws1.sinaimg.cn/large/e724cbefgw1et29ry1qd2j20b408c75w.jpg)
 
 打开代码一看，字体渲染又和之前的一样，萌！萌！哒！
 

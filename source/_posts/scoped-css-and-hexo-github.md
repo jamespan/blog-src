@@ -8,7 +8,7 @@ categories:
 hljs: true
 cc: true
 comments: true
-thumbnail: http://ww1.sinaimg.cn/large/e724cbefgw1esqttwyc4tj205p02jmx5.jpg
+thumbnail: https://ws1.sinaimg.cn/large/e724cbefgw1esqttwyc4tj205p02jmx5.jpg
 ---
 
 最近协助小师妹搭建 Hexo 博客的时候，发现官网的插件列表里面多出了好些插件，其中有一个酷炫的 Github 挂件让我心动不已。
@@ -45,7 +45,7 @@ nunjucks.configure(__dirname, {watch: false});
 
 把 Hexo 弄好之后，本以为万事大吉，没想到一波方平一波又起。这次是 Github 挂件把页面的样式弄坏了，使用了挂件的页面，Header 短了一截，看起来各种不和谐。
 
-![Header 被 Github 挂件玩坏了](http://ww2.sinaimg.cn/large/e724cbefgw1esqn99rqrij20rb046wez.jpg)
+![Header 被 Github 挂件玩坏了](https://ws2.sinaimg.cn/large/e724cbefgw1esqn99rqrij20rb046wez.jpg)
 
 虽然我知道肯定是哪个 CSS 没写好，把影响范围扩展到了整个页面，但是我一时没法定位，在 Chrome 中各种调整 CSS 都没有效果。
 
@@ -63,7 +63,7 @@ nunjucks.configure(__dirname, {watch: false});
 
 可是干掉之后，Header 是好了，又轮到 Github 挂件崩坏了，左下角出现大片空白。
 
-![Github 控件的样式被我玩坏了](http://ww1.sinaimg.cn/large/e724cbefgw1esqnxn91ftj20i505wq3d.jpg)
+![Github 控件的样式被我玩坏了](https://ws1.sinaimg.cn/large/e724cbefgw1esqnxn91ftj20i505wq3d.jpg)
 
 怎么才能把样式的作用范围限定在某个 DOM 树？我想到了之前看过的一个 CSS3 特性，scoped[^2]。
 

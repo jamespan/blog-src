@@ -8,7 +8,7 @@ categories:
 cc: true
 hljs: true
 comments: true
-thumbnail: 'http://ww1.sinaimg.cn/thumbnail/e724cbefgw1ewhvh0cy7yj21jk1jkds2.jpg'
+thumbnail: 'https://ws1.sinaimg.cn/thumbnail/e724cbefgw1ewhvh0cy7yj21jk1jkds2.jpg'
 date: 2015-10-03 02:13:25
 ---
 
@@ -28,7 +28,7 @@ You can you use Linux, no can no bb。从某种意义上来说，公司还蛮宽
 
 安装完成后启动，依旧是熟悉的 KDE 桌面，但是登陆界面比以前更漂亮了，背景图片还会自动轮换的~
 
-![MDM 登陆界面](http://ww1.sinaimg.cn/mw1024/e724cbefgw1ewnb8odazkj211y0lcdz0.jpg)
+![MDM 登陆界面](https://ws1.sinaimg.cn/mw1024/e724cbefgw1ewnb8odazkj211y0lcdz0.jpg)
 
 ## 那些自由的和非自由的软件 ##
 
@@ -110,7 +110,7 @@ KDE 不仅仅是一个桌面，更是一个软件集。只要磁盘空间足够�
 
 首先是修改键盘上几个重要控制键的位置。我的使用习惯是 Ctrl 在字母 A 的左边，空格往左依次是 command、option、caps lock（Ctrl）。我的 Mac 键盘实际上是没有 capslock 的，因为我觉得这个按钮并没有什么用处。
 
-![常用键位](http://ww2.sinaimg.cn/bmiddle/e724cbefgw1ewlhcm7601j21kw16otp1.jpg)
+![常用键位](https://ws2.sinaimg.cn/bmiddle/e724cbefgw1ewlhcm7601j21kw16otp1.jpg)
 
 显然，Linux 的世界既没有 command，也没有 option，我只能想方设法用 Ctrl 和 Alt 作一个残缺的替代。
 
@@ -118,7 +118,7 @@ KDE 默认提供了一些可视化的工具以及默认选项来帮我完成这�
 
 首先我们把 caps lock 和 Ctrl 交换位置，这样 A 的左边就是 Ctrl，可以用小指轻易地控制。然后把左 Ctrl 映射到左 Alt，左 Alt 映射到左 Win，这样就可以保持 Mac 下面 command + c 是复制，command + v 是粘贴等等习惯。映射到 Win 键上的 Alt 正好和 Mac 键盘上的 option 在同一个位置，这样一来，左手对于键盘左下角的几个控制键的肌肉记忆就几乎不用改变了。
 
-![KDE 控制键调整](http://ww4.sinaimg.cn/large/e724cbefgw1ewnbxncqkzj20dg0pggoa.jpg)
+![KDE 控制键调整](https://ws4.sinaimg.cn/large/e724cbefgw1ewnbxncqkzj20dg0pggoa.jpg)
 
 虽然说是几乎不用改变，但是由于 Linux 没有 command 键，没法很好地区分从命令行继承过来的快捷键和图形界面的快捷键，所以我深爱着的 ctrl 光标移动大法就不能用了，这让我蛋疼了好久。不过好在按错键顶多就是全选而已，并没有什么破坏性的后果。
 

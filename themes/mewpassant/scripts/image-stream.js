@@ -3,7 +3,7 @@
 var config = {
   'jquery': '//cdn.bootcss.com/jquery/2.1.0/jquery.min.js',
   'jquery_lazyload': '//cdn.bootcss.com/jquery.lazyload/1.9.1/jquery.lazyload.min.js',
-  'img_placeholder': 'http://ww4.sinaimg.cn/large/e724cbefgw1etyppy7bgwg2001001017.gif'
+  'img_placeholder': 'https://ws4.sinaimg.cn/large/e724cbefgw1etyppy7bgwg2001001017.gif'
 }
 
 if (hexo.config.image_stream) {
