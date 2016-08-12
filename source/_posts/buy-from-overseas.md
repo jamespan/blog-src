@@ -37,7 +37,7 @@ date: 2015-11-02 21:39:00
 
 来一个包裹的照片。
 
-![](http://i.imgur.com/x4EuJxRl.jpg)
+![](//i.imgur.com/x4EuJxRl.jpg)
 
 水壶到手之后，洗了洗烫了烫，就跟着我一起跑步健身去了~感觉自己萌萌哒😇
 
