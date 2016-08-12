@@ -11,6 +11,8 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure http://ww4.sinaimg.cn/bmiddle/72f96cbagw1f6r632atqbj20bu0goacv.jpg [选老顶](https://movie.douban.com/subject/26351524/) %}
+{% figure http://ww3.sinaimg.cn/bmiddle/72f96cbagw1f6r60l88trj20bt0gowgt.jpg [微微一笑很倾城](https://movie.douban.com/subject/26301582/) %}
 {% figure http://ww3.sinaimg.cn/bmiddle/72f96cbagw1f6nguq8gqvj208i0c0mxo.jpg [罗茜计划](https://book.douban.com/subject/26758995/) %} 
 {% figure http://ww1.sinaimg.cn/bmiddle/006tKfTcgw1f6kfy1q61mj30bw0go0vy.jpg [盗墓笔记](https://movie.douban.com/subject/24827387/) %}
 {% figure http://ww1.sinaimg.cn/bmiddle/e724cbefgw1f6kfv68tglj208x0bi74r.jpg [Linux内核设计与实现](https://book.douban.com/subject/6097773/) %}
