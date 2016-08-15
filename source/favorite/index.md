@@ -3,7 +3,7 @@ date: 2015-10-26 11:03:29
 comment: true
 ---
 
-也许你听说过，「业余时间决定人生」；也许你还听说过，「听过很多道理，依然过不好这一生」。书籍、代码、博客、运动、电影、动漫、美剧，这就是我的业余生活。
+也许你听说过，「业余时间决定人生」；也许你还听说过，「听过很多道理，依然过不好这一生」。书籍、代码、博客、运动、电影、动漫、美剧、游戏，这就是我的业余生活。
 
 > 我的能力就这么多。我若全心工作，则必然忽略生活；我若用心生活，则必然一事无成；我若两者兼顾，又难免平庸
 
@@ -11,6 +11,10 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+<!-- {% figure  []() %} -->
+{% figure https://ws4.sinaimg.cn/bmiddle/006tKfTcgw1f6un344x0hj30dd0godix.jpg [Grand Theft Auto V](https://asia.playstation.com/hk/en/regional/gamedetails?id=26568) %}
+{% figure https://ws1.sinaimg.cn/bmiddle/006tKfTcgw1f6umu9ffr7j30bx0gogo7.jpg [危城](https://movie.douban.com/subject/26125779/) %}
+{% figure https://ws3.sinaimg.cn/bmiddle/006tKfTcgw1f6umsoyr14j30bg0gojtb.jpg [使徒行者](https://movie.douban.com/subject/26336253/) %}
 {% figure https://ws4.sinaimg.cn/bmiddle/e724cbefgw1f6rgtzw16ij20bu0gowh1.jpg [神探夏洛克：可恶的新娘](https://movie.douban.com/subject/25920885/) %}
 {% figure https://ws4.sinaimg.cn/bmiddle/72f96cbagw1f6r632atqbj20bu0goacv.jpg [选老顶](https://movie.douban.com/subject/26351524/) %}
 {% figure https://ws3.sinaimg.cn/bmiddle/72f96cbagw1f6r60l88trj20bt0gowgt.jpg [微微一笑很倾城](https://movie.douban.com/subject/26301582/) %}
