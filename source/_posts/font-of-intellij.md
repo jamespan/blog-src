@@ -22,6 +22,8 @@ thumbnail: https://ws2.sinaimg.cn/small/e724cbefgw1et29qkfz7lj20b408cjsn.jpg
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 # 尝试
 
 一定是我打开的方式不对。先看看 Cask 版 IDEA 运行时用的哪个 JDK 。打开 About IntelliJ IDEA 瞅瞅，果然都是 JDK 7 惹的祸。

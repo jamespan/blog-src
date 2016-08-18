@@ -18,6 +18,8 @@ comments: true
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 <!-- <img src="https://ws1.sinaimg.cn/small/e724cbefgw1eruyt2uc4fj20rs0rsdhi.jpg"/> -->
 
 这几天写代码的姿势跟之前完全不同，之前是写一点提交一点，然后到服务器上部署起来调试。前段时间我在 Docker 弄了一套淘系应用的编译部署环境，然后这几天我的代码都是在容器里编译部署的，直到今天下午才申请了一个项目环境出来。

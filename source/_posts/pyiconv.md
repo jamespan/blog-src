@@ -16,6 +16,8 @@ comments: true
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 另外，我为了方便检测文本编码，使用了一个叫`chardet`的库。通过`pip install chardet`安装该依赖即可。
 
 如果需要批量转换，可以结合`find`和`xargs`来使用，像这样子：

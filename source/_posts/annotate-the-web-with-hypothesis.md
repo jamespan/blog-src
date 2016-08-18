@@ -19,6 +19,8 @@ date: 2015-03-16 02:59:20
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 ![](https://ws4.sinaimg.cn/large/e724cbefgw1eq6zbr8tnlj20yr0l4gpw.jpg)
 
 Hypothes.is 不同于一般的评论系统。我的博客已经使用了一个叫 “多说” 的第三方评论系统，多说虽然做的不错，但是没有跳出常见的评论系统的桎浩，只能在网页的最下方，正文之后做评论。Hypothes.is 的做法相当于给网页添加了一个图层，用户可以在这个图层上对网页做评论，这样子就把一个平面的网页给立体化起来了。

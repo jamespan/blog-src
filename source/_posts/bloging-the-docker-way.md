@@ -22,6 +22,8 @@ DaoCloud 根据代码目录中的 Dockerfile，在代码提交到 Github 之后�
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 虽然之前也写过不少 Dockerfile 了，但是还没写过专门用在 DaoCloud 上面的，于是我就入乡随俗先看看文档，然后看看他们给出的 2048 游戏镜像的例子。
 
 比较有意思的是，[示例镜像][2]是基于一个叫 [Alpine Linux][1] 的极小发行版构建的。之前我构建的镜像都是基于 Ubuntu，最后构建出来的镜像体积都挺大，随随便便就几百兆字节的。Alpine Linux 镜像的体积才 5MB，相比起 Ubuntu 默认镜像的体积，简直让人惊叹。

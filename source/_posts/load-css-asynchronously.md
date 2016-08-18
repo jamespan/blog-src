@@ -19,6 +19,8 @@ date: 2015-11-17 03:03:46
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 按照设定字体的惯例，我们会为字体设置 fallback，当 Source Code Pro 不可用时，自动降级为其他字体。什么叫「不可用」呢？比如找不到字体，或者加载字体超时之类的，应该算不可用吧。
 
 然而不幸的是，在 Safari 上，加载 Web Font 这种事情，似乎是没有「超时」一说的[^1]。实际上当中科大的 Web Font 挂掉时，甚至连加载 Web Font 都走不到，请求描述 Web Font 的 CSS 就已经超时了。

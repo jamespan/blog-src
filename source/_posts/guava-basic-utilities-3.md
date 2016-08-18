@@ -21,6 +21,8 @@ Charsets 是一个常量工厂，给出了 6 个Java 承诺了全平台支持的
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 使用 Charset#forName 的问题就在于用户需要关注入参字符串的拼写，一旦拼写错误就会出现意料之外的事情。
 
 到了 Java 7 中，JDK 提供了一个官方的静态工厂类 java.nio.charset.StandardCharsets，Guava 也推荐使用 Java 7 及以上的用户使用 StandardCharsets。

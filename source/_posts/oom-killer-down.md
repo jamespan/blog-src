@@ -18,6 +18,8 @@ thumbnail: https://ws2.sinaimg.cn/small/e724cbefgw1esu3i3a9rxj20go0af0u1.jpg
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 # 宕机 #
 
 折腾期间我因为调整 JVM 的最大内存参数时过于粗暴，把虚拟机玩坏了两台，表现为机器能 ping 通，就是没法 ssh 登录。

@@ -15,6 +15,8 @@ date: 2016-02-17 01:25:29
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 我知道实际上并没有这么多，因为草稿箱里还躺着三篇博文草稿，其中一篇写了一半，是关于春节期间我基于 Vert.x 框架写的一个小玩意，另外两篇只有个标题，内容却一个字都没动。
 
 {% blockquote 潘家邦 http://blog.jamespan.me/2015/03/20/recruiting-on-blog/ 谈谈在独立博客发布招聘信息那些事 %}

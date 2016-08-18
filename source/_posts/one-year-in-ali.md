@@ -16,6 +16,8 @@ date: 2015-07-08 22:10:47
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 ![一周年快乐](https://ws1.sinaimg.cn/large/e724cbefgw1etuneoh8hjj21kw0uqjw6.jpg)
 
 我一开始没太在意，开始像平常一样啃面包，然后师兄突然出现在身后，对我说“一周年快乐”，并送给了我一枚纪念徽章。

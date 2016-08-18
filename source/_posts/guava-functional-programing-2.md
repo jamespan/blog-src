@@ -23,6 +23,8 @@ Predicate 接口是我们第二个介绍的 Guava 函数式编程基础设施。
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 下面这段代码是去掉注释之后的 Predicate 接口。
 
 ```java

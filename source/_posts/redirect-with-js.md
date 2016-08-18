@@ -20,6 +20,8 @@ comments: true
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 # 方案
 
 我首先想到了用 JavaScript 来控制页面跳转，这个几乎是最经济的实现方式了。

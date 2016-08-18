@@ -23,6 +23,8 @@ Function 接口是我们第一个介绍的 Guava 函数式编程基础设施。
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 下面这段代码是去掉注释之后的 Function 接口。
 
 ```java

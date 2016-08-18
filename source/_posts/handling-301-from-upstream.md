@@ -18,6 +18,8 @@ date: 2015-11-11 20:58:06
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 链接是下面这个样子的，不如在他介绍「不蒜子」这个访问统计服务的博文中引用了我的博文，作为服务降级的例子。
 
 <http://blog.jamespan.me/2015/05/06/mvn-incremental-compilation>

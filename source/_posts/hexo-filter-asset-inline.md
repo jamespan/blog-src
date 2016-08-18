@@ -22,6 +22,8 @@ date: 2015-11-19 15:32:32
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 如果我的博客缺失了 <http://blog.jamespan.me/css/style.css>，就会变成下面这种惨不忍睹的模样。
 
 ![样式崩坏，惨不忍睹](//i.imgur.com/PMojwhI.png)

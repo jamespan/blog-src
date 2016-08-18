@@ -21,6 +21,8 @@ date: 2015-10-07 21:57:18
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 更确切地说，我用的是 ssh 动态端口转发[^2]。说穿了其实简单到不行，一行命令搭建代理服务器。
 
 [^2]: [SSH dynamic port forwarding with SOCKS][2]

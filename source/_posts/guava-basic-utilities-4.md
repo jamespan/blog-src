@@ -20,6 +20,8 @@ Precondition 是先决条件的意思，也叫前置条件，可以人为是使�
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 ```java
 Preconditions.checkArgument(5 < 3);//IllegalArgumentException
 Preconditions.checkState(5 < 3);//IllegalStateException

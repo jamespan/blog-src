@@ -18,6 +18,8 @@ thumbnail: https://ws2.sinaimg.cn/small/e724cbefgw1erzew6tmvlj21kw16ob29.jpg
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 # 实习 #
 
 刚到杭州的时候，赶上了阴雨连绵的天气。我住在五常大道上的汉庭快捷酒店，距离西溪园区大约六七公里，每天骑着自行车往返。

@@ -21,6 +21,8 @@ sudo networksetup -setdnsservers <networkservice> empty
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 上周查看异常堆栈的时候发现，最开始抛出的异常是 java.net.UnknownHostException，于是当时我怀疑问题出在 DNS 上，但是没有继续深究，而是在内网发了一个状态，想碰碰运气看一下有没有同事曾经遇到并解决了类似的问题。
 
 ![内网求助状态](https://ws2.sinaimg.cn/large/e724cbefgw1eupszi6qbcj20h905qabc.jpg)

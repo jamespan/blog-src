@@ -18,6 +18,8 @@ You can you use Linux, no can no bb。从某种意义上来说，公司还蛮宽
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 于是我在周末花了几个小时在公司发的 ThinkPad 上面安装了 Linux 系统。接下来是关于我组装一个还算顺手的 Linux 系统的分享，当然其中不可避免的会用到一些非自由软件。毕竟对于一个资深 Mac 用户来说，Linux 在日常使用的体验上还是稍显稚嫩，常用的快捷键也不太一样，需要一番悉心调教。
 
 ## 安装一个 GNU/Linux 发行版 ##

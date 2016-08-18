@@ -17,6 +17,8 @@ thumbnail: https://ws1.sinaimg.cn/small/e724cbefgw1euefr736eej211m0xktck.jpg
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 上周开始我不满足于 Github Pages 之类的静态页面托管服务，希望在 App 部署上得到更大的自由，于是开始考虑购买国外的虚拟主机，目标锁定 Digital Ocean。晚上和室友说了一下这个事情，室友是运维方面的技术专家。
 
 观止巨巨说阿里云的香港节点也不用备案。顿时我感觉找到了很好的解决方案。观止巨巨说香港节点到大陆的 RTT 是 100+ms，洛杉矶节点到大陆的 RTT 是 300+ms，我感觉香港的这个 RTT 完全可以接受，毕竟是挂网页嘛，又不是搞接口，1 秒之内打开都是秒开。

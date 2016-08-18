@@ -22,6 +22,8 @@ Guava 提供了 Joiner 类用于将多个对象拼接成字符串，如果我们
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 Splitter 的 API 和 Joiner 类似，使用 Splitter#on 指定分隔符，使用 Splitter#split 完成拆分。
 
 ```java

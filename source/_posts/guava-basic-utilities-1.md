@@ -20,6 +20,8 @@ Guava 是 Java 开发者的好朋友。虽然我在开发中使用 Guava 很长�
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 在 Python 中我只需要简单的调用 str.join 函数，就可以了，就像这样。
 
 ```python

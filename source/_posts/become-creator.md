@@ -17,6 +17,8 @@ thumbnail: https://ws3.sinaimg.cn/small/e724cbefgw1eri9t9fhemj20uq0ha0v5.jpg
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 ![](https://ws3.sinaimg.cn/large/e724cbefgw1eri9t9fhemj20uq0ha0v5.jpg)
 
 诗羽学姐的那句“欢迎来到创作者的世界，安艺伦也君”，当初追新番第一次看到的时候就让我迷の感动，直到现在，这句话还一直萦绕在我的脑海。

@@ -24,6 +24,8 @@ comments: true
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 # Docker #
 
 虽然博客环境没有之前好用，但是它至少还是能够磕磕绊绊把我的博客编译部署的。我希望至少在我升级的时候，我还能使用现在的博客环境。

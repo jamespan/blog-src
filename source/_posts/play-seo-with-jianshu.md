@@ -18,6 +18,8 @@ date: 2015-03-25 20:41:48
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 ![](https://ws2.sinaimg.cn/large/e724cbefgw1exdxk3zbt2j20hi0ab75y.jpg)
 
 # 简书

@@ -18,6 +18,8 @@ reveal.js 提供了一个 [Demo][1]，其作用更像是一个速查手册，介
 
 <!-- more --><!-- indicate-the-source -->
 
+{% recruit %}
+
 # Demo
 
 <div class="video-container">
