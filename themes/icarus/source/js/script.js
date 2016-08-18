@@ -28,4 +28,9 @@
   }).on('click', '.profile-inner', function (e) {
     e.stopPropagation();
   });
+
+  // Toc optimize
+  if ($('#toc').children().length == 0) {
+    $('#toc').remove();
+  }
 })(jQuery);
