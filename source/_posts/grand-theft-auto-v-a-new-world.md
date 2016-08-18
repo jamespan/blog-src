@@ -3,8 +3,9 @@ tags:
   - Tool
 categories:
   - Study
-cc: false
-comments: false
+thumbnail: https://ws4.sinaimg.cn/bmiddle/006tKfTcgw1f6un344x0hj30dd0godix.jpg
+cc: true
+comments: true
 date: 2016-08-18 22:57:45
 ---
 
