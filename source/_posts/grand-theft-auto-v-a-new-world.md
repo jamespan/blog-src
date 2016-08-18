@@ -37,7 +37,7 @@ date: 2016-08-18 22:57:45
 
 ![](https://ws1.sinaimg.cn/mw1024/801b780agw1f6y9qjn47gj21hc0u0wse.jpg)
 
-然后体验过这种把警察晃掉的快感之后，我深陷其中无法自拔，开始抢警察的摩托车。
+体验过这种把警察晃掉的快感之后，我深陷其中无法自拔，开始抢警察的摩托车。
 
 ![](https://ws4.sinaimg.cn/mw1024/801b780agw1f6y9tln6hzj21hc0u0qa1.jpg)
 
