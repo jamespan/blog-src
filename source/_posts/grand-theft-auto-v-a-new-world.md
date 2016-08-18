@@ -1,8 +1,8 @@
 title: 打开了新世界的大门——GTA 5 初体验
 tags:
-  - Tool
+  - Gaming
 categories:
-  - Study
+  - Life
 thumbnail: https://ws4.sinaimg.cn/bmiddle/006tKfTcgw1f6un344x0hj30dd0godix.jpg
 cc: true
 comments: true
