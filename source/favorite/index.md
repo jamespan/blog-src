@@ -11,6 +11,7 @@ comment: true
 
 {% stream %}
 <!-- {% figure  []() %} -->
+{% figure https://ws4.sinaimg.cn/bmiddle/65e4f1e6gw1f74lgq9k39j20bb0gotbk.jpg [青云志](https://movie.douban.com/subject/25823275/) %}
 {% figure https://ws1.sinaimg.cn/bmiddle/006tNc79gw1f6xt2pcufhj30900bcwfd.jpg [程序员必读之软件架构](https://book.douban.com/subject/26248182/) %}
 {% figure https://ws4.sinaimg.cn/bmiddle/006tKfTcgw1f6un344x0hj30dd0godix.jpg [Grand Theft Auto V](https://asia.playstation.com/hk/en/regional/gamedetails?id=26568) %}
 {% figure https://ws1.sinaimg.cn/bmiddle/006tKfTcgw1f6umu9ffr7j30bx0gogo7.jpg [危城](https://movie.douban.com/subject/26125779/) %}
