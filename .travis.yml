@@ -35,12 +35,12 @@ script:
   - git ls-files | while read file; do touch -d $(git log --date=local -1 --format="@%ct" "$file") "$file"; done
   - ./node_modules/hexo/bin/hexo g
   - ./node_modules/hexo/bin/hexo d
-  - cp .travis/Dockerfile ./Dockerfile
-  - cp .travis/nginx.conf ./nginx.conf
-  - docker build -t $IMAGE_NAME:latest .
-  - docker tag $IMAGE_NAME:latest $IMAGE_NAME:$(date +%Y%m%d%H%M%S)
-  - docker images
+  # - cp .travis/Dockerfile ./Dockerfile
+  # - cp .travis/nginx.conf ./nginx.conf
+  # - docker build -t $IMAGE_NAME:latest .
+  # - docker tag $IMAGE_NAME:latest $IMAGE_NAME:$(date +%Y%m%d%H%M%S)
+  # - docker images
 
-after_success:
-  - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
-  - docker push $IMAGE_NAME
+# after_success:
+#   - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+#   - docker push $IMAGE_NAME
